@@ -1,0 +1,241 @@
+/* MENU INICIAL */
+
+#Titulo{
+    position: absolute;
+    width: 500px;
+    height: 42px;
+    left: 210px;
+    top: 20px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato; 
+}
+
+#Recuadro{
+    position: absolute;
+    width: 748px;
+    height: 842px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+#Recuadro2{
+    position: absolute;
+    width: 527px;
+    height: 496px;
+    left: 111px;
+    top: 128px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+#Retroceder{
+    position: absolute;
+    width: 33px;
+    height: 84px;
+    left: 61px;
+    top: 34px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+}
+
+#LineaHorizontal1{
+    position: absolute;
+    width: 520px;
+    height: 0px;
+    left: 112px;
+    top: 219px;
+
+    border: 1px solid #000000;
+}
+
+#LineaHorizontal2{
+    position: absolute;
+    width: 520px;
+    height: 0px;
+    left: 111px;
+    top: 297px;
+
+    border: 1px solid #000000;
+}
+
+#LineaHorizontal3{
+    position: absolute;
+    width: 520px;
+    height: 0px;
+    left: 111px;
+    top: 376px;
+
+    border: 1px solid #000000;
+}
+
+#LineaHorizontal4{
+    position: absolute;
+    width: 520px;
+    height: 0px;
+    left: 111px;
+    top: 458px;
+
+    border: 1px solid #000000;
+}
+
+#LineaHorizontal5{
+    position: absolute;
+    width: 520px;
+    height: 0px;
+    left: 111px;
+    top: 546px;
+
+    border: 1px solid #000000;
+}
+
+#Texto1{
+    position: absolute;
+    width: 49px;
+    height: 28px;
+    left: 143px;
+    top: 162px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7D7D7D;
+}
+
+#Texto2{
+    position: absolute;
+    width: 300px;
+    height: 28px;
+    left: 143px;
+    top: 240px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7D7D7D;
+}
+
+#Texto3{
+    position: absolute;
+    width: 93px;
+    height: 28px;
+    left: 143px;
+    top: 323px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7D7D7D;
+}
+
+#Texto4{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 137px;
+    top: 400px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7D7D7D;
+}
+
+#Texto5{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 143px;
+    top: 486px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7D7D7D;
+}
+
+#Texto6{
+    position: absolute;
+    width: 126px;
+    height: 28px;
+    left: 143px;
+    top: 570px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7D7D7D;
+}
+
+#TextoInferior{
+    position: absolute;
+    width: 528px;
+    height: 42px;
+    left: 111px;
+    top: 653px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #7D7D7D;
+}
+
+#Boton{
+    position: absolute;
+    width: 281px;
+    height: 68px;
+    left: 235px;
+    top: 731px;
+
+    background: linear-gradient(180deg, #D9202C 0%, #B12A7E 100%);
+    border-radius: 20px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
