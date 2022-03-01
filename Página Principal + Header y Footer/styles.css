@@ -1,0 +1,235 @@
+
+
+.Fuente {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+#CuadroBuscador {
+    position: absolute;
+    width: 100%;
+    height: 455px;
+    left: 0px;
+    top: 45px;
+
+    background-image: url(./assets/hotel-nayra-adults-only.jpeg);
+}
+
+#Buscador {
+    position: absolute;
+    width: 872px;
+    height: 75px;
+    left: 20%;
+    top:220px;
+
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+
+#ApartamentosDestacados {
+    position: absolute;
+    height: 648px;
+    left: 100px;
+    right: 100px;
+    top: 1700px;
+    background: #f1f1f1;
+}
+
+#HomeElementoArriba {
+
+    position: absolute;
+    width: 240px;
+    height: 200px;
+    left: 145px;
+    top: 850px;
+    background: #b8f1ff;
+    border-radius: 10px;
+}
+
+#HomeElementoAbajo {
+
+    position: absolute;
+    width: 240px;
+    height: 200px;
+    left: 145px;
+    top: 1125px;
+    background: #b8f1ff;
+    border-radius: 10px;
+}
+
+
+#NombreIsla {
+
+    position: absolute;
+    width: 93px;
+    height: 33px;
+    left: 180px;
+    top: 982px;
+
+    font-family: Signika Negative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#CuadroNombreIslaUp {
+
+    position: absolute;
+    width: 100px;
+    height: 33px;
+    left: 170px;
+    top: 1000px;
+
+    background: rgba(255, 255, 255, 0.70);
+    border-radius: 5px;
+
+}
+
+
+#CuadroNombreIslaDown {
+
+    position: absolute;
+    width: 100px;
+    height: 33px;
+    left: 170px;
+    top: 1275px;
+
+    background: rgba(255, 255, 255, 0.70);
+    border-radius: 5px;
+
+}
+
+
+#IslaDestino {
+    
+    position: absolute;
+    height: 583px;
+    left: 100px;
+    right: 100px;
+    top: 793px;
+    background: #f1f1f1;
+
+}
+
+#texto1 {
+    
+    font-family: Rokkitt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 63px;
+    
+    color: #FFFFFF;
+    
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#DescubreTuIsla {
+
+    position: absolute;
+    left: 110px;
+    top: 620px;
+
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 80px;
+
+    color: #000000;
+}
+
+#EspacioBlanco {
+
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 2500px;
+
+    background: rgba(255, 255, 255, 0.70);
+}
+
+#CuadroApartamento {
+
+    position: absolute;
+    width: 370px;
+    height: 237px;
+    left: 130px;
+    top: 1760px;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+#FotoCuadroApartamento {
+    position: absolute;
+    width: 370px;
+    height: 171px;
+    left: 130px;
+    top: 1760px;
+
+    background-image: url("./assets/Lopesan-Baobab-Resort.jpeg");
+    border-radius: 10px 10px 0px 0px;
+}
+
+#texto3 {
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #474444;
+
+}
+
+#Valoracion {
+
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 325px;
+    top: 165px;
+
+    
+}
+
+#TextoContactanos {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+#CuadroFormulario {
+
+    position: absolute;
+    width: 1240px;
+    height: 665px;
+    left: 106px;
+    top: 346px;
+    background: #FDF9F2;
+    border-radius: 21px;
+}
