@@ -14,7 +14,7 @@ Header{
 
 body{
 
-    font-family: 'Roboto Condensed';
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: bold;
     text-align: center;
@@ -65,7 +65,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 60;
-
+    
+    font-family: "Times New Roman", Times, serif;
     background: #9BF5AE;
     border-radius: 8px;
 
@@ -282,7 +283,7 @@ body{
     border-radius: 7px;
     margin-top: 70;
 
-    font-family: 'Roboto Condensed';
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: BOLD;
     font-size: 25px;
@@ -304,7 +305,7 @@ footer {
 
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 6.77%, rgba(48, 53, 53, 0.94) 31.25%);
 
-    font-family: Roboto Condensed;
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
