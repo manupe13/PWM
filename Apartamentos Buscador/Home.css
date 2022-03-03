@@ -1,0 +1,400 @@
+/*--------------------Header------------------------*/
+
+Header{
+    width: 100%;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+
+    background: linear-gradient(180deg, #303535 83.85%, rgba(48, 53, 53, 0.85) 100%);
+}
+
+
+/*----------------------Body--------------------------*/
+
+body{
+
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    float: center;
+    padding-top: 100;
+    padding-bottom: 100;
+    
+    color: #000000;
+
+    margin: 0 auto;
+}
+
+#Buscador{
+    width: 1173px;
+    height: 88px;
+    margin: 0 auto;
+    background: #F4E4E4;
+    border-radius: 32px;
+}
+
+#TextoBuscador{
+    font-size: 35px;
+    padding-top: 20;
+}
+
+/*------------------Apartamentos----------------------*/
+
+#Apartamentos{
+    width: 1400px;
+    height: 1248px;
+
+    margin-top: 60;
+
+    margin: 0 auto;
+}
+
+#CuadroApart1 {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-left: 60;
+    margin-right: 60;
+    margin-top: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart2 {
+    float:left;
+
+    width: 370px;
+    height: 237px;
+
+    margin-right: 60;
+    margin-top: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart3 {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-top: 60;
+    margin-right: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+
+#CuadroApart4 {
+    float: left;
+    width: 370px;
+    height: 237px;
+
+    margin-right: 60;
+    margin-top: 60;
+    margin-left: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart5 {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-top: 60;
+    margin-right: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+
+#CuadroApart6 {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-top: 60;
+    margin-right: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart7 {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-left: 60;
+    margin-top: 60;
+    margin-right: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart8 {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-top: 60;
+    margin-right: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart9 {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-top: 60;
+    margin-right: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart10 {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-top: 60;
+    margin-right: 60;
+    margin-left: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    margin-right: 60;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart11 {
+    float:left;
+    width: 370px;
+    height: 237px;
+    margin-top: 60;
+    margin-right: 60;
+    border: 3px solid #787878;
+    margin-right: 60;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart12 {
+    float:left;
+    width: 370px;
+    height: 237px;
+    margin-top: 60;
+    margin-right: 60;
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#FotoCuadroApart {
+    margin-top: -0.5;
+    margin-left: -0.5;
+
+    width: 365px;
+    height: 171px;
+    border-radius: 8.2px 8.2px 0px 0px;
+}
+
+#FondoValApart{
+    
+    float: right;
+    width: 34.01px;
+    height: 27.68px;
+
+    margin-top: 6;
+    margin-right: 9;
+
+    background: #2A2867;
+}
+
+#ValApart {
+
+    margin-top: 4;
+    margin-right: 0;
+
+    width: 34.01px;
+    color: #ffffff;
+
+}
+
+#NombreApart{
+    width: 230px;
+    float: left;
+
+    margin-top: 4;
+    margin-left: 6;
+
+    font-size: 24px;
+}
+
+#DirApart{
+    width: 190px;
+
+    float: left;
+
+    margin-top: -15;
+    margin-left: 6;
+
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+}
+
+#DerechaPrecio{
+    margin-top: -40;
+    margin-right: 10;
+    float: right;
+}
+
+#DesdeApart{
+    
+    float: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+    margin-right: 15;
+
+    color: #685D5D;
+}
+
+#PrecioApart{
+
+    float: right;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    
+    color: #2D2B2B;
+}
+
+/*----------------------Boton-----------------------*/
+
+#PasarPagina{
+    width: 53px;
+    height: 50px;
+
+    background: #3C4141;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #FFFFFF;
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#retroceder{
+    margin-left: -40;
+    margin-top:-77;
+    float: left;
+    color: #000000;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 42px;
+    font-weight: bold;
+}
+
+#siguiente{
+    margin-right: -40;
+    margin-top:-77;
+    color: #000000;
+    float: right;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 42px;
+    font-weight: bold;
+}
+ 
+
+
+/*----------------------Footer-----------------------*/
+
+footer {
+
+    position: fixed;
+    left:0;
+    bottom:0;
+    height: 40px;
+    width:100%;
+
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 6.77%, rgba(48, 53, 53, 0.94) 31.25%);
+
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1em;
+    text-align: right;
+    color: #FFFFFF;
+    
+
+}
