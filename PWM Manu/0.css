@@ -1,0 +1,116 @@
+*body {
+    background: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+header {
+    background: linear-gradient(180deg, #303535 83.85%, rgba(48, 53, 53, 0.85) 100%);
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+}
+
+#la {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 83px;
+}
+
+#isla {
+    /*
+    position: absolute;
+    width: 621.33px;
+    height: 70.7px;
+    left: 329px;
+    top: 409px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 63px;
+    text-align: center;
+    */
+
+    position: fixed;
+    width: 621.33px;
+    height: 70.7px;
+    top: 409px;
+    margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+    left: 329px;
+    right: 0;
+    color: #FFFFFF;    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+#descripcion {
+    
+    position: absolute;
+    width: 1140px;
+    height: 320px;
+    left: 70px;
+    top: 600px;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    
+    color: #000000; 
+
+    
+}
+
+#la2 {
+    position: absolute;
+    width: 765.94px;
+    height: 320px;
+    left: 444.06px;
+    top: 1692px;
+}
+
+#info {
+    position: absolute;
+    width: 360.7px;
+    height: 320px;
+    left: 70px;
+    top: 1692px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #000000; 
+}
+
+#la3 {
+    position: absolute;
+    width: 1140px;
+    height: 421px;
+    left: 70px;
+    top: 4226px;
+}
+
+#final{
+    position: absolute;
+    width: 1140px;
+    height: 179px;
+    left: 70px;
+    top: 4028px;
+}
+
+footer {
+    background: linear-gradient(180deg, #303535 83.85%, rgba(48, 53, 53, 0.85) 100%);
+    position: absolute;
+    width: 100%;
+    height: 64px;
+    left: 0px;
+    top: 4702px;
+}
