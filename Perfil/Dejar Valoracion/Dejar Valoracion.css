@@ -1,0 +1,274 @@
+/*--------------------Header------------------------*/
+
+Header{
+    width: 100%;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+
+    background: linear-gradient(180deg, #303535 83.85%, rgba(48, 53, 53, 0.85) 100%);
+}
+
+
+/*----------------------Body--------------------------*/
+
+body{
+
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    float: center;
+    padding-top: 100;
+    padding-bottom: 100;
+    
+    color: #000000;
+
+    margin: 0 auto;
+}
+
+/*----------------------Titulo--------------------------*/
+
+#Titulo{
+    width: 800px;
+    height: 68px;
+
+    font-size: 72px;
+
+    margin: 0 auto;
+}
+
+/*------------------Apartamentos----------------------*/
+
+#Apartamento{
+    width: 1366px;
+    height: 400px;
+
+    padding-top: 150;
+
+    margin: 0 auto;
+}
+
+#CuadroApart1 {
+    width: 370px;
+    height: 237px;
+
+    margin-left: 60;
+    margin-right: 60;
+    margin-top: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#FotoCuadroApart {
+    float:right;
+    margin-top: -0.5;
+    margin-right: 70;
+
+    width: 631.26px;
+    height: 394.87px;
+    border-radius: 8.2px 8.2px 8.2px 8.2px;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#Imagen{
+    width: 627.26px; 
+    height: 389.87px; 
+    border-radius: 8.2px 8.2px 8.2px 8.2px;
+    margin-left: -1;
+    margin-top: -1;
+}
+
+#FondoValApart{
+
+    width: 34.01px;
+    height: 27.68px;
+
+    margin-top: 6;
+    margin-right: 9;
+
+    background: #2A2867;
+}
+
+#NombreApart{
+    float:left;
+    font-size: 36px;
+    line-height: 42px;
+
+    margin-top: 60;
+    margin-left: 60;
+    text-align: left;
+
+    color: #474444;
+}
+
+#DirApart{
+    width: 100px;
+
+    float: left;
+
+    margin-top: -15;
+    margin-left: 6;
+}
+
+#EstanciaApart {
+    margin-top: -40;
+    margin-right: 10;
+    float: right;
+}
+
+/*----------------------Valoración-----------------------*/
+
+#Valoracion{
+    padding-top: 10;
+    width: 364px;
+    height: 57px;
+    
+    margin: 0 auto;
+}
+#TextValor {
+    padding-top: 10px;
+    margin-left: -850;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+#Estrellas{
+    width: 540px;
+    height: 87px;
+    margin-left: -440;
+}
+
+#Estrella{
+    float: left;
+    width: 96px;
+    height: 87px;
+    background: #FFFFFF;
+    border: 3px solid #CBC300;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+/*-----------------Añadir Titulo-------------------*/
+
+#AñadirTitulo{
+    width: 1366px;
+    height: 55px;
+    margin: 0 auto;
+    padding-top: 300;
+}
+
+#TituloAñadir{
+    width: 400px;
+    height: 55px;
+
+
+    font-size: 48px;
+}
+
+#RecuadroTitulo{
+    width: 1033px;
+    height: 61px;
+    
+    margin: 0 auto;
+    margin-top: 50;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 11px;
+}
+
+/*-----------------Añadir Reseña-------------------*/
+
+#Reseña{
+    width: 1366px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 300;
+    padding-bottom: 90;
+}
+
+#TituloReseña{
+    width: 800px;
+    height: 55px;
+    margin-left: -80;
+
+    font-size: 48px;
+    line-height: 56px;
+}
+
+#RecuadroReseña{
+    width: 1033px;
+    height: 295px;
+    margin-left: 150;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 11px;
+}
+
+/*---------------------Linea----------------------*/
+
+#Linea{
+    width: 1366px;
+    height: 0px;
+    margin-left: -285;
+    border: 1px solid #000000;
+}
+
+/*----------------------Boton-----------------------*/
+
+#Boton{
+
+    width: 253px;
+    height: 55px;
+
+    
+    margin: 0 auto;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+/*----------------------Footer-----------------------*/
+
+footer {
+
+    position: fixed;
+    left:0;
+    bottom:0;
+    height: 40px;
+    width:100%;
+
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 6.77%, rgba(48, 53, 53, 0.94) 31.25%);
+
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1em;
+    text-align: right;
+    color: #FFFFFF;
+    
+
+}
