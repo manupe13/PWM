@@ -1,0 +1,362 @@
+/* MENU INICIAL */
+
+#BarraEncabezado{
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #303535 83.85%, rgba(48, 53, 53, 0.85) 100%);
+}
+
+Body{
+    padding-top: 40px; 
+    padding-bottom: 1700px
+}
+
+#lineaVertical1{
+    position: absolute;
+    width: 614px;
+    height: 0px;
+    left: 33px;
+    top: 394px;
+
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+#lineaHorizontal1{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 201.48px;
+
+    border: 1px solid #000000;
+}
+
+#lineaHorizontal2{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 331px;
+
+    border: 1px solid #000000;
+}
+
+#lineaHorizontal3{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 460.52px;
+
+    border: 1px solid #000000;
+}
+
+#lineaHorizontal4{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 581px;
+
+    border: 1px solid #000000;
+}
+
+#lineaHorizontal5{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 1px;
+    top: 701px;
+
+    border: 1px solid #000000;
+}
+
+#Texto1RecuadroIzq{
+    position: absolute;
+    width: 350px;
+    height: 28px;
+    left: 0px;
+    top: 110px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#Texto2RecuadroIzq{
+    position: absolute;
+    width: 150px;
+    height: 28px;
+    left: 84px;
+    top: 236px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+#Texto3RecuadroIzq{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 60px;
+    top: 360px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#Texto4RecuadroIzq{
+    position: absolute;
+    width: 330px;
+    height: 28px;
+    left: 0px;
+    top: 490px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#Texto5RecuadroIzq{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 60px;
+    top: 610px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#Imagen1{
+    position: absolute;
+    width: 499px;
+    height: 499px;
+    left: 577px;
+    top: 129px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+}
+
+
+
+#Texto1For{
+    position: absolute;
+    width: 194px;
+    height: 30px;
+    left: 404px;
+    top: 697px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Texto2For{
+    position: absolute;
+    width: 178px;
+    height: 30px;
+    left: 407px;
+    top: 817px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Texto3For{
+    position: absolute;
+    width: 284px;
+    height: 30px;
+    left: 402px;
+    top: 932px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+#Texto4For{
+    position: absolute;
+    width: 299px;
+    height: 30px;
+    left: 141px;
+    top: 1073px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Texto5For{
+    position: absolute;
+    width: 182px;
+    height: 30px;
+    left: 141px;
+    top: 1187px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Recuadro1For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 749px;
+    top: 716px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro2For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 749px;
+    top: 834px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro3For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 749px;
+    top: 949px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro4For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 544px;
+    top: 1090px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro5For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 544px;
+    top: 1206px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+
+#BotonAplicar{
+    position: absolute;
+    width: 231px;
+    height: 56px;
+    left: 524px;
+    top: 1416px;
+
+    background: rgba(239, 60, 86, 0.37);
+    border-radius: 20px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 40px; 
+    left: 0; 
+    bottom: 0; 
+    position: fixed;
+    padding: 3px; 
+    background: linear-gradient(180deg, #303535 83.85%, rgba(48, 53, 53, 0.85) 100%); 
+    background-size: cover; 
+    
+}
