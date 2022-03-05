@@ -1313,3 +1313,5661 @@ body {
     border-radius: 23px;
 
 }
+
+/********************ESTO ES MIS ALOJAMIENTOS********************/
+
+#lineaVertical1{
+    position: absolute;
+    width: 614px;
+    height: 0px;
+    left: 33px;
+    top: 394px;
+
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+#lineaHorizontal1{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 201.48px;
+
+    border: 1px solid #000000;
+}
+
+#lineaHorizontal2{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 331px;
+
+    border: 1px solid #000000;
+}
+
+#lineaHorizontal3{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 460.52px;
+
+    border: 1px solid #000000;
+}
+
+#lineaHorizontal4{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 581px;
+
+    border: 1px solid #000000;
+}
+
+#lineaHorizontal5{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 1px;
+    top: 701px;
+
+    border: 1px solid #000000;
+}
+
+#Texto1RecuadroIzq{
+    position: absolute;
+    width: 350px;
+    height: 28px;
+    left: 0px;
+    top: 110px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#Texto2RecuadroIzq{
+    position: absolute;
+    width: 150px;
+    height: 28px;
+    left: 84px;
+    top: 236px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#Texto3RecuadroIzq{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 60px;
+    top: 360px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#Texto4RecuadroIzq{
+    position: absolute;
+    width: 330px;
+    height: 28px;
+    left: 0px;
+    top: 490px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+#Texto5RecuadroIzq{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 60px;
+    top: 610px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#Imagen1{
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    left: 543px;
+    top: 123px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+}
+
+#Titulob{
+    position: absolute;
+    width: 800px;
+    height: 68px;
+    left: 58px;
+    top: 691px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #000000;
+}
+
+#CuadroApartamento {
+
+    position: absolute;
+    width: 370px;
+    height: 237px;
+    left: 60px;
+    top: 900px;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+#FotoCuadroApartamento {
+    position: absolute;
+    width: 370px;
+    height: 171px;
+    left: 130px;
+    top: 900px;
+
+    background-image: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+
+#Valoracion {
+
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 325px;
+    top: 165px;
+
+    
+}
+
+#Titulo1{
+    position: absolute;
+    width: 302px;
+    height: 25px;
+    left: 65px;
+    top: 1050px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #474444;
+}
+
+#Titulo2{
+    position: absolute;
+    width: 308px;
+    height: 21px;
+    left: 500px;
+    top: 1050px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #474444;
+}
+
+#Titulo3{
+    position: absolute;
+    width: 263.55px;
+    height: 24.61px;
+    left: 935px;
+    top: 1050px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #474444;
+}
+
+#Titulo4{
+    position: absolute;
+    width: 300.77px;
+    height: 24.61px;
+    left: 65px;
+    top: 1400px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #474444;
+}
+
+#Titulo5{
+    position: absolute;
+    width: 269.59px;
+    height: 24.61px;
+    left: 500px;
+    top: 1400px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #474444;
+}
+
+#Titulo6{
+    position: absolute;
+    width: 292.72px;
+    height: 24.61px;
+    left: 935px;
+    top: 1400px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #474444;
+
+}
+
+#Dir1{
+    position: absolute;
+    width: 200px;
+    height: 15.38px;
+    left: 65px;
+    top: 1090;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Dir2{
+    position: absolute;
+    width: 200px;
+    height: 15.38px;
+    left: 500px;
+    top: 1090px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Dir3{
+    position: absolute;
+    width: 200px;
+    height: 15.38px;
+    left: 935px;
+    top: 1090px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Dir4{
+    position: absolute;
+    width: 200px;
+    height: 15.38px;
+    left: 65px;
+    top: 1440px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Dir5{
+    position: absolute;
+    width: 200px;
+    height: 15.38px;
+    left: 500px;
+    top: 1440px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Dir6{
+    position: absolute;
+    width: 200px;
+    height: 15.38px;
+    left: 935px;
+    top: 1440px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Desde1{
+    position: absolute;
+    width: 40px;
+    height: 11px;
+    left: 280px;
+    top: 1090;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Desde2{
+    position: absolute;
+    width: 39.67px;
+    height: 12.3px;
+    left: 720px;
+    top: 1090;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Desde3{
+    position: absolute;
+    width: 39.67px;
+    height: 12.3px;
+    left: 1150px;
+    top: 1090;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Desde4{
+    position: absolute;
+    width: 39.67px;
+    height: 12.3px;
+    left: 280px;
+    top: 1440px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Desde5{
+    position: absolute;
+    width: 39.67px;
+    height: 12.3px;
+    left: 720px;
+    top: 1440px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Desde6{
+    position: absolute;
+    width: 39.67px;
+    height: 12.3px;
+    left: 1150px;
+    top: 1440px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Precio1{
+    position: absolute;
+    width: 81.61px;
+    height: 27.68px;
+    left: 345px;
+    top: 1082px;
+    
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+   
+    
+    color: #2D2B2B;
+}
+
+#Precio2{
+    position: absolute;
+    width: 90.53px;
+    height: 27.68px;
+    left: 790px;
+    top: 1082px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #2D2B2B;
+}
+
+#Precio3{
+    position: absolute;
+    width: 81.61px;
+    height: 27.68px;
+    left: 1220px;
+    top: 1082px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #2D2B2B;
+}
+
+#Precio4{
+    position: absolute;
+    width: 81.61px;
+    height: 27.68px;
+    left: 348.76px;
+    top: 1432px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #2D2B2B;
+}
+
+#Precio5{
+    position: absolute;
+    width: 81.61px;
+    height: 27.68px;
+    left: 790px;
+    top: 1432px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #2D2B2B;
+}
+
+#Precio6{
+    position: absolute;
+    width: 81.61px;
+    height: 27.68px;
+    left: 1220px;
+    top: 1432px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #2D2B2B;
+}
+
+#Val1{
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 380px;
+    top: 1075px;
+
+    background: #2A2867;
+}
+
+#Val2{
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 820px;
+    top: 1075px;
+
+    background: #2A2867;
+}
+
+#Val3{
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 1250px;
+    top: 1075px;
+
+    background: #2A2867;
+}
+
+#Val4{
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 380px;
+    top: 1425px;
+
+    background: #2A2867;
+}
+
+#Val5{
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 820px;
+    top: 1425px;
+
+    background: #2A2867;
+}
+
+#Val6{
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 1250px;
+    top: 1425px;
+
+    background: #2A2867;
+}
+
+#botonCancelar1{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left: 58px;
+    top: 1170px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar2{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:495px;
+    top: 1170px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar3{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:927px;
+    top: 1170px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar4{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left: 58px;
+    top: 1520px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar5{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:495px;
+    top: 1520px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar6{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:927px;
+    top: 1520px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonGestionar1{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left: 300px;
+    top: 1170px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonGestionar2{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:735px;
+    top: 1170px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonGestionar3{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:1170px;
+    top: 1170px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonGestionar4{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left: 300px;
+    top: 1520px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonGestionar5{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:735px;
+    top: 1520px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonGestionar6{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:1170px;
+    top: 1520px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/********************ESTO ES MIS RESERVAS ********************/
+
+#lineaVertical1{
+    position: absolute;
+    width: 614px;
+    height: 0px;
+    left: 33px;
+    top: 352px;
+
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+}
+
+#lineaHorizontal1{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 160.48px;
+
+    border: 1px solid #000000;
+}
+
+#lineaHorizontal2{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 290px;
+
+    border: 1px solid #000000;
+}
+
+#lineaHorizontal3{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 420.52px;
+
+    border: 1px solid #000000;
+}
+
+#lineaHorizontal4{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 0px;
+    top: 541px;
+
+    border: 1px solid #000000;
+}
+
+#lineaHorizontal5{
+    position: absolute;
+    width: 340px;
+    height: 0px;
+    left: 1px;
+    top: 660px;
+
+    border: 1px solid #000000;
+}
+
+#Texto1RecuadroIzq{
+    position: absolute;
+    width: 350px;
+    height: 28px;
+    left: 0px;
+    top: 70px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#Texto2RecuadroIzq{
+    position: absolute;
+    width: 150px;
+    height: 28px;
+    left: 84px;
+    top: 196px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#Texto3RecuadroIzq{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 60px;
+    top: 320px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+#Texto4RecuadroIzq{
+    position: absolute;
+    width: 330px;
+    height: 28px;
+    left: 0px;
+    top: 450px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#Texto5RecuadroIzq{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 60px;
+    top: 570px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+#Imagen1{
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    left: 543px;
+    top: 123px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+}
+
+#Titulo{
+    position: absolute;
+    width: 500px;
+    height: 68px;
+    left: 58px;
+    top: 720px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #000000;
+}
+
+#CuadroApartamento {
+
+    position: absolute;
+    width: 370px;
+    height: 237px;
+    left: 60px;
+    top: 900px;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+#FotoCuadroApartamento {
+    position: absolute;
+    width: 370px;
+    height: 171px;
+    left: 130px;
+    top: 900px;
+
+    background-image: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+    border-radius: 10px 10px 0px 0px;
+}
+
+#FotoCuadroApartamento1 {
+    position: absolute;
+    width: 370px;
+    height: 171px;
+    left: 130px;
+    top: 900px;
+
+    background-image: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+
+#Valoracion {
+
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 325px;
+    top: 165px;
+
+    
+}
+
+#Titulo1{
+    position: absolute;
+    width: 302px;
+    height: 25px;
+    left: 65px;
+    top: 1050px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #474444;
+}
+
+#Titulo2{
+    position: absolute;
+    width: 308px;
+    height: 21px;
+    left: 500px;
+    top: 1050px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #474444;
+}
+
+#Titulo3{
+    position: absolute;
+    width: 263.55px;
+    height: 24.61px;
+    left: 935px;
+    top: 1050px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #474444;
+}
+
+#Titulo4{
+    position: absolute;
+    width: 300.77px;
+    height: 24.61px;
+    left: 65px;
+    top: 1400px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #474444;
+}
+
+#Titulo5{
+    position: absolute;
+    width: 269.59px;
+    height: 24.61px;
+    left: 500px;
+    top: 1400px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #474444;
+}
+
+#Titulo6{
+    position: absolute;
+    width: 292.72px;
+    height: 24.61px;
+    left: 935px;
+    top: 1400px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #474444;
+
+}
+
+#Dir1{
+    position: absolute;
+    width: 200px;
+    height: 15.38px;
+    left: 65px;
+    top: 1090;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Dir2{
+    position: absolute;
+    width: 200px;
+    height: 15.38px;
+    left: 500px;
+    top: 1090px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Dir3{
+    position: absolute;
+    width: 200px;
+    height: 15.38px;
+    left: 935px;
+    top: 1090px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Dir4{
+    position: absolute;
+    width: 200px;
+    height: 15.38px;
+    left: 65px;
+    top: 1440px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Dir5{
+    position: absolute;
+    width: 200px;
+    height: 15.38px;
+    left: 500px;
+    top: 1440px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Dir6{
+    position: absolute;
+    width: 200px;
+    height: 15.38px;
+    left: 935px;
+    top: 1440px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Desde1{
+    position: absolute;
+    width: 40px;
+    height: 11px;
+    left: 280px;
+    top: 1090;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Desde2{
+    position: absolute;
+    width: 39.67px;
+    height: 12.3px;
+    left: 720px;
+    top: 1090;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Desde3{
+    position: absolute;
+    width: 39.67px;
+    height: 12.3px;
+    left: 1150px;
+    top: 1090;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Desde4{
+    position: absolute;
+    width: 39.67px;
+    height: 12.3px;
+    left: 280px;
+    top: 1440px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Desde5{
+    position: absolute;
+    width: 39.67px;
+    height: 12.3px;
+    left: 720px;
+    top: 1440px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Desde6{
+    position: absolute;
+    width: 39.67px;
+    height: 12.3px;
+    left: 1150px;
+    top: 1440px;
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+
+    color: #685D5D;
+}
+
+#Precio1{
+    position: absolute;
+    width: 81.61px;
+    height: 27.68px;
+    left: 345px;
+    top: 1082px;
+    
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+   
+    
+    color: #2D2B2B;
+}
+
+#Precio2{
+    position: absolute;
+    width: 90.53px;
+    height: 27.68px;
+    left: 790px;
+    top: 1082px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #2D2B2B;
+}
+
+#Precio3{
+    position: absolute;
+    width: 81.61px;
+    height: 27.68px;
+    left: 1220px;
+    top: 1082px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #2D2B2B;
+}
+
+#Precio4{
+    position: absolute;
+    width: 81.61px;
+    height: 27.68px;
+    left: 348.76px;
+    top: 1432px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #2D2B2B;
+}
+
+#Precio5{
+    position: absolute;
+    width: 81.61px;
+    height: 27.68px;
+    left: 790px;
+    top: 1432px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #2D2B2B;
+}
+
+#Precio6{
+    position: absolute;
+    width: 81.61px;
+    height: 27.68px;
+    left: 1220px;
+    top: 1432px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #2D2B2B;
+}
+
+#Val1{
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 380px;
+    top: 1075px;
+
+    background: #2A2867;
+}
+
+#Val2{
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 820px;
+    top: 1075px;
+
+    background: #2A2867;
+}
+
+#Val3{
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 1250px;
+    top: 1075px;
+
+    background: #2A2867;
+}
+
+#Val4{
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 380px;
+    top: 1425px;
+
+    background: #2A2867;
+}
+
+#Val5{
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 820px;
+    top: 1425px;
+
+    background: #2A2867;
+}
+
+#Val6{
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 1250px;
+    top: 1425px;
+
+    background: #2A2867;
+}
+
+#botonCancelar1{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left: 58px;
+    top: 1170px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar2{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:495px;
+    top: 1170px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar3{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:927px;
+    top: 1170px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar4{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left: 58px;
+    top: 1520px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar5{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:495px;
+    top: 1520px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar6{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:927px;
+    top: 1520px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+
+#botonCancelar7{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left: 58px;
+    top: 1170px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar8{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:495px;
+    top: 1170px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar9{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:927px;
+    top: 1170px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar10{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left: 58px;
+    top: 1520px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar11{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:495px;
+    top: 1520px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonCancelar12{
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left:927px;
+    top: 1520px;
+
+    background: #C4C4C4;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/********************ESTO ES DEJAR VALORACION********************/
+
+/*----------------------Titulo--------------------------*/
+
+#TituloV{
+    width: 800px;
+    height: 68px;
+
+    font-size: 72px;
+    margin-top: 770;
+
+
+}
+
+/*------------------Apartamentos----------------------*/
+
+#Apartamento{
+    width: 1366px;
+    height: 400px;
+
+    padding-top: 150;
+
+    margin: 0 auto;
+}
+
+#CuadroApart1 {
+    width: 370px;
+    height: 237px;
+
+    margin-left: 60;
+    margin-right: 60;
+    margin-top: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#FotoCuadroApart {
+    float:right;
+    margin-top: -0.5;
+    margin-right: 70;
+
+    width: 631.26px;
+    height: 394.87px;
+    border-radius: 8.2px 8.2px 8.2px 8.2px;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#Imagen{
+    width: 627.26px; 
+    height: 389.87px; 
+    border-radius: 8.2px 8.2px 8.2px 8.2px;
+    margin-left: -1;
+    margin-top: -1;
+}
+
+#FondoValApart{
+
+    width: 34.01px;
+    height: 27.68px;
+
+    margin-top: 6;
+    margin-right: 9;
+
+    background: #2A2867;
+}
+
+#NombreApart{
+    
+    float:left;
+    font-size: 36px;
+    line-height: 42px;
+
+    margin-top: 60;
+    margin-left: 60;
+    text-align: left;
+
+    color: #474444;
+}
+
+#DirApart{
+    width: 100px;
+
+    float: left;
+
+    margin-top: -15;
+    margin-left: 6;
+}
+
+#EstanciaApart {
+    margin-top: -40;
+    margin-right: 10;
+    float: right;
+}
+
+/*----------------------Valoración-----------------------*/
+
+/*----------------------Titulo--------------------------*/
+
+#Tituloc{
+    width: 600px;
+    height: 68px;
+
+    font-size: 72px;
+
+    margin: 0 auto;
+}
+
+/*------------------Apartamentos----------------------*/
+
+#Apartamentoc{
+    width: 1366px;
+    height: 400px;
+
+    padding-top: 150;
+
+    margin: 0 auto;
+}
+
+#CuadroApart1c {
+    width: 370px;
+    height: 237px;
+
+    margin-left: 60;
+    margin-right: 60;
+    margin-top: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#FotoCuadroApartc {
+    float:right;
+    margin-top: -0.5;
+    margin-right: 70;
+
+    width: 631.26px;
+    height: 394.87px;
+    border-radius: 8.2px 8.2px 8.2px 8.2px;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#Imagenc{
+    width: 627.26px; 
+    height: 389.87px; 
+    border-radius: 8.2px 8.2px 8.2px 8.2px;
+    margin-left: -1;
+    margin-top: -1;
+}
+
+#FondoValApartc{
+
+    width: 34.01px;
+    height: 27.68px;
+
+    margin-top: 6;
+    margin-right: 9;
+
+    background: #2A2867;
+}
+
+#NombreApartc{
+    float:left;
+    font-size: 36px;
+    line-height: 42px;
+
+    margin-top: 60;
+    margin-left: 60;
+    text-align: left;
+
+    color: #474444;
+}
+
+#DirApartc{
+    width: 100px;
+
+    float: left;
+
+    margin-top: -15;
+    margin-left: 6;
+}
+
+#EstanciaApartc {
+    margin-top: -40;
+    margin-right: 10;
+    float: right;
+}
+
+/*----------------------Valoración-----------------------*/
+
+#Valoracionc{
+    padding-top: 10;
+    width: 364px;
+    height: 57px;
+    
+    margin: 0 auto;
+}
+#TextValorc {
+    padding-top: 10px;
+    margin-left: -450;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+#Estrellasc{
+    width: 540px;
+    height: 87px;
+    margin-left: -440;
+}
+
+#Estrellac{
+    float: left;
+    width: 96px;
+    height: 87px;
+    background: #FFFFFF;
+    border: 3px solid #CBC300;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+/*-----------------Añadir Titulo-------------------*/
+
+#AñadirTituloc{
+    width: 1366px;
+    height: 55px;
+    margin: 0 auto;
+    padding-top: 300;
+}
+
+#TituloAñadirc{
+    width: 400px;
+    height: 55px;
+
+
+    font-size: 48px;
+}
+
+#RecuadroTituloc{
+    width: 1033px;
+    height: 61px;
+    
+    margin: 0 auto;
+    margin-top: 50;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 11px;
+}
+
+/*-----------------Añadir Reseña-------------------*/
+
+#Reseñac{
+    width: 1366px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 300;
+    padding-bottom: 90;
+}
+
+#TituloReseñac{
+    width: 800px;
+    height: 55px;
+
+
+    font-size: 48px;
+    line-height: 56px;
+}
+
+#RecuadroReseñac{
+    width: 1033px;
+    height: 295px;
+    margin-left: 150;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 11px;
+}
+
+/*---------------------Linea----------------------*/
+
+#Lineac{
+    width: 1366px;
+    height: 0px;
+    margin-left: -285;
+    border: 1px solid #000000;
+}
+
+/*----------------------Boton-----------------------*/
+
+#Botonc{
+
+    width: 253px;
+    height: 55px;
+
+    
+    margin: 0 auto;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+
+/********************ESTO ES INFO PERSONAL********************/
+
+#Imagen2{
+    position: absolute;
+    width: 225px;
+    height: 113px;
+    left: 165px;
+    top: 832px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+}
+
+#Texto1For{
+    position: absolute;
+    width: 101px;
+    height: 30px;
+    left: 545px;
+    top: 643px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Texto2For{
+    position: absolute;
+    width: 96px;
+    height: 28px;
+    left: 540px;
+    top: 780px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Texto3For{
+    position: absolute;
+    width: 41px;
+    height: 28px;
+    left: 545px;
+    top: 913px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Texto4For{
+    position: absolute;
+    width: 90px;
+    height: 28px;
+    left: 348px;
+    top: 1075px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Texto5For{
+    position: absolute;
+    width: 220px;
+    height: 28px;
+    left: 190px;
+    top: 1234px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+#Texto6For{
+    position: absolute;
+    width: 31px;
+    height: 28px;
+    left: 219px;
+    top: 1286px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+#Texto7For{
+    position: absolute;
+    width: 41px;
+    height: 28px;
+    left: 331px;
+    top: 1286px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+#Texto8For{
+    position: absolute;
+    width: 38px;
+    height: 28px;
+    left: 448px;
+    top: 1286px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+#Texto9For{
+    position: absolute;
+    width: 70px;
+    height: 28px;
+    left: 643px;
+    top: 1273px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Texto10For{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 191px;
+    top: 1454px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Texto11For{
+    position: absolute;
+    width: 300px;
+    height: 28px;
+    left: 191px;
+    top: 1567px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Recuadro1For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 703px;
+    top: 660px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro2For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 703px;
+    top: 796px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro3For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 703px;
+    top: 926px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro4For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 495px;
+    top: 1091px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro5For{
+    position: absolute;
+    width: 87px;
+    height: 36px;
+    left: 191px;
+    top: 1307px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro6For{
+    position: absolute;
+    width: 87px;
+    height: 36px;
+    left: 304px;
+    top: 1307px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro7For{
+    position: absolute;
+    width: 87px;
+    height: 36px;
+    left: 424px;
+    top: 1307px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro8For{
+    position: absolute;
+    width: 326px;
+    height: 35px;
+    left: 736px;
+    top: 1292px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro9For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 652px;
+    top: 1466px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+
+#Recuadro10For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 652px;
+    top: 1586px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#BotonCambiar{
+    position: absolute;
+    width: 146px;
+    height: 33px;
+    left: 1134px;
+    top: 1586px;
+    background: #23A3A5;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/********************ESTO ES SEGURIDAD ********************/
+
+#Texto1For{
+    position: absolute;
+    width: 194px;
+    height: 30px;
+    left: 404px;
+    top: 697px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Texto2For{
+    position: absolute;
+    width: 178px;
+    height: 30px;
+    left: 407px;
+    top: 817px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Texto3For{
+    position: absolute;
+    width: 284px;
+    height: 30px;
+    left: 402px;
+    top: 932px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+#Texto4For{
+    position: absolute;
+    width: 299px;
+    height: 30px;
+    left: 141px;
+    top: 1073px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Texto5For{
+    position: absolute;
+    width: 182px;
+    height: 30px;
+    left: 141px;
+    top: 1187px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Recuadro1For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 749px;
+    top: 716px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro2For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 749px;
+    top: 834px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro3For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 749px;
+    top: 949px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro4For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 544px;
+    top: 1090px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#Recuadro5For{
+    position: absolute;
+    width: 410px;
+    height: 35px;
+    left: 544px;
+    top: 1206px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+
+#BotonAplicar{
+    position: absolute;
+    width: 231px;
+    height: 56px;
+    left: 524px;
+    top: 1416px;
+
+    background: rgba(239, 60, 86, 0.37);
+    border-radius: 20px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+
+/********************ESTO ES BUSCADOR********************/
+
+#Recuadrob{
+    position: absolute;
+    width: 872px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 9px;
+}
+
+#RecuadroLupab{
+    position: absolute;
+    width: 63px;
+    height: 58px;
+    left: 790px;
+    top: 10px;
+
+    background: linear-gradient(180deg, #E11E1E 0%, rgba(142, 51, 199, 0.66) 100%);
+    border-radius: 10px;
+}
+
+#LineaVertical1b{
+    position: absolute;
+    width: 79px;
+    height: 0px;
+    left: 520px;
+    top: 41px;
+
+    border: 1px solid #646464;
+    transform: rotate(90deg);
+}
+
+#LineaVertical2b{
+    position: absolute;
+    width: 79px;
+    height: 0px;
+    left: 330px;
+    top: 41px;
+
+    border: 1px solid #646464;
+    transform: rotate(90deg);
+}
+
+#LineaVertical3b{
+    position: absolute;
+    width: 79px;
+    height: 0px;
+    left: 150px;
+    top: 41px;
+
+    border: 1px solid #646464;
+    transform: rotate(90deg);
+}
+
+#Texto1b{
+    position: absolute;
+    width: 77px;
+    height: 21px;
+    left: 50px;
+    top: -20px;
+
+    font-family: Rokkitt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #646464;
+}
+
+#Texto2b{
+    position: absolute;
+    width: 77px;
+    height: 21px;
+    left: 240px;
+    top: -20px;
+
+    font-family: Rokkitt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #646464;
+}
+
+#Texto3b{
+    position: absolute;
+    width: 77px;
+    height: 21px;
+    left: 430px;
+    top: -20px;
+
+    font-family: Rokkitt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #646464;
+}
+
+#Texto4b{
+    position: absolute;
+    width: 77px;
+    height: 21px;
+    left: 630px;
+    top: -20px;
+
+    font-family: Rokkitt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #646464;
+}
+
+#Img1b{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 6px;
+    background:rgba(142, 51, 199, 0.66);
+}
+
+#Img2b{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    left: 210px;
+    top: 4px;
+    background:rgba(142, 51, 199, 0.66);
+}
+
+#Img3b{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 400px;
+    top: 6px;
+    background:rgba(142, 51, 199, 0.66);
+}
+
+#Img4b{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 589px;
+    top: 6px;
+    background:rgba(142, 51, 199, 0.66);
+}
+
+/********************ESTO ES APARTAMENTO BUSCADOR********************/
+
+#Buscadorc{
+    width: 1173px;
+    height: 88px;
+    margin: 0 auto;
+    background: #F4E4E4;
+    border-radius: 32px;
+}
+
+#TextoBuscadorc{
+    font-size: 35px;
+    padding-top: 20;
+}
+
+/*------------------Apartamentos----------------------*/
+
+#Apartamentosc{
+    width: 1400px;
+    height: 1248px;
+
+    margin-top: 60;
+
+    margin: 0 auto;
+}
+
+#CuadroApart1c {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-left: 60;
+    margin-right: 60;
+    margin-top: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart2c {
+    float:left;
+
+    width: 370px;
+    height: 237px;
+
+    margin-right: 60;
+    margin-top: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart3c {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-top: 60;
+    margin-right: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+
+#CuadroApart4c {
+    float: left;
+    width: 370px;
+    height: 237px;
+
+    margin-right: 60;
+    margin-top: 60;
+    margin-left: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart5c {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-top: 60;
+    margin-right: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+
+#CuadroApart6c {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-top: 60;
+    margin-right: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart7c {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-left: 60;
+    margin-top: 60;
+    margin-right: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart8c {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-top: 60;
+    margin-right: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart9c {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-top: 60;
+    margin-right: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart10c {
+    float:left;
+    width: 370px;
+    height: 237px;
+
+    margin-top: 60;
+    margin-right: 60;
+    margin-left: 60;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    margin-right: 60;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart11c {
+    float:left;
+    width: 370px;
+    height: 237px;
+    margin-top: 60;
+    margin-right: 60;
+    border: 3px solid #787878;
+    margin-right: 60;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#CuadroApart12c {
+    float:left;
+    width: 370px;
+    height: 237px;
+    margin-top: 60;
+    margin-right: 60;
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    color: #685D5D;
+
+}
+
+#FotoCuadroApartc {
+    margin-top: -0.5;
+    margin-left: -0.5;
+
+    width: 368px;
+    height: 171px;
+    border-radius: 8.2px 8.2px 0px 0px;
+}
+
+#FondoValApartc{
+    
+    float: right;
+    width: 34.01px;
+    height: 27.68px;
+
+    margin-top: 6;
+    margin-right: 9;
+
+    background: #2A2867;
+}
+
+#ValApartc {
+
+    margin-top: 4;
+    margin-right: 0;
+
+    width: 34.01px;
+    color: #ffffff;
+
+}
+
+#NombreApartc{
+    width: 230px;
+    float: left;
+
+    margin-top: -10;
+    margin-left: 6;
+
+    font-size: 24px;
+}
+
+#DirApartc{
+    width: 190px;
+
+    float: left;
+
+    margin-top: -15;
+    margin-left: 6;
+
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+}
+
+#DerechaPrecioc{
+    margin-top: -40;
+    margin-right: 10;
+    float: right;
+}
+
+#DesdeApartc{
+    
+    float: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+    margin-right: 15;
+
+    color: #685D5D;
+}
+
+#PrecioApartc{
+
+    float: right;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    
+    color: #2D2B2B;
+}
+
+/*----------------------Boton-----------------------*/
+
+#PasarPaginac{
+    width: 53px;
+    height: 50px;
+
+    background: #3C4141;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #FFFFFF;
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#retrocederc{
+    margin-left: -40;
+    margin-top:-77;
+    float: left;
+    color: #000000;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 42px;
+    font-weight: bold;
+}
+
+#siguientec{
+    margin-right: -40;
+    margin-top:-77;
+    color: #000000;
+    float: right;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 42px;
+    font-weight: bold;
+}
+
+/********************ESTO ES ANFITRIÓN PRINCIPAL********************/
+
+/*------------------Primera Sección----------------------*/
+
+#PrimerRecuadrod{
+    width: 1144px;
+    height: 578px;
+    margin: 0 auto;
+    
+}
+
+#FondoPrimerRecuadrod{
+    width: 554px;
+    height: 578px;
+    background: #FDF9F2;
+    border-radius: 31px;
+    float: left;
+}
+
+#PrimerRecuadroTextod{
+    width: 506.39px;
+    font-size: 40px;
+    margin-top: 130;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#PrimerRecuadroTexto2d{
+    width: 506.39px;
+    font-size: 20px;
+    line-height: 47px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#PrimerRecuadroBotond{
+    width: 229.39px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60;
+    
+    font-family: "Times New Roman", Times, serif;
+    background: #9BF5AE;
+    border-radius: 8px;
+
+    font-size: 25px;
+}
+
+#PrimeraImagend{
+    width: 490px;
+    height: 515px;
+
+    border-radius: 277px;
+    float: right;
+}
+
+/*-------------------------Segunda Sección----------------------------*/
+
+#SegundoRecuadroFondod{
+    width: 1144px;
+    height: 1300px;
+
+    margin: 0 auto;
+    margin-top: 100;
+
+    background: #FDF9F2;
+    border-radius: 21px;
+    float: center;
+}
+
+#SegundoRecuadroTitulod{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 50;
+    
+    font-size: 40px;
+    line-height: 47px;
+}
+
+#SegundoRecuadroSegTitulod{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50;
+    font-size: 27px;
+    line-height: 32px;
+}
+
+/*--------Punto 1--------*/
+
+#SegundoRecuadroPunto1d{
+    height: 250px;
+
+    font-size: 30px;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 50;
+    margin-left: 50;
+    margin-right: 50;
+}
+
+#SegundoRecuadroPunto1Textod{
+    width: 436px;
+    float: left;
+    font-weight: 500;
+}
+
+#SegundoRecuadroPunto1Titd{
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: bold;
+
+}
+
+#SegundoRecuadroImg1d{
+    width: 500px;
+    height: 252px;
+    float: right;
+}
+
+/*--------Punto 2--------*/
+
+#SegundoRecuadroPunto2d{
+    height: 253px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 80;
+    margin-left: 50;
+    margin-right: 50;
+}
+
+#SegundoRecuadroPunto2Textod{
+    width: 470px;
+    float: right;
+}
+#SegundoRecuadroPunto2Titd{
+    width: 470px;
+
+    font-size: 40px;
+    line-height: 47px;
+
+}
+
+#SegundoRecuadroPunto2Textd{
+    width: 436px;
+
+    font-size: 30px;
+    line-height: 35px;
+    text-align: align;
+    font-weight: 500;
+}
+
+#SegundoRecuadroImg2d{
+    width: 390px;
+    height: 297px;
+
+    float: left;
+    margin-top: 20;
+}
+
+/*--------Punto 3--------*/
+
+#SegundoRecuadroPunto3d{
+    width: 1100px;
+    height: 400px;
+    margin-top: 70;
+    margin-left: 50;
+    float: left;
+}
+
+#SegundoRecuadroPunto3Textod{
+    width: 509px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: left;
+    float: left;
+}
+
+#SegundoRecuadroPunto3Titd{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    line-height: 47px;
+
+}
+
+#SegundoRecuadroPunto3Textd{
+    font-size: 30px;
+    line-height: 35px;
+    text-align: left;
+    font-weight: 500;
+}
+
+#SegundoRecuadroImg3d{
+    width: 480px;
+    height: 300px;
+    float: right;
+    margin-right: 50;
+}
+
+/*--------------------------Tercera Sección----------------------------*/
+
+#TercerRecuadroFondod{
+    width: 1144px;
+    height: 700px;
+
+    margin: 0 auto;
+    margin-top: 100;
+
+    background: #FDF9F2;
+    border-radius: 21px;
+}
+#TercerRecuadroTitulod{
+
+    width: 1037px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    padding-top: 35;
+}
+#imagenTextod{
+    width: 1037px;
+    height: 371px;
+    margin-top: 70;
+    margin-left: 40;
+
+}
+#TercerRecuadroTexto2d{ 
+    width: 500px;  
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-top: 100;
+    float: left;
+}
+
+#TercerRecuadroImagend{
+    width: 500px;
+    height: 371px;
+
+    float: right;
+}
+
+#TercerRecuadroBotond{
+
+    width: 250px;
+    height: 52px;
+    background: rgba(144, 245, 166, 0.9);
+    border-radius: 7px;
+    margin-top: 70;
+
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: BOLD;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+}
+
+/********************ESTO ES ANFITRIÓN CONFIRMAR DIRECCIÓN**********/
+
+#Tituloe{
+    position: absolute;
+    width: 500px;
+    height: 42px;
+    left: 210px;
+    top: 20px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato; 
+}
+
+#Recuadroe{
+    position: absolute;
+    width: 748px;
+    height: 842px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+#Recuadro2e{
+    position: absolute;
+    width: 527px;
+    height: 496px;
+    left: 111px;
+    top: 128px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+#Retrocedere{
+    position: absolute;
+    width: 33px;
+    height: 84px;
+    left: 61px;
+    top: 34px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+}
+
+#LineaHorizontal1e{
+    position: absolute;
+    width: 520px;
+    height: 0px;
+    left: 112px;
+    top: 219px;
+
+    border: 1px solid #000000;
+}
+
+#LineaHorizontal2e{
+    position: absolute;
+    width: 520px;
+    height: 0px;
+    left: 111px;
+    top: 297px;
+
+    border: 1px solid #000000;
+}
+
+#LineaHorizontal3e{
+    position: absolute;
+    width: 520px;
+    height: 0px;
+    left: 111px;
+    top: 376px;
+
+    border: 1px solid #000000;
+}
+
+#LineaHorizontal4e{
+    position: absolute;
+    width: 520px;
+    height: 0px;
+    left: 111px;
+    top: 458px;
+
+    border: 1px solid #000000;
+}
+
+#LineaHorizontal5e{
+    position: absolute;
+    width: 520px;
+    height: 0px;
+    left: 111px;
+    top: 546px;
+
+    border: 1px solid #000000;
+}
+
+#Texto1e{
+    position: absolute;
+    width: 49px;
+    height: 28px;
+    left: 143px;
+    top: 162px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7D7D7D;
+}
+
+#Texto2e{
+    position: absolute;
+    width: 300px;
+    height: 28px;
+    left: 143px;
+    top: 240px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7D7D7D;
+}
+
+#Texto3e{
+    position: absolute;
+    width: 93px;
+    height: 28px;
+    left: 143px;
+    top: 323px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7D7D7D;
+}
+
+#Texto4e{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 137px;
+    top: 400px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7D7D7D;
+}
+
+#Texto5e{
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 143px;
+    top: 486px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7D7D7D;
+}
+
+#Texto6e{
+    position: absolute;
+    width: 126px;
+    height: 28px;
+    left: 143px;
+    top: 570px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #7D7D7D;
+}
+
+#TextoInferiore{
+    position: absolute;
+    width: 528px;
+    height: 42px;
+    left: 111px;
+    top: 653px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #7D7D7D;
+}
+
+#Botone{
+    position: absolute;
+    width: 281px;
+    height: 68px;
+    left: 235px;
+    top: 731px;
+
+    background: linear-gradient(180deg, #D9202C 0%, #B12A7E 100%);
+    border-radius: 20px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+/********************ESTO ES ANFITRIÓN PASO 1********************/
+
+#Titulof{
+    position: absolute;
+    width: 1500px;
+    height: 56px;
+    left: 30px;
+    top: 80px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#SegTitulof{
+    position: absolute;
+    width: 500px;
+    height: 28px;
+    left: 80px;
+    top: 233px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+#imagenCasaf{
+    position: absolute;
+    width: 155px;
+    height: 143px;
+    left: 1015px;
+    top: 240px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+}
+
+#primerCuadradof{
+    position: absolute;
+    width: 540px;
+    height: 143px;
+    left: 77px;
+    top: 420px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+#primerCuadradoImagenf{
+    position: absolute;
+    width: 135px;
+    height: 111.75px;
+    left: 435px;
+    top: 436px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+    border-radius: 12px;
+}
+
+#primerCuadradoTextof{
+    position: absolute;
+    width: 209px;
+    height: 45.46px;
+    left: 125px;
+    top: 436px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#segundoCuadradof{
+    position: absolute;
+    width: 540px;
+    height: 143px;
+    left: 666px;
+    top: 420px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+#segundoCuadradoimagenf{
+    position: absolute;
+    width: 135px;
+    height: 111.75px;
+    left: 1024px;
+    top: 436px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+    border-radius: 12px;
+}
+
+#segundoCuadradoTextof{
+    position: absolute;
+    width: 94px;
+    height: 45px;
+    left: 714px;
+    top: 436px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#tercerCuadradof{
+    position: absolute;
+    width: 540px;
+    height: 143px;
+    left: 77px;
+    top: 620px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+#tercerCuadradoimagenf{
+    position: absolute;
+    width: 135px;
+    height: 111.75px;
+    left: 435px;
+    top: 635px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+    border-radius: 12px;
+}
+
+#tercerCuadradoTextof{
+    position: absolute;
+    width: 234px;
+    height: 46px;
+    left: 126px;
+    top: 635px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#cuartoCuadradof{
+    position: absolute;
+    width: 540px;
+    height: 143px;
+    left: 666px;
+    top: 620px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+#cuartoCuadradoimagenf{
+    position: absolute;
+    width: 135px;
+    height: 111.75px;
+    left: 1024px;
+    top: 635px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+    border-radius: 12px;
+}
+
+#cuartoCuadradoTextof{
+    position: absolute;
+    width: 97px;
+    height: 46px;
+    left: 715px;
+    top: 635px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#quintoCuadradof{
+    position: absolute;
+    width: 540px;
+    height: 143px;
+    left: 360px;
+    top: 820px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+#quintoCuadradoimagenf{
+    position: absolute;
+    width: 135px;
+    height: 111.75px;
+    left: 728px;
+    top: 835px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+    border-radius: 12px;
+}
+
+#quintoCuadradoTextof{
+    position: absolute;
+    width: 77px;
+    height: 46px;
+    left: 419px;
+    top: 835px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#lineaf{
+    position: absolute;
+    width: 1360px;
+    height: 0px;
+    left: 0px;
+    top: 1000px;
+
+    border: 6px solid #D5C7C7;
+}
+
+#botonf{
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 981px;
+    top: 1029px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+
+/********************ESTO ES ANFITRIÓN PASO 2********************/
+
+#Titulog{
+    position: absolute;
+    width: 1350px;
+    height: 70px;
+    left: 70px;
+    top: 36px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 56px;
+
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#mapag{
+    position: absolute;
+    width: 1360px;
+    height: 917px;
+    left: 0px;
+    top: 320px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+}
+
+#buscadorg{
+    position: absolute;
+    width: 614px;
+    height: 95px;
+    left: 350px;
+    top: 367px;
+
+    background: #ffffff;
+    border-radius: 134px;
+}
+
+#textoBuscadorg{
+    position: absolute;
+    width: 300px;
+    height: 28px;
+    left: 484px;
+    top: 376px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+#imagenBuscadorg{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 388px;
+    top: 390px;
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+}
+
+#lineag{
+    position: absolute;
+    width: 1366px;
+    height: 0px;
+    left: 0px;
+    top: 1400px;
+
+    border: 6px solid #D4C7C7;
+}
+
+#boton1g{
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 62px;
+    top: 1425px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+#boton2g{
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 985px;
+    top: 1425px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+/********************ESTO ES ANFITRIÓN PASO 3********************/
+
+#Tituloh{
+    position: absolute;
+    width: 1500px;
+    height: 56px;
+    left: 75px;
+    top: 125px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#imagenh{
+    position: absolute;
+    width: 1338px;
+    height: 603px;
+    left: 0px;
+    top: 455px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#texto1h{
+    position: absolute;
+    width: 249.22px;
+    height: 56px;
+    left: 212px;
+    top: 490px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#texto2h{
+    position: absolute;
+    width: 152.56px;
+    height: 56px;
+    left: 212px;
+    top: 620px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#texto3h{
+    position: absolute;
+    width: 262.03px;
+    height: 56px;
+    left: 212px;
+    top: 770px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#texto4h{
+    position: absolute;
+    width: 138.58px;
+    height: 56px;
+    left: 212px;
+    top: 910px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+
+#num1h{
+    position: absolute;
+    width: 16.91px;
+    height: 48px;
+    left: 886px;
+    top: 508.57px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#num2h{
+    position: absolute;
+    width: 16.91px;
+    height: 48px;
+    left: 886px;
+    top: 648.14px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#num3h{
+    position: absolute;
+    width: 16.91px;
+    height: 48px;
+    left: 886px;
+    top: 790.14px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#num4h{
+    position: absolute;
+    width: 16.91px;
+    height: 48px;
+    left: 886px;
+    top: 930.14px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#Img1h{
+    position: absolute;
+    width: 33.83px;
+    height: 41.14px;
+    left: 786px;
+    top: 560px;
+    background: url(https://www.istockphoto.com/resources/images/PhotoFTLP/998044806.jpg);
+}
+
+#Img2h{
+    position: absolute;
+    width: 33.83px;
+    height: 41.14px;
+    left: 962.17px;
+    top: 560px;
+    background: url(https://www.istockphoto.com/resources/images/PhotoFTLP/998044806.jpg);
+}
+
+#Img3h{
+    position: absolute;
+    width: 33.83px;
+    height: 41.14px;
+    left: 786px;
+    top: 690px;
+    background: url(https://www.istockphoto.com/resources/images/PhotoFTLP/998044806.jpg);
+}
+
+#Img4h{ 
+    position: absolute;
+    width: 33.83px;
+    height: 41.14px;
+    left: 962.17px;
+    top: 690px;
+    background: url(https://www.istockphoto.com/resources/images/PhotoFTLP/998044806.jpg);
+}
+
+#Img5h{
+    position: absolute;
+    width: 33.83px;
+    height: 41.14px;
+    left: 786px;
+    top: 830px;
+    background: url(https://www.istockphoto.com/resources/images/PhotoFTLP/998044806.jpg);
+}
+
+#Img6h{ 
+    position: absolute;
+    width: 33.83px;
+    height: 41.14px;
+    left: 962.17px;
+    top: 830px;
+    background: url(https://www.istockphoto.com/resources/images/PhotoFTLP/998044806.jpg);
+}
+
+#Img7h{
+    position: absolute;
+    width: 33.83px;
+    height: 41.14px;
+    left: 786px;
+    top: 970px;
+    background: url(https://www.istockphoto.com/resources/images/PhotoFTLP/998044806.jpg);
+}
+
+#Img8h{
+    position: absolute;
+    width: 33.83px;
+    height: 41.14px;
+    left: 962.17px;
+    top: 970px;
+    background: url(https://www.istockphoto.com/resources/images/PhotoFTLP/998044806.jpg);
+}
+
+#Lineah{
+    position: absolute;
+    width: 33.83px;
+    height: 41.14px;
+    left: 962.17px;
+    top: 929.57px;
+}
+
+
+
+
+
+#boton1h{
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 62px;
+    top: 1210px;
+    
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+#boton2h{
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 981px;
+    top: 1210px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+
+/********************ESTO ES ANFITRIÓN PASO 4********************/
+
+#Tituloi{
+    position: absolute;
+    width: 1000px;
+    height: 112px;
+    left: 170px;
+    top: 30px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#imageni{
+    position: absolute;
+    width: 144px;
+    height: 151px;
+    left: 1050px;
+    top: 220px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#titulo1i{
+    position: absolute;
+    width: 600px;
+    height: 42px;
+    left: 150px;
+    top: 311px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte1Texto1i{
+    position: absolute;
+    width: 105px;
+    height: 42px;
+    left: 205px;
+    top: 407px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte1Texto2i{
+    position: absolute;
+    width: 326px;
+    height: 42px;
+    left: 205px;
+    top: 490px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte1Texto3i{
+    position: absolute;
+    width: 75px;
+    height: 42px;
+    left: 205px;
+    top: 580px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte1Texto4i{
+    position: absolute;
+    width: 135px;
+    height: 42px;
+    left: 205px;
+    top: 668px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte1Texto5i{
+    position: absolute;
+    width: 200px;
+    height: 42px;
+    left: 808px;
+    top: 407px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte1Texto6i{
+    position: absolute;
+    width: 253px;
+    height: 42px;
+    left: 808px;
+    top: 496px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte1Texto7i{
+    position: absolute;
+    width: 306px;
+    height: 42px;
+    left: 808px;
+    top: 580px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte1Texto8i{
+    position: absolute;
+    width: 384px;
+    height: 42px;
+    left: 808px;
+    top: 668px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#titulo2i{
+    position: absolute;
+    width: 660px;
+    height: 42px;
+    left: 150px;
+    top: 863px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte2Texto1i{
+    position: absolute;
+    width: 54px;
+    height: 42px;
+    left: 215px;
+    top: 970px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte2Texto2i{
+    position: absolute;
+    width: 143px;
+    height: 42px;
+    left: 215px;
+    top: 1057px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte2Texto3i{
+    position: absolute;
+    width: 99px;
+    height: 42px;
+    left: 215px;
+    top: 1144px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte2Texto4i{
+    position: absolute;
+    width: 130px;
+    height: 42px;
+    left: 215px;
+    top: 1231px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+
+#parte2Texto5i{
+    position: absolute;
+    width: 226px;
+    height: 42px;
+    left: 818px;
+    top: 970px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+
+#parte2Texto6i{
+    position: absolute;
+    width: 270px;
+    height: 42px;
+    left: 818px;
+    top: 1057px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+
+#parte2Texto7i{
+    position: absolute;
+    width: 260px;
+    height: 42px;
+    left: 818px;
+    top: 1144px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+
+#parte2Texto8i{
+    position: absolute;
+    width: 207px;
+    height: 42px;
+    left: 818px;
+    top: 1231px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#titulo3i{
+    position: absolute;
+    width: 788px;
+    height: 42px;
+    left: 150px;
+    top: 1458px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte3Texto1i{
+    position: absolute;
+    width: 253px;
+    height: 42px;
+    left: 215px;
+    top: 1565px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte3Texto2i{
+    position: absolute;
+    width: 118px;
+    height: 42px;
+    left: 215px;
+    top: 1652px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#parte3Texto3i{
+    position: absolute;
+    width: 484px;
+    height: 42px;
+    left: 734px;
+    top: 1568px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+
+}
+
+#parte3Texto4i{
+    position: absolute;
+    width: 298px;
+    height: 42px;
+    left: 734px;
+    top: 1652px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #000000;
+
+}
+
+#Img1i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 150px;
+    top: 435px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img2i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 150px;
+    top: 520px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img3i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 150px;
+    top: 603px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img4i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 150px;
+    top: 690px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img5i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 753px;
+    top: 435px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img6i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 753px;
+    top: 520px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img7i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 753px;
+    top: 603px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img8i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 753px;
+    top: 690px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img9i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 160px;
+    top: 1000px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img10i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 160px;
+    top: 1087px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+
+#Img11i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 160px;
+    top: 1170px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img12i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 160px;
+    top: 1255px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img13i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 763px;
+    top: 1000px;
+
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+
+#Img14i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 763px;
+    top: 1080px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+
+#Img15i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 763px;
+    top: 1170px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+
+#Img16i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 763px;
+    top: 1255px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+
+#Img17i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 160px;
+    top: 1590px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img18i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 160px;
+    top: 1680px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img19i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 679px;
+    top: 1590px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+
+#Img20i{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 679px;
+    top: 1680px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#lineai{
+    position: absolute;
+    width: 1366px;
+    height: 0px;
+    left: 0px;
+    top: 1800px;
+
+    border: 6px solid #D5C7C7;
+    transform: rotate(0.08deg);
+}
+
+#boton1i{
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 108px;
+    top: 1850px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+#boton2i{
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 1027px;
+    top: 1850px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+/********************ESTO ES ANFITRIÓN PASO 5********************/
+
+#Tituloj{
+    position: absolute;
+    width: 1176px;
+    height: 200px;
+    left: 112px;
+    top: 69px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#Titulo2j{
+    position: absolute;
+    width: 700px;
+    height: 47px;
+    left: 130px;
+    top: 289px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+#RecuadroImagenj{
+    position: absolute;
+    width: 980px;
+    height: 781px;
+    left: 170px;
+    top: 420px;
+
+    background: #FAF7F7;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#TextoRecuadroj{
+    position: absolute;
+    width: 500px;
+    height: 235px;
+    left: 400px;
+    top: 495px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#botonSubirj{
+    position: absolute;
+    width: 310px;
+    height: 80px;
+    left: 498px;
+    top: 820px;
+
+    background: linear-gradient(180deg, #E11E1E 0%, #9132BF 100%);
+    border-radius: 20px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#lineaj{
+    position: absolute;
+    width: 1366px;
+    height: 0px;
+    left: 0px;
+    top: 1239px;
+
+    border: 6px solid #D5C7C7;
+    transform: rotate(0.08deg);
+}
+
+#boton1j{
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 108px;
+    top: 1265px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+#boton2j{
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 1027px;
+    top: 1265px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+
+/********************ESTO ES ANFITRIÓN PASO 6********************/
+
+#Titulok{
+    position: absolute;
+    width: 1300px;
+    height: 112px;
+    left: 0px;
+    top: 60px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#Titulo1k{
+    position: absolute;
+    width: 109px;
+    height: 56px;
+    left: 170px;
+    top: 290px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+#Cuadrado1k{
+    position: absolute;
+    width: 977px;
+    height: 108px;
+    left: 170px;
+    top: 450px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#Titulo2k{
+    position: absolute;
+    width: 600px;
+    height: 56px;
+    left: 110px;
+    top: 687px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Cuadrado2k{
+    position: absolute;
+    width: 977px;
+    height: 353px;
+    left: 170px;
+    top: 819px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#Titulo3k{
+    position: absolute;
+    width: 705px;
+    height: 56px;
+    left: 60px;
+    top: 1200px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Recuadro1k{
+    position: absolute;
+    width: 399px;
+    height: 91px;
+    left: 170px;
+    top: 1470px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+#Recuadro2k{
+    position: absolute;
+    width: 399px;
+    height: 91px;
+    left: 800px;
+    top: 1471px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+#Recuadro3k{
+    position: absolute;
+    width: 639.77px;
+    height: 91px;
+    left: 350px;
+    top: 1638px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+#Recuadro4k{
+    position: absolute;
+    width: 399px;
+    height: 91px;
+    left: 170px;
+    top: 1806px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+#Recuadro5k{
+    position: absolute;
+    width: 399px;
+    height: 91px;
+    left: 800px;
+    top: 1806px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+#TextoR1k{
+    position: absolute;
+    width: 180px;
+    height: 56px;
+    left: 270px;
+    top: 1440px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#TextoR2k{
+    position: absolute;
+    width: 178.33px;
+    height: 56px;
+    left: 910px;
+    top: 1440px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#TextoR3k{
+    position: absolute;
+    width: 397.3px;
+    height: 56px;
+    left: 480px;
+    top: 1605px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+#TextoR4k{
+    position: absolute;
+    width: 196px;
+    height: 56px;
+    left: 270px;
+    top: 1776px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#TextoR5k{
+    position: absolute;
+    width: 162px;
+    height: 56px;
+    left: 910px;
+    top: 1776px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Img1k{
+    position: absolute;
+    width: 54px;
+    height: 56px;
+    left: 200px;
+    top: 1488px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img2k{
+    position: absolute;
+    width: 59px;
+    height: 61px;
+    left: 850px;
+    top: 1484px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img3k{
+    position: absolute;
+    width: 57.16px;
+    height: 59px;
+    left: 400px;
+    top: 1651px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img4k{
+    position: absolute;
+    width: 54px;
+    height: 56px;
+    left: 200px;
+    top: 1824px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#Img5k{
+    position: absolute;
+    width: 54px;
+    height: 56px;
+    left: 850px;
+    top: 1824px;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+#lineak{
+    position: absolute;
+    width: 1366px;
+    height: 0px;
+    left: 0px;
+    top: 2029px;
+
+    border: 6px solid #D5C7C7;
+    transform: rotate(0.08deg);
+}
+
+#boton1k{
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 105px;
+    top: 2055px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+#boton2k{
+    position: absolute;
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 1024px;
+    top: 2055px;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+/********************ESTO ES ANFITRIÓN PASO 7********************/
+
+#Titulol{
+    position: absolute;
+    width: 975px;
+    height: 112px;
+    left: 195px;
+    top: 143px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+#RecuadroDinerol{
+    position: absolute;
+    width: 545px;
+    height: 183px;
+    left: 380px;
+    top: 472px;
+
+    background: #E9E7E7;
+    border-radius: 20px;
+}
+
+#TextoDinerol{
+    position: absolute;
+    width: 454px;
+    height: 105px;
+    left: 450px;
+    top: 410px;
+
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 117px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#ImagenMenosl{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 268px;
+    top: 534px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+}
+
+#ImagenMasl{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 970px;
+    top: 534px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+}
+
+#Titulo2l{
+    position: absolute;
+    width: 500px;
+    height: 42px;
+    left: 230px;
+    top: 960px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+}
+
+#ImagenCal1l{
+    position: absolute;
+    width: 117.59px;
+    height: 100px;
+    left: 960px;
+    top: 960px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+}
+
+#ImagenCal2l{
+    position: absolute;
+    width: 689px;
+    height: 508px;
+    left: 300px;
+    top: 1231px;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+}
+
+#lineal{
+    position: absolute;
+    width: 1280px;
+    height: 0px;
+    left: 31px;
+    top: 1866px;
+
+    border: 6px solid #D5C7C7;
+}
+
+#boton1l{
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 93px;
+    top: 1892px;
+
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+#boton2l{
+    position: absolute;
+    width: 253px;
+    height: 55px;
+    left: 1012px;
+    top: 1892px;
+
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
