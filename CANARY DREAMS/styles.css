@@ -1,0 +1,1315 @@
+body {
+    background: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif Condensed;
+    text-align: justify;
+    font-style: normal;
+    
+    color: #000000;
+}
+
+
+/********************ESTO ES DE APTODEST********************/
+#titulo_cabecera{
+    position: absolute;
+    left: 70px;
+    top: 20px;
+
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+#fondo_apto{
+    position: absolute;
+    height: 600px;
+    left: 70px;
+    right: 70px;
+    top: 200px;
+    background: #f1f1f1;
+}
+
+#img_apto{
+    position: absolute;
+    width: 350px;
+    height: 170px;
+    left: 110px;
+    top: 240px;
+    
+    background-image: url("./assets/Lopesan-Baobab-Resort.jpeg");
+    border-radius: 10px 10px 0px 0px;
+}
+
+#cuadro_apto {
+    position: absolute;
+    width: 350px;
+    height: 240px;
+    left: 110px;
+    top: 240px;
+    
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#text_apto {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+#valoracion {
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 300px;
+    top: 165px;
+}
+
+#EspacioBlanco {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 900px;
+    
+    background: rgba(255, 255, 255, 0);
+}
+
+
+/********************ESTO ES DE CONDICIONES********************/
+#cond_leg{
+    position: absolute;
+    width: 1150px;
+    height: 84px;
+    left: 66px;
+    top: 80px;
+
+    font-weight: 500;
+    font-size: 24px;
+
+    color: #646363;
+}
+
+#_titulo{
+    position: absolute;
+    width: 1150px;
+    height: 84px;
+    left: 66px;
+    top: 110px;
+
+    font-weight: 500;
+    font-size: 44px;
+}
+
+#text_cond{
+    position: absolute;
+    width: 1150px;
+    height: 1350px;
+    left: 66px;
+    top: 230px;
+    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+/********************ESTO ES DEL FOOTER********************/
+footer {
+    position: fixed;
+    left:0;
+    bottom:0;
+    height: 3.5%;
+    width:100%;
+    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 6.77%, rgba(48, 53, 53, 0.94) 31.25%);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1em;
+    text-align: right;
+    color: #FFFFFF;
+    
+}
+
+.fuente {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+
+/********************ESTO ES DEL HEADER********************/
+header {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #303535 83.85%, rgba(48, 53, 53, 0.85) 100%);
+}
+
+#fondo_header {
+    position: absolute;
+    height: 30px;
+    top: 8px;
+    background: linear-gradient(180deg, rgba(225, 30, 30, 0.8) 0%, rgba(142, 51, 199, 0.83) 100%);   
+}
+
+
+/********************ESTO ES DE HOME********************/
+#cuadro_buscador {
+    position: absolute;
+    width: 100%;
+    height: 455px;
+    left: 0px;
+    top: 45px;
+
+    background-image: url(./assets/hotel-nayra-adults-only.jpeg);
+}
+
+#buscador_home {
+    position: absolute;
+    width: 872px;
+    height: 75px;
+    left: 20%;
+    top:220px;
+
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+
+#fondo_isla_destino { 
+    position: absolute;
+    height: 583px;
+    left: 70px;
+    right: 70px;
+    top: 793px;
+    background: #f1f1f1;
+}
+
+#img_isla_dest{
+    position: absolute;
+    width: 240px;
+    height: 200px;
+
+    border-radius: 10px;
+}
+
+#fondo_titulo_dest {
+    position: absolute;
+    width: 100px;
+    height: 33px;
+    
+    background: rgba(255, 255, 255, 0.70);
+    border-radius: 5px;
+}
+
+#titulo_isla_dest {
+    position: absolute;
+    width: 93px;
+    height: 33px;
+    
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#aptodest_home{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0%;
+    top: 1500px;
+}
+
+
+/********************ESTO ES DE ISLA********************/
+#img_completa{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 45px;
+}
+
+#isla_nombre{
+    position: absolute;
+    width: 621.33px;
+    height: 70.7px;
+    left: 329px;
+    top: 420px;
+
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 63px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#text_info{
+    position: absolute;
+    width: 550px;
+    height: 400px;
+    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #454545;
+}
+
+#aptodest_isla{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0%;
+    top: 900px;
+}
+
+#titulo_info{
+    position: absolute;
+    width: 550px;
+    height: 200px;
+
+    font-weight: 500;
+    font-size: 28px;
+}
+
+#img_mapa {
+    position: absolute;
+    width: 765.94px;
+    height: 320px;
+    left: 500px;
+    top: 1850px;
+}
+
+#img_turismo{
+    position: absolute;
+    width: 200px;
+    height: 165px;
+    left: 70px;
+}
+
+#img_turismo2{
+    position: absolute;
+    width: 200px;
+    height: 355px;
+    left: 290px;
+    top: 2370px;
+}
+
+#img_ruta{
+    position: absolute;
+    width: 550px;
+    height: 590px;
+    left: 700px;
+    top: 3565px;
+}
+
+#img_probar{
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    left: 70px;
+    top: 4346px;
+}
+
+
+/********************ESTO ES DE PRIVACIDAD********************/
+#img_pri{
+    position: absolute;
+    width: 644px;
+    height: 362px;
+    left: 298px;
+    top: 240px;
+
+    background-image : url(./assets/predeterminada.jpg);
+}
+
+#titulo_continente{
+    position: absolute;
+    width: 1150px;
+    height: 200px;
+    left: 66px;
+
+    font-weight: 500;
+    font-size: 28px;
+}
+
+#pol_continente{
+    position: absolute;
+    width: 1150px;
+    height: 200px;
+    left: 66px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #454545;
+}
+
+
+/*------------------------------ SECCION UNO---------------------------------*/ 
+#seccion_uno{
+    width: 1144px;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 100;
+}
+
+#Nom_apto{
+    width: 1144px;
+    height: 42px;
+    font-size: 26px;
+    float: left;
+}
+
+/*------------------------------ SECCION DOS---------------------------------*/
+
+#seccion_dos{
+    width: 1144px;
+    height: 372px;
+    margin: 0 auto;
+    margin-top: 100;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+
+#cuadro_grande_izq{
+    width: 500px;
+    height: 380px;
+    margin: 0 auto;
+    float: left;
+}
+
+#img_grande_izq{
+    width: 500px;
+    height: 370px;
+}
+
+
+
+#cuadros_pequeños_dcha{
+    width: 630px;
+    height: 380px;
+
+    margin: 0 auto;
+    float: right;
+}
+
+#seccion_pequeña_izq{
+    width: 310px;
+    height: 180px;
+
+    margin: 0 auto;
+    float: left;
+}
+
+#seccion_pequeña_dcha{
+    width: 310px;
+    height: 180px;
+
+    margin: 0 auto;
+    float: right;
+}
+
+#arriba{
+    width: 310px;
+    height: 180px;
+}
+
+#abajo{
+    width: 310px;
+    height: 180px;
+    margin-top: 10;
+}
+
+
+
+
+
+
+/*------------------------------ Parte Alta Tercera Seccion ---------------------------------*/ 
+
+#seccion_tres{
+    width: 1144px;
+    height: 750px;
+
+    margin: 0 auto;
+    margin-top: 100;
+}
+
+
+#parte_alta{
+    width: 780px;
+    height: 100px;
+
+    margin: 0 auto;
+    float: left;
+}
+
+
+#text_ti{
+    width: 780px;
+    font-size: 26px;
+    
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text_cont{
+    width: 780px;
+    font-size: 20px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    color: #454545;
+}
+
+
+/*------------------------------ Parte Derecha Tercera Seccion ---------------------------------*/ 
+
+#parte_derecha{
+    width: 310px;
+    height: 280px;
+
+    margin: 0 auto;
+    float: right;
+    
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+#precio{
+    width: 292px;
+    font-size: 18px;
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#info_reserva{
+    width: 292px;
+    height: 101px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#llegada{
+    width: 145px;
+    height: 50px;
+
+    border-radius: 277px;
+    float: left;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+#salida{
+    width: 145px;
+    height: 50px;
+
+    border-radius: 277px;
+    float: right;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+input,label {
+    margin: 0 auto;
+    display: block;
+}
+
+#huesped{
+    width: 291px;
+    height: 50px;
+
+    border-radius: 277px;
+    float: right;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px;
+    
+}
+
+#selec_reserva{
+    width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 30;
+    
+    background: #cc0773;
+    border-radius: 8px;
+
+    font-size: 25px;
+}
+
+
+
+
+/*------------------------------ Parte baja Tercera Seccion ---------------------------------*/
+
+#parte_baja{
+    width: 780px;
+    height: 550px;
+
+    margin: 0 auto;
+    margin-top: 100;
+    float: left;
+}
+
+#caracteristicas_apto{
+    width: 780px;
+    height: 550px;
+    float: left;
+}
+
+
+/*------------------------------ Derecha baja Tercera Seccion ---------------------------------*/
+
+#derecha_baja{
+    width: 310px;
+    height: 420px;
+    margin: 0 auto;
+    float: right;
+    margin-top: 50;
+    
+}
+
+
+
+/*------------------------------ SECCION CINCO---------------------------------*/ 
+
+#seccion_cinco{
+    width: 1144px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100;
+}
+
+#evaluaciones{
+    width: 1144px;
+    height: 200px;
+    float: left;
+    
+}
+
+#reseñas{
+    width: 1144px;
+    height: 370px;
+    float: left;
+    margin-top: 30;
+}
+
+
+/*------------------------------ SECCION SEIS---------------------------------*/
+
+#seccion_seis{
+    width: 1144px;
+    height: 500px;
+    
+    margin: 0 auto;
+    margin-top: 100;
+}
+
+
+#mapa{
+    width: 1144px;
+    height: 300px;
+}
+
+/* --------------------------- MAIN ---------------------------------- */
+
+
+#CuadroBuscador {
+    position: absolute;
+    width: 100%;
+    height: 455px;
+    left: 0px;
+    top: 45px;
+
+    background-image: url(./assets/hotel-nayra-adults-only.jpeg);
+}
+
+#Buscador {
+    position: absolute;
+    width: 872px;
+    height: 75px;
+    left: 20%;
+    top:220px;
+
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+
+#ApartamentosDestacados {
+    position: absolute;
+    height: 648px;
+    left: 100px;
+    right: 100px;
+    top: 1700px;
+    background: #f1f1f1;
+}
+
+#HomeElementoArriba {
+
+    position: absolute;
+    width: 240px;
+    height: 200px;
+    left: 145px;
+    top: 850px;
+    background: #b8f1ff;
+    border-radius: 10px;
+}
+
+#HomeElementoAbajo {
+
+    position: absolute;
+    width: 240px;
+    height: 200px;
+    left: 145px;
+    top: 1125px;
+    background: #b8f1ff;
+    border-radius: 10px;
+}
+
+
+#NombreIsla {
+
+    position: absolute;
+    width: 93px;
+    height: 33px;
+    left: 180px;
+    top: 982px;
+
+    font-family: Signika Negative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#CuadroNombreIslaUp {
+
+    position: absolute;
+    width: 100px;
+    height: 33px;
+    left: 170px;
+    top: 1000px;
+
+    background: rgba(255, 255, 255, 0.70);
+    border-radius: 5px;
+
+}
+
+
+#CuadroNombreIslaDown {
+
+    position: absolute;
+    width: 100px;
+    height: 33px;
+    left: 170px;
+    top: 1275px;
+
+    background: rgba(255, 255, 255, 0.70);
+    border-radius: 5px;
+
+}
+
+
+#IslaDestino {
+    
+    position: absolute;
+    height: 583px;
+    left: 100px;
+    right: 100px;
+    top: 793px;
+    background: #f1f1f1;
+
+}
+
+#texto1 {
+    
+    font-family: Rokkitt;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 63px;
+    
+    color: #FFFFFF;
+    
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#DescubreTuIsla {
+
+    position: absolute;
+    left: 110px;
+    top: 620px;
+
+    font-family: Staatliches;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 80px;
+
+    color: #000000;
+}
+
+#EspacioBlanco {
+
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 2500px;
+
+    background: rgba(255, 255, 255, 0);
+}
+
+#CuadroApartamento {
+
+    position: absolute;
+    width: 370px;
+    height: 237px;
+    left: 130px;
+    top: 1760px;
+
+    border: 3px solid #787878;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+#FotoCuadroApartamento {
+    position: absolute;
+    width: 370px;
+    height: 171px;
+    left: 130px;
+    top: 1760px;
+
+    background-image: url("./assets/Lopesan-Baobab-Resort.jpeg");
+    border-radius: 10px 10px 0px 0px;
+}
+
+#texto3 {
+
+    font-family: Tenor Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #474444;
+
+}
+
+#Valoracion {
+
+    position: absolute;
+    width: 34.01px;
+    height: 27.68px;
+    left: 325px;
+    top: 165px;
+
+    
+}
+
+
+/* -------------------- Contactar -------------------- */
+
+#TextoContactanos {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+#FormularioContactar1 {
+
+    position: absolute;
+    width: 1240px;
+    height: 665px;
+    left: 106px;
+    top: 360px;
+    background: #FDF9F2;;
+    border-radius: 21px;
+}
+
+
+#FotoContactar1 {
+
+    position: absolute;
+    left: 883px;
+    top: 360px;
+
+}
+
+#FotoContactar2 {
+    position: absolute;
+    left: 750px;
+    top: 180px;
+}
+
+#BotonEnviarContactar {
+    position: absolute;
+    width: 153.69px;
+    height: 33px;
+    left: 549px;
+    top: 600px;
+
+    text-align: center;
+
+    background: #FFFFFF;
+    border-radius: 44px;
+}
+
+#BotonContactar {
+
+    position: absolute;
+    width: 153.69px;
+    height: 33px;
+    left: 344px;
+    top: 400px;
+
+    text-align: center;
+
+    background: #fdfdfd;
+    border-radius: 44px;
+
+}
+
+
+#FormularioContactar2 {
+
+    position: absolute;
+    width: 1240px;
+    height: 560px;
+    left: 106px;
+    top: 1300px;
+
+    background: #FDF9F2;
+    border-radius: 21px;
+
+    
+}
+
+
+#NombreFormularioContactar {
+    position: absolute;
+    width: 409px;
+    height: 36px;
+    left: 150px;
+    top: 100px;
+    background: #FFFFFF;
+
+}
+
+#EtiquetasContactar {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+
+}
+
+#TextoComentario {
+
+    position: absolute;
+    width: 653px;
+    height: 191px;
+    left: 125px;
+    top: 350px;
+}
+
+
+#Texto2Contactar {
+
+
+    position: absolute;
+    top: 1200px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+    left: 450px;
+    align-content: center;
+}
+
+
+
+
+#CuadroSolicitudContactar {
+
+    position: absolute;
+    height: 70%;
+    left: 20%;
+    top: 17%;
+    right: 20%;
+
+    background: #FDF9F2;
+    border-radius: 21px;
+
+
+}
+
+#ImagenSolicitudContactar {
+
+
+    position: absolute;
+    width: 365px;
+    height: 356px;
+    right: 5%;
+    top: 20%;
+
+
+}
+
+#TextoSolicitudContactarSatisfactoria {
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    
+    text-align: center;
+    position: absolute;
+    width: 42%;
+    height: 278px;
+    left: 5%;
+    top: 25%;
+
+}
+
+#BotonVolverPaginaPrincipal {
+
+    position: absolute;
+    width: 226px;
+    bottom: 25%;
+    height: 8%;
+    left: 13%;
+    background: linear-gradient(180deg, rgba(225, 30, 30, 0.8) 0%, rgba(142, 51, 199, 0.83) 100%);
+    border-radius: 10px;
+
+}
+
+/* -------------------- Iniciar Sesión y Registrarse --------------------*/
+
+#CuadroLogIn {
+
+    position: absolute;
+    width: 430px;
+    height: 439px;
+    left: 56%;
+    top: 22%;
+
+    background: #F4E4E4;
+    border-radius: 32px;
+
+}
+
+.boton_registrarse {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    background-color: #C4C4C4;
+    border-radius: 3px;
+
+
+    
+}
+
+#CuadroBotonesLogReg {
+    width: 400px;
+    height: 300px;
+    left: 20%;
+    top: 20%;
+
+}
+
+.boton_registrarse:hover{
+    background-color: #90F5A6;
+    text-decoration: none;
+}
+
+
+.boton_log_in:hover{
+    background-color: #90F5A6;
+    text-decoration: none;
+}
+
+
+.boton_log_in {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    background-color: #C4C4C4;
+    border-radius: 3px;
+}
+
+#FormularioLogIn {
+
+    position: absolute;
+    width: 75%;
+    height: 10%;
+    left: 11%;
+    top: 30%;
+
+    background: #FFFFFF;
+
+}
+
+#BotonLogIn {
+
+    position: absolute;
+    width: 30%;
+    height: 8%;
+    left: 34%;
+    top: 80%;
+
+    background: #FFFFFF;
+    border-radius: 44px;
+
+}
+
+#IconoLogIn {
+    
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 40%;
+    top: 5%;
+
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+    background: linear-gradient(180deg, #E11E1E 0%, rgba(142, 51, 199, 0) 100%);
+
+}
+
+
+#BotonRegistrarse {
+
+    position: absolute;
+    width: 30%;
+    height: 5%;
+    left: 34%;
+    top: 90%;
+
+    background: #FFFFFF;
+    border-radius: 44px;
+
+}
+
+#CuadroResgistrarse {
+
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    right: 5%;
+    top: 12%;
+
+    background: #F4E4E4;
+    border-radius: 32px;
+
+}
+
+
+
+
+#FormularioRegistrarse {
+
+    position: absolute;
+    width: 30%;
+    height: 4%;
+    left: 11%;
+    top: 20%;
+    
+
+    background: #FFFFFF;
+
+}
+
+
+/* -------------------- Submenu -------------------- */
+
+
+#Submenu {
+
+    position: relative;
+    width: 280px;
+    height: 291px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+
+/* -------------------- Proceso de reserva -------------------- */
+
+#Texto1ProcesoReserva {
+
+    position: absolute;
+    width: 411px;
+    left: 105px;
+    top: 15%;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 56px;
+
+    color: #000000;
+
+}
+
+
+#InformacionViajeResumida {
+
+    position: absolute;
+    width: 332px;
+    height: 320px;
+    left: 168px;
+    top: 45%;
+
+    background: #FDF9F2;
+    border-radius: 22px;
+
+}
+
+#ImagenPrincipalAlojamiento {
+
+
+    position: absolute;
+
+    right: 10%;
+    top: 40%;
+
+    border-radius: 22px;
+}
+
+
+#CamposProcesoReserva {
+
+
+    position: absolute;
+    width: 50%;
+    height: 7%;
+    left: 25%;
+    top: 110%;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 22px;
+
+}
+
+.Tipografia{
+    
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10;
+
+    text-align: justify;
+    color: #000000;
+}
+
+#Separador {
+
+    position: absolute;
+    width: 80%;
+    left: 11%;
+    top: 95%;
+
+    border: 1px solid #000000;
+
+}
+
+body {
+
+    padding-bottom: 100%;
+}
+
+
+
+#PolíticaDeCancelacion {
+
+    position: absolute;
+    width: 50%;
+    height: 367px;
+    left: 20%;
+    top: 150%;
+
+
+}
+
+#BotonRealizarReserva {
+
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    left: 45%;
+    top: 55%;
+
+    background: #FDF9F2;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 23px;
+
+}
