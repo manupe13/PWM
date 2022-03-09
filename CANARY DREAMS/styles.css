@@ -4099,316 +4099,135 @@ body {
 }
 
 /********************ESTO ES APARTAMENTO BUSCADOR********************/
-
-#Buscadorc{
-    width: 1173px;
-    height: 88px;
+body.AB{
+    font-family: Times New Roman, Times, serif; 
+    font-style: normal; font-weight: bold; 
+    text-align: center;
+    float: center; 
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    color: #000000; 
     margin: 0 auto;
-    background: #F4E4E4;
-    border-radius: 32px;
 }
 
-#TextoBuscadorc{
-    font-size: 35px;
-    padding-top: 20;
+section.BuscadorAB{
+    width: 1092.8px;
+    height: 95.62px;
+    margin:auto;
+    background: #F4E4E4;
+    border-radius: 14px;
+    display: flex;
+}
+
+span.TextoBuscadorAB{
+    font-size:47.81px;
+    margin: auto;
 }
 
 /*------------------Apartamentos----------------------*/
 
-#Apartamentosc{
+.ApartamentosAB{
     width: 1400px;
-    height: 1248px;
+    height: 1256.72px;
+    display: flex;
 
-    margin-top: 60;
+    margin-top: 819.6px;
 
     margin: 0 auto;
 }
 
-#CuadroApart1c {
-    float:left;
-    width: 370px;
+.CuadroApartAB {
+    width: 368.82px;
     height: 237px;
-
-    margin-left: 60;
-    margin-right: 60;
-    margin-top: 60;
-
-    border: 3px solid #787878;
-    box-sizing: border-box;
-    border-radius: 10px;
-
-    color: #685D5D;
-
-}
-
-#CuadroApart2c {
-    float:left;
-
-    width: 370px;
-    height: 237px;
-
-    margin-right: 60;
-    margin-top: 60;
-
-    border: 3px solid #787878;
-    box-sizing: border-box;
-    border-radius: 10px;
-
-    color: #685D5D;
-
-}
-
-#CuadroApart3c {
-    float:left;
-    width: 370px;
-    height: 237px;
-
-    margin-top: 60;
-    margin-right: 60;
-
-    border: 3px solid #787878;
-    box-sizing: border-box;
-    border-radius: 10px;
-
-    color: #685D5D;
-
-}
-
-
-#CuadroApart4c {
-    float: left;
-    width: 370px;
-    height: 237px;
-
-    margin-right: 60;
-    margin-top: 60;
-    margin-left: 60;
-
-    border: 3px solid #787878;
-    box-sizing: border-box;
-    border-radius: 10px;
-
-    color: #685D5D;
-
-}
-
-#CuadroApart5c {
-    float:left;
-    width: 370px;
-    height: 237px;
-
-    margin-top: 60;
-    margin-right: 60;
-
-    border: 3px solid #787878;
-    box-sizing: border-box;
-    border-radius: 10px;
-
-    color: #685D5D;
-
-}
-
-
-#CuadroApart6c {
-    float:left;
-    width: 370px;
-    height: 237px;
-
-    margin-top: 60;
-    margin-right: 60;
-
-    border: 3px solid #787878;
-    box-sizing: border-box;
-    border-radius: 10px;
-
-    color: #685D5D;
-
-}
-
-#CuadroApart7c {
-    float:left;
-    width: 370px;
-    height: 237px;
-
-    margin-left: 60;
-    margin-top: 60;
-    margin-right: 60;
-
-    border: 3px solid #787878;
-    box-sizing: border-box;
-    border-radius: 10px;
-
-    color: #685D5D;
-
-}
-
-#CuadroApart8c {
-    float:left;
-    width: 370px;
-    height: 237px;
-
-    margin-top: 60;
-    margin-right: 60;
-
-    border: 3px solid #787878;
-    box-sizing: border-box;
-    border-radius: 10px;
-
-    color: #685D5D;
-
-}
-
-#CuadroApart9c {
-    float:left;
-    width: 370px;
-    height: 237px;
-
-    margin-top: 60;
-    margin-right: 60;
-
-    border: 3px solid #787878;
-    box-sizing: border-box;
-    border-radius: 10px;
-
-    color: #685D5D;
-
-}
-
-#CuadroApart10c {
-    float:left;
-    width: 370px;
-    height: 237px;
-
-    margin-top: 60;
-    margin-right: 60;
-    margin-left: 60;
-
-    border: 3px solid #787878;
-    box-sizing: border-box;
-    margin-right: 60;
-    border-radius: 10px;
-
-    color: #685D5D;
-
-}
-
-#CuadroApart11c {
-    float:left;
-    width: 370px;
-    height: 237px;
-    margin-top: 60;
-    margin-right: 60;
-    border: 3px solid #787878;
-    margin-right: 60;
-    box-sizing: border-box;
-    border-radius: 10px;
-
-    color: #685D5D;
-
-}
-
-#CuadroApart12c {
-    float:left;
-    width: 370px;
-    height: 237px;
-    margin-top: 60;
-    margin-right: 60;
-    border: 3px solid #787878;
-    box-sizing: border-box;
-    border-radius: 10px;
-
-    color: #685D5D;
-
-}
-
-#FotoCuadroApartc {
-    margin-top: -0.5;
-    margin-left: -0.5;
-
-    width: 368px;
-    height: 171px;
-    border-radius: 8.2px 8.2px 0px 0px;
-}
-
-#FondoValApartc{
     
-    float: right;
-    width: 34.01px;
-    height: 27.68px;
 
-    margin-top: 6;
-    margin-right: 9;
+    margin-top: 86.741px;
+    margin-left: 60px;
+
+    border:  2.731px solid #787878;
+    box-sizing: border-box;
+    border-radius: 9.9718px;
+
+    color: #685D5D;
+
+}
+
+.FotoCuadroApartAB {
+    width: 366.088px;
+    height: 170px;
+    border-radius: 8.2px 8.2px 0px 0px;
+    margin: auto;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+.recuadroDatosAB{
+    width: 367.454pxpx;
+    height: 65.568px;
+    margin-left: -1px;
+}
+
+.FondoValApartAB{
+    float: right;
+    width: 34.15px;
+    height: 27.67px;
+    margin-top: 5px;
+    margin-right: 5px;
 
     background: #2A2867;
-}
-
-#ValApartc {
-
-    margin-top: 4;
-    margin-right: 0;
-
-    width: 34.01px;
-    color: #ffffff;
-
-}
-
-#NombreApartc{
-    width: 230px;
-    float: left;
-
-    margin-top: -10;
-    margin-left: 6;
-
-    font-size: 24px;
-}
-
-#DirApartc{
-    width: 190px;
-
-    float: left;
-
-    margin-top: -15;
-    margin-left: 6;
-
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 14px;
-}
-
-#DerechaPrecioc{
-    margin-top: -40;
-    margin-right: 10;
-    float: right;
-}
-
-#DesdeApartc{
     
+
+}
+
+.ValApartAB {
+    font-size:20px;
+    color: #ffffff;
+    margin:auto;
+    
+
+}
+
+.NombreApartAB{
     float: left;
+    font-size:22px;
+    margin-top: 0;
+    
+}
+
+.DirApartAB{
+    float: left;
+    font-size:20px;
+    font-weight: normal;
+    margin-top: -12.5px;
+
+}
+
+.DesdeApartAB{
+    float:right;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-
-    margin-right: 15;
-
+    margin-top: -8px;
+    margin-right: 8px;
     color: #685D5D;
 }
 
-#PrecioApartc{
-
-    float: right;
+.PrecioApartAB{
+    float:right;
     font-family: Times New Roman;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
+    margin-right: 8px;
+    margin-top: -8px;
     
     color: #2D2B2B;
 }
 
 /*----------------------Boton-----------------------*/
-
-#PasarPaginac{
-    width: 53px;
-    height: 50px;
+.PasarPaginaAB{
+    width: 26.3px;
+    height: 25.92px;
 
     background: #3C4141;
 
@@ -4418,31 +4237,25 @@ body {
 
     color: #FFFFFF;
 
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 42px;
+    font-weight: bold;
+    font-size: 18;
 }
 
-#retrocederc{
-    margin-left: -40;
-    margin-top:-77;
+.flechaspararPaginaAB{
+    margin-right: -30;
+    margin-top:-87;
+    color: #000000;
+    font-weight: 500;
+    font-size: 40px;
+    font-weight: bold;
+}
+.retrocederAB{
     float: left;
-    color: #000000;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 42px;
-    font-weight: bold;
+    margin-left: -30;
 }
 
-#siguientec{
-    margin-right: -40;
-    margin-top:-77;
-    color: #000000;
+.siguienteAB{
     float: right;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 42px;
-    font-weight: bold;
 }
 
 /********************ESTO ES ANFITRIÓN PRINCIPAL********************/
