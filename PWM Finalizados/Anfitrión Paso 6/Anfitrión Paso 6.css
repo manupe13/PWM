@@ -1,0 +1,210 @@
+/********************ESTO ES ANFITRIÓN PASO 6********************/
+
+body.AP6{
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-size: x-large;
+    color: #000000; 
+
+    margin: 0 auto;
+
+    padding-top: 100px; 
+    padding-bottom: 100px;
+
+    width: 1366px;
+}
+
+.TituloAP6{
+    width: 1300px;
+    height: 112px;
+
+    margin: auto;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+.Titulo1AP6{
+    width: 109px;
+    height: 56px;
+
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    margin-left: 185px;
+
+    color: #000000;
+
+}
+
+.Cuadrado1AP6{
+    width: 977px;
+    height: 108px;
+    margin: auto;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Titulo2AP6{
+    width: 600px;
+    height: 56px;
+    margin-left: 120px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.Cuadrado2AP6{
+    width: 977px;
+    height: 353px;
+    margin: auto;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Titulo3AP6{
+    width: 705px;
+    height: 56px;
+    margin-left: 80px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.recuadrosTotalAP6{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    ". ."
+    "Fila2 Fila2"
+    ". ."; 
+
+    margin: auto;
+     
+}
+
+.Fila2 { grid-area: Fila2; }
+
+.Recuadro1AP6{
+    margin: auto;
+    margin-bottom: 20;
+    width: 399px;
+    height: 91px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+.TextoR1AP6{
+    width: 180px;
+    height: 56px;
+
+    margin-top: 14;
+    margin-left: 100;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.Img1AP6{
+    width: 54px;
+    height: 56px;
+
+    margin-top: -103;
+    margin-left: 30;
+
+    background: url(https://www.fotocommunity.es/styleguide/img/homepage/poster-comments.jpg);
+}
+
+.lineaAP6{
+    width: 1366px;
+    height: 0px;
+
+    margin-top: 30;
+
+    border: 6px solid #D5C7C7;
+    transform: rotate(0.08deg);
+}
+
+.boton1AP6{
+    width: 253px;
+    height: 55px;
+
+    margin-top: 30;
+    margin-left: 30;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    float: left;
+
+    color: #FFFFFF;
+}
+
+.boton2AP6{
+    width: 253px;
+    height: 55px;
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    margin-top: 30;
+    margin-right: 30;
+    float: right;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
