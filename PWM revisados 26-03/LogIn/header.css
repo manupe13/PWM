@@ -1,0 +1,16 @@
+header {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(180deg, #303535 83.85%, rgba(48, 53, 53, 0.85) 100%);
+}
+
+#fondo_header {
+    position: absolute;
+    height: 30px;
+    top: 8px;
+    background: linear-gradient(180deg, rgba(225, 30, 30, 0.8) 0%, rgba(142, 51, 199, 0.83) 100%);   
+}
