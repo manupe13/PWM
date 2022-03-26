@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <script src="https://unpkg.com/htmlincludejs"></script>
+        <link rel="stylesheet" type="text/css" href="./Registrarse.css">
+        <link href="responsiveRegistrarse.css" rel="stylesheet" media="screen and (max-width: 960px)">
+
+        <style>
+            .error {
+                display: none; color: red; font-weight: bold;
+            }
+            .submitted :invalid + .error { display: block; }
+            .submitted :invalid { border: 1px solid red; }
+            .submitted :valid {border: 1px solid greenyellow;}
+        </style>
+
+        <meta charset="UTF-8">
+        <title>Registrarse</title>
+    </head>
+    
+    <body style="padding-bottom: 10%;">
+        <include src="./header2.html"></include>  
+        
+        
+        <section>
+
+            <div id="CuadroBotonesLogReg">
+                <a href="./LogIn.html" class="boton">Iniciar Sesión</a> 
+                <a href="./Registrarse.html" class="boton">Registrarse</a>
+
+            </div>
+
+            
+
+            <div>
+                <form id = "registerForm" class="FormularioRegistrarse">
+        
+                    <div id = IconoLogIn></div><div></div>
+                    <div>
+                        <h2>Nombre</h2>
+                        <input type="text" id="nombre" pattern="([A-Za-z]+)" class="camposRegistrarse">
+
+                    </div>
+
+                    <div>
+                        <h2>Apellidos:</h2>
+                        <input type="text" id="apellidos" pattern="([A-Za-z]+)" class="camposRegistrarse">
+                    </div>
+                        
+                    <div>
+                        <h2>Sexo</h2>
+                        <select id="sex" required class="camposRegistrarse">
+                            <option value="0" selected>Seleccione uno:</option>
+                            <option value="1">Femenino</option>
+                            <option value="2">Masculino</option>
+                            <option value="3">Indeterminado</option>
+                        </select> 
+                    </div>
+
+                    <div>
+                        <h2>Fecha de Nacimiento:</h2>
+                        <input type="date" id="FechaNacimiento" class="camposRegistrarse">
+                    </div>
+                        
+                    <div>
+                        <h2>Teléfono:</h2>
+                        <input type="tel" id="telefono" pattern="([0-9]{9})" title="Debe introducir un número de teléfono de 9 dígitos" class="camposRegistrarse">
+                    </div>
+                    
+                    <div>
+                        <h2>DNI:</h2>
+                        <input type="text" id="dni"  pattern="[0-9]{8}[A-Za-z]{1}" title="Debe introducir 8 números y una letra"  class="camposRegistrarse">
+                    </div>
+                    
+                    <div>
+                        <h2>Correo Electrónico:</h2>
+                        <input type="email" id="email1"  class="camposRegistrarse">
+                    </div>
+
+                    <div>
+                        <h2>Confirmar Correo Electrónico</h2>
+                        <input type="email" id="email2" class="camposRegistrarse">
+                    </div>
+
+                    <div>
+                        <h2>Contraseña:</h2>
+                        <input type="password" id="password1"
+                        title="Debe contener al menos un número, una letra minúscula, otra mayúscula, y al menos 8 o más caracteres" 
+                          required class="camposRegistrarse">
+                    </div>
+
+                    <div>
+                        <h2>Confirmar Contraseña:</h2>
+                        <input type="password" id="password2" required class="camposRegistrarse">
+                    </div>
+
+                    <div>
+                        <input id = "botonRegistrarse" type="submit" value = "Registrarse">
+                    </div>
+
+                </form>
+                
+                
+
+            </div>
+        
+        </section>
+        
+        <include src="./footer.html"></include>
+
+       
+    </body>
+
+    <script>
+
+        
+
+        var password1=document.getElementById('password1');
+        var password2=document.getElementById('password2');
+        var form = document.getElementById('registerForm');
+
+
+        password1.addEventListener('change', checkPasswordValidity, false);
+        password2.addEventListener('change', checkPasswordValidity, false);
+                
+
+
+
+        var checkPasswordValidity = function() {
+            if (password1.value == password2.value) {
+                password1.setCustomValidity('Must match!');// invalid
+            } 
+            else password1.setCustomValidity(''); // valid
+            };
+
+
+
+        
+
+
+
+        form.addEventListener('submit', function(event) {
+            if (form.classList) form.classList.add('submitted');
+            checkPasswordValidity();
+            if (!this.checkValidity()) {
+                event.preventDefault();
+                //updateErrorMessage();
+                password1.focus();
+            }
+
+
+        }, false);
+
+
+
+    </script>    
+
+    
+</html>

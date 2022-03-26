@@ -1,0 +1,130 @@
+/* 640 to 960 pixels */
+@media screen and (min-width: 40em) {
+    
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr ; 
+        grid-template-areas: 
+        "."
+        "."
+        "."; 
+        
+    }
+    
+    
+    
+    section.CuadroSolicitudContactar {
+        position: relative;
+        margin-top: 100px;
+        height: 480px;
+        width: 690px;
+        top: 150px;
+        text-align: center;
+        margin: auto;
+        background: #FDF9F2;
+        border-radius: 21px;
+    
+    }
+    
+    #ImagenSolicitudContactar {
+        
+        margin-top: 3em;
+        width: 365px;
+        height: 356px;
+    
+    }
+    
+    h1 {
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 3em;
+        margin-left: 28%;
+        line-height: 28px;
+        color: #000000;
+        text-align: center;
+    
+    }
+    
+    #botonVolver {
+        
+        margin: auto;
+        width: 180px;
+        height: 30px;
+        background: linear-gradient(180deg, rgba(225, 30, 30, 0.8) 0%, rgba(142, 51, 199, 0.83) 100%);
+        border-radius: 10px;
+    
+    }
+
+
+
+}
+
+
+
+/* under 640 px */
+@media screen and (max-width: 40em ) {
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr ; 
+        grid-template-areas: 
+        "."
+        "."
+        "."; 
+        
+    }
+    
+    
+    
+    section.CuadroSolicitudContactar {
+        position: relative;
+        margin-top: 100px;
+        height: 480px;
+        width: 490px;
+        top: 150px;
+        text-align: center;
+        margin: auto;
+        background: #FDF9F2;
+        border-radius: 21px;
+    
+    }
+    
+    #ImagenSolicitudContactar {
+        
+        margin-top: 3em;
+        width: 365px;
+        height: 356px;
+    
+    }
+    
+    h1 {
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        margin-top: 3em;
+        margin-left: 28%;
+        line-height: 28px;
+        color: #000000;
+        margin: center;
+    
+    }
+    
+    #botonVolver {
+        
+        margin: auto;
+        width: 180px;
+        height: 20px;
+        background: linear-gradient(180deg, rgba(225, 30, 30, 0.8) 0%, rgba(142, 51, 199, 0.83) 100%);
+        border-radius: 10px;
+    
+    }
+
+}

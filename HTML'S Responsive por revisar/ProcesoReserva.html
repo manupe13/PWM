@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <script src="https://unpkg.com/htmlincludejs"></script>
+        <link rel="stylesheet" type="text/css" href="./procesoReserva.css">
+        <link href="responsiveProcesoReserva.css" rel="stylesheet" media="screen and (max-width: 960px)">
+        <meta charset="UTF-8">
+        <title>Proceso de Reserva</title>
+    </head>
+    
+    <body>
+        <include src="./header2.html"></include>  
+        
+        <div class="gris">
+
+
+            <section class="volver">
+                <h3> <a href="" style="text-decoration: none;"> < </a>&nbsp Proceso de Reserva</h3>
+            </section>
+
+            <section class="resumen">
+                
+
+                <div id = "InformacionViaje">
+                    <h4>  <br> INFORMACIÓN DEL VIAJE: <br><br> FECHAS: <br><br> Desde 4 de mayo hasta 10 de mayo
+                        <br><br> HUÉSPEDES: <br><br> 2 Huéspedes <br><br> PRECIO: <br><br> 590€
+                    </h4>
+                </div>
+
+                
+                <img id = ImagenPrincipalAlojamiento src="./assets/Volcanic-House-in-Fuerteventura-707x470.png" alt="Imagen principal del alojamiento">
+                
+
+                
+            </section>
+
+            <div class="separador1">
+                <div class = separador></div>
+            </div>
+
+            <form id = pago class="pago">
+
+                <input type="text" id= numero class="camposTarjeta" value="   Número de Tarjeta">
+                
+                <div class="caducidad_cvv">
+                    <input type="text" id = caducidad class="caducidad" value="   Caducidad">
+                    <input type="text" id = ccv class="cvv" value="   CCV">
+                </div>
+
+                <input type="text" id = nombreTitular class="camposTarjeta" value="   Número de Tarjeta">
+                <input type="text" class="camposTarjeta" value="   Nombre completo del Titular">
+
+                
+            </form>
+
+            <div class="separador2">
+                <div class = separador></div>
+            </div>
+
+
+            <section class="politica">
+
+                <pre> 
+                    Política de cancelación
+    
+                    Cancelación gratuita durante 48 horas. Después, cancela antes de las 16:00 
+                    del 25 abr. y recibirás un reembolso del 50%, menos la tarifa de servicio.
+                    
+                    
+                    No confirmaremos la reserva hasta que el anfitrión acepte su solicitud 
+                    (en un plazo de 24 horas). </pre> 
+    
+    
+                <input type="submit" value="Realizar Reserva" id="boton">
+                    
+            </section>
+
+        </div>
+
+
+
+        <include src="./footer.html"></include>
+        
+    </body>
+
+    
+
+    
+</html>
