@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <script src="https://unpkg.com/htmlincludejs"></script>
+        <link rel="stylesheet" type="text/css" href="./Pruebas.css">
+        <meta charset="UTF-8">
+        <title>Registrarse</title>
+
+    </head>
+    
+    <body>
+       
+        <form id="passwordForm" novalidate>
+            <h2>Change Password</h2>
+            <ul>
+            <li><label for="password1">Password 1:</label>
+            <input type="password" required id="password1"/>
+            <p class="error"></p></li>
+            <li><label for="password2">Password 2:</label>
+            <input type="password" required id="password2"/></li>
+            </ul>
+            <input type="submit" />
+        </form>
+        
+        
+       
+    </body>
+
+    <script>
+        
+        var checkPasswordValidity = function() {
+            if (password1.value != password2.value) {
+                password2.setCustomValidity('Must match!');// invalid
+            } 
+            
+            else password1.setCustomValidity(''); // valid
+        };
+
+        var updateErrorMessage = function() {
+            form.getElementsByClassName('error')[0]
+            .innerHTML = password1.validationMessage;
+        };
+
+
+        var password1=document.getElementById('password1');
+        var password2=document.getElementById('password2');
+        var form = document.getElementById('passwordForm');
+
+        password1.addEventListener('change', checkPasswordValidity, false);
+        password2.addEventListener('change', checkPasswordValidity, false);
+
+
+        form.addEventListener('submit', function(event) {
+            if (form.classList) form.classList.add('submitted');
+                checkPasswordValidity();
+            if (!this.checkValidity()) {
+                event.preventDefault();
+                updateErrorMessage();
+                password1.focus();
+            }
+        }, false);
+
+
+
+    </script>
+
+    
+</html>
