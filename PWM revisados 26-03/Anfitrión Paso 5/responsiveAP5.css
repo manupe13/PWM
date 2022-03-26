@@ -1,0 +1,302 @@
+
+/* 640 to 960 pixels */
+@media screen and (max-width: 60em) {
+    
+    body.AP5{
+        font-family: Times New Roman, Times, serif; 
+        font-style: normal; font-weight: bold; 
+        text-align: center;
+        float: center; 
+        padding-top: 100px; 
+        padding-bottom: 170px;
+        color: #000000; 
+        margin: 0 auto;
+        width: 960px;
+    }
+    
+    .TituloAP5{
+        width: 860px;
+        height: 200px;
+    
+        margin: auto;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 56px;
+        text-align: center;
+    
+    
+        background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: tomato;  
+    }
+    
+    .Titulo2AP5{
+        width: 700px;
+        height: 47px;
+        
+        margin-left: 60;
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 47px;
+        /* identical to box height */
+    
+        text-align: center;
+    
+        color: #000000;
+    
+    }
+    
+    .RecuadroImagenAP5{
+        width: 700px;
+        height: 550px;
+        margin: auto;
+    
+        background: #FAF7F7;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    
+    .TextoRecuadroAP5{
+        width: 500px;
+        height: 235px;
+    
+        margin: auto;
+        margin-top: 100;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 80px;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+    .botonSubirAP5{
+        margin-top: 50;
+        width: 210px;
+        height: 60px;
+    
+        background: linear-gradient(180deg, #E11E1E 0%, #9132BF 100%);
+        border-radius: 20px;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 47px;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+    .lineaAP5{
+        width: 960px;
+        height: 0px;
+        margin-top:40;
+    
+        border: 6px solid #D5C7C7;
+        transform: rotate(0.08deg);
+    }
+    
+    .boton1AP5{
+        margin-top: 30;
+        margin-left: 30;
+        width: 170px;
+        height: 50px;
+    
+        float: left;
+    
+        background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+        border-radius: 18px;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+    
+        color: #FFFFFF;
+    }
+    
+    .boton2AP5{
+        margin-top: 30;
+        margin-right: 30;
+    
+        float: right;
+    
+        width: 170px;
+        height: 50px;
+    
+        background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+        border-radius: 18px;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+    
+        color: #FFFFFF;
+    }
+}
+
+
+/* 640  pixels */
+@media screen and (max-width: 40em) {
+    
+    body.AP5{
+        font-family: Times New Roman, Times, serif; 
+        font-style: normal; font-weight: bold; 
+        text-align: center;
+        float: center; 
+        padding-top: 100px; 
+        padding-bottom: 170px;
+        color: #000000; 
+        margin: 0 auto;
+        width: 640px;
+    }
+    
+    .TituloAP5{
+        width: 540px;
+        height: 200px;
+    
+        margin: auto;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 56px;
+        text-align: center;
+    
+    
+        background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: tomato;  
+    }
+    
+    .Titulo2AP5{
+        width: 400px;
+        height: 47px;
+        
+        margin-left: 60;
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 47px;
+        margin-top:-10;
+    
+        text-align: center;
+    
+        color: #000000;
+    
+    }
+    
+    .RecuadroImagenAP5{
+        width: 500px;
+        height: 400px;
+        margin: auto;
+    
+        background: #FAF7F7;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    
+    .TextoRecuadroAP5{
+        width: 500px;
+        height: 235px;
+    
+        margin: auto;
+        margin-top: 100;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 50px;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+    .botonSubirAP5{
+        margin-top: -40;
+        width: 130px;
+        height: 45px;
+
+    
+        background: linear-gradient(180deg, #E11E1E 0%, #9132BF 100%);
+        border-radius: 20px;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 47px;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+    .lineaAP5{
+        width: 640px;
+        height: 0px;
+        margin-top:40;
+    
+        border: 6px solid #D5C7C7;
+        transform: rotate(0.08deg);
+    }
+    
+    .boton1AP5{
+        margin-top: 30;
+        margin-left: 30;
+        width: 100px;
+        height: 45px;
+    
+        float: left;
+    
+        background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+        border-radius: 18px;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 42px;
+    
+        color: #FFFFFF;
+    }
+    
+    .boton2AP5{
+        margin-top: 30;
+        margin-right: 30;
+    
+        float: right;
+    
+        width: 100px;
+        height: 45px;
+    
+        background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+        border-radius: 18px;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 42px;
+    
+        color: #FFFFFF;
+    }
+}
