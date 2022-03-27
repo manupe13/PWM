@@ -29,13 +29,13 @@
                     <div id = IconoLogIn></div><div></div>
                     <div>
                         <h2>Nombre</h2>
-                        <input type="text" id="nombre" required pattern="([A-Za-z]+)" class="camposRegistrarse">
+                        <input type="text" id="nombre" required class="camposRegistrarse">
 
                     </div>
 
                     <div>
                         <h2>Apellidos:</h2>
-                        <input type="text" id="apellidos" required pattern="([A-Za-z]+)" class="camposRegistrarse">
+                        <input type="text" id="apellidos" required class="camposRegistrarse">
                     </div>
                         
                     <div>
@@ -75,7 +75,7 @@
 
                     <div>
                         <h2>Contraseña:</h2>
-                        <input type="password" id="password1"
+                        <input type="password" id="password1" title="La contraseña debete tener como mínimo una letra mayúscula, una letra minúscula, un caracter espcial o un número y al menos 8 caracteres"
                         required minlength="8" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" class="camposRegistrarse">
                     </div>
 
