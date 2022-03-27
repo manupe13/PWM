@@ -29,7 +29,7 @@ section.CuadroSolicitudContactar {
     margin-top: 3em;
     width: 365px;
     height: 356px;
-
+    border-radius: 30px;
 }
 
 h1 {
@@ -51,9 +51,9 @@ h1 {
 #botonVolver {
     
     margin-left: 160px;
+    margin-top: -60px;
     width: 200px;
     height: 40px;
-    background: linear-gradient(180deg, rgba(225, 30, 30, 0.8) 0%, rgba(142, 51, 199, 0.83) 100%);
     border-radius: 10px;
 
 }
