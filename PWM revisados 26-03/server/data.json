@@ -1,0 +1,80 @@
+{
+  "islas": [
+    {
+      "name": " La Graciosa",
+      "img": "./assets/lagraciosa.jpeg"
+    },
+    {
+      "name": " Lanzarote",
+      "img": "./assets/lanzarote.jpeg"
+    },
+    {
+      "name": " Fuerteventura",
+      "img": "./assets/fuerteventura.jpeg"
+    },
+    {
+      "name": " Gran Canaria",
+      "img": "./assets/grancanaria.jpeg"
+    },
+    {
+      "name": " Tenerife",
+      "img": "./assets/tenerife.webp"
+    },
+    {
+      "name": " La Palma",
+      "img": "./assets/lapalma.webp"
+    },
+    {
+      "name": " La Gomera",
+      "img": "./assets/lagomera.jpeg"
+    },
+    {
+      "name": " El Hierro",
+      "img": "./assets/elhierro.jpeg"
+    }
+
+  ],
+
+
+  "apartamentos": [
+
+    {   
+        "ownerid": "ULH1",
+        "id": 1,
+        "name": "Apartamentos El Marinero - Salado",
+        "location": "Calle las Sirenas, 35540 Caleta de Sebo, España",
+        "shortLocation" : "Caleta de Sebo, La graciosa",
+        "island": "La Graciosa",
+        "general": "",
+        "room": "",
+        "title2": "Alojamiento entero: Apartamento con servicios.",
+        "title3": "Anfitrión: Airam Lemes",
+        "cont1": "Para unas vacaciones 100% memorables, asegúrate de conectar tu Body & Soul con experiencias activas como yoga, kitesurf, surf, paseos en barco o disfrutando de una gastronomía local.",
+        "cont2": "",
+        "feature": ["4 Huéspedes", "2 Dormitorios", "3 Camas", "1 Baño"],
+        "usersFavourites": "Cocina, wifi, ladora", 
+        "highlights": "",
+        "price": "90€",
+        "value": "8,7",
+        "img": "./assets/Apartamentos/ULH1"
+
+    }
+  ],
+
+  "usuarios": [
+
+    {
+        "id": "ULH1",
+        "name": "Airam",
+        "surname": "Lemes Herrera",
+        "sex": "Masculino",
+        "birthDate": "31/07/2001",
+        "telefone": 684329649,
+        "DNI": "42252399L",
+        "email": "airam.lemes101@alu.ulpgc.es",
+        "password" : "cWcSc59u"
+    }
+  ] 
+
+
+}
