@@ -42,7 +42,7 @@ section.buscador {
     grid-template-rows: 1fr 1fr; 
     height: 500px;
     width: 100%;
-    background-image: url(./assets/hotel-nayra-adults-only.jpeg);
+    background-image: url(../assets/hotel-nayra-adults-only.jpeg);
     margin: 0 auto;
     border: 1px solid black;
 }
@@ -149,7 +149,7 @@ section.apartamentos {
     height: 400px;
     margin: auto;
     margin-top: 150px;
-    width: auto;
+    width: 1280px;
 }
 
 .titulo2 { 

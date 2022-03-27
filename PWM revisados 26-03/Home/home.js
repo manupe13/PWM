@@ -1,17 +1,13 @@
 
 var script = document.createElement('script');
-script.src = './jquery-3.6.0.js';
+script.src = '../jquery-3.6.0.js';
 script.type = 'text/javascript';
 document.getElementsByTagName('head')[0].appendChild(script);
 
 
 function fillPage() {
     
-                
-    const d = document;
-    var sec = d.querySelector(".islas");
-    var template = d.getElementById("isla");
-    var fragment = d.createDocumentFragment();
+
 
     // RELLENAR ISLAS
     $.ajax({
@@ -42,7 +38,6 @@ function fillPage() {
 
                 sectionIslas.appendChild(div);
 
-
             
         }
 
@@ -72,7 +67,7 @@ function fillPage() {
                 div1.setAttribute("id", i);
 
 
-                var html = "<img class= FotoCuadroApartAB src=" + apartamento.img + apartamento.ownerid + "-main.jpeg>" + 
+                var html = "<img class= FotoCuadroApartAB src=" + apartamento.img + "-main.jpeg>" + 
                 "\n <div class = recuadroDatosAB>" +
                 "\n <div class= FondoValApartAB>" + "<p class= ValApartAB>" + apartamento.value +"</p>" +
                 "\n </div>" +

@@ -35,6 +35,7 @@
     
     
     
+    
     section.buscador {
     
         grid-area: "buscador"; 
@@ -42,7 +43,7 @@
         grid-template-rows: 1fr 1fr; 
         height: 300px;
         width: 100%;
-        background-image: url(./assets/hotel-nayra-adults-only.jpeg);
+        background-image: url(../assets/hotel-nayra-adults-only.jpeg);
         margin: 0 auto;
         margin-top: 40px;
         border: 1px solid black;
@@ -123,6 +124,13 @@
         margin-top: 80px;
         margin-left: 55px;
     
+    }
+
+
+    .fotoIsla {
+        width: 240px;
+        height: 200px;
+        border-radius: 10px;
     }
     
     .cuadro_texto_isla {
@@ -213,12 +221,12 @@
     
     .NombreApartAB{
         float: left;
-        font-size: 20px;
+        font-size: 17px;
         margin-top: 0;
         
     }
     
-    .DirApartAB{
+    .DirApartAB {
         float: left;
         font-size: 18px;
         font-weight: normal;
@@ -297,7 +305,7 @@
         grid-auto-columns: 1fr; 
         grid-template-rows: 1fr 1fr; 
         height: 300px;
-        background-image: url(./assets/hotel-nayra-adults-only.jpeg);
+        background-image: url(../assets/hotel-nayra-adults-only.jpeg);
         margin: 0 auto;
         margin-top: 40px;
         border: 1px solid black;
@@ -330,6 +338,7 @@
         margin: auto;
         margin-top: 150px;
         width: max-content;
+        margin-left: 5px;
     }
     
     .titulo1 { 
@@ -348,9 +357,11 @@
         line-height: 23px;
         text-align: center;
         color: black;
+        margin: auto;
+        margin-left: 30px;
     }
     
-    .h23 {
+    .h2 {
         position: relative;
         width: 65%;
         height: 33px;
@@ -374,7 +385,7 @@
         border-radius: 5px;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         background-color: rgba(255, 255, 255, 0.7);
-        top: -90px;
+        top: -70px;
         left: 20px;
     }
     
@@ -414,6 +425,11 @@
     }
     
     
+    .fotoIsla {
+        width: 200px;
+        height: 150px;
+        border-radius: 10px;
+    }
 
     
     .ApartamentosAB {
@@ -466,7 +482,7 @@
     
     .NombreApartAB{
         float: left;
-        font-size: 17px;
+        font-size: 13px;
         margin-top: 0;
         margin-left: 5px;
         
