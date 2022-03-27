@@ -2,6 +2,8 @@
 
 Link de figma: https://www.figma.com/file/V5AG4guphnVovMRy4Ay87k/PWM-44.3-team-library?node-id=411%3A2
 
+Link video explicativo: https://youtu.be/4C1XQJsvy6M
+
 Para abrir los html, es mejor utilizar visual studio code con el plugin "Live Server".
 
 
