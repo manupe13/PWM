@@ -18,6 +18,29 @@ footer {
 .fuente {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 13px;
     text-align: center;
+}
+
+#LogoFacebook{
+    position: absolute; 
+    right: 17%; 
+    bottom: -1px;
+}
+
+#LogoTwitter{
+    position: absolute;
+    right: 10%;
+    bottom: -1px;
+}
+
+#LogoInsta{
+    position: absolute;
+    right: 3%;
+    bottom: -1px;
+}
+
+.img_redes{
+    width:20px;
+    height:20px;
 }
