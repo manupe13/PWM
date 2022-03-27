@@ -9,7 +9,7 @@ Para ejecutar correctamente el proyecto es necesario instalarse json-server.
 
 Una vez instalado json-server. Ejecutamos el siguiente comando desde el directorio del proyecto:
     
-    npx json-server -w -p 3000 ../server/data.json
+    npx json-server -w -p 3000 ./server/data.json
     
 Una vez montada la api, podemos empezar a cargar los html's.
 
