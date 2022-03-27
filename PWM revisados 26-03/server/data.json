@@ -2,35 +2,35 @@
   "islas": [
     {
       "name": " La Graciosa",
-      "img": "./assets/lagraciosa.jpeg"
+      "img": "../assets/lagraciosa.jpeg"
     },
     {
       "name": " Lanzarote",
-      "img": "./assets/lanzarote.jpeg"
+      "img": "../assets/lanzarote.jpeg"
     },
     {
       "name": " Fuerteventura",
-      "img": "./assets/fuerteventura.jpeg"
+      "img": "../assets/fuerteventura.jpeg"
     },
     {
       "name": " Gran Canaria",
-      "img": "./assets/grancanaria.jpeg"
+      "img": "../assets/grancanaria.jpeg"
     },
     {
       "name": " Tenerife",
-      "img": "./assets/tenerife.webp"
+      "img": "../assets/tenerife.webp"
     },
     {
       "name": " La Palma",
-      "img": "./assets/lapalma.webp"
+      "img": "../assets/lapalma.webp"
     },
     {
       "name": " La Gomera",
-      "img": "./assets/lagomera.jpeg"
+      "img": "../assets/lagomera.jpeg"
     },
     {
       "name": " El Hierro",
-      "img": "./assets/elhierro.jpeg"
+      "img": "../assets/elhierro.jpeg"
     }
 
   ],
@@ -56,7 +56,7 @@
         "highlights": "",
         "price": "90€",
         "value": "8,7",
-        "img": "./assets/Apartamentos/ULH1"
+        "img": "../assets/Apartamentos/ULH1"
 
     }
   ],
