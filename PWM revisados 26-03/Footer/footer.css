@@ -1,0 +1,46 @@
+footer {
+    position: fixed;
+    left:0;
+    bottom:0;
+    height: 3.5%;
+    width:100%;
+    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 6.77%, rgba(48, 53, 53, 0.94) 31.25%);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1em;
+    text-align: right;
+    color: #FFFFFF;
+    
+}
+
+.fuente {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+}
+
+#LogoFacebook{
+    position: absolute; 
+    right: 17%; 
+    bottom: -1px;
+}
+
+#LogoTwitter{
+    position: absolute;
+    right: 10%;
+    bottom: -1px;
+}
+
+#LogoInsta{
+    position: absolute;
+    right: 3%;
+    bottom: -1px;
+}
+
+.img_redes{
+    width:20px;
+    height:20px;
+}
