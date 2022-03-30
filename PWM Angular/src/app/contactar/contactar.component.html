@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <script src="https://unpkg.com/htmlincludejs"></script>
+        <link rel="stylesheet" type="text/css" href="./contactar.css">
+        <link href="responsiveContactar.css" rel="stylesheet" media="screen and (max-width: 960px)">
+        <meta charset="UTF-8">
+        <title>Atención al cliente</title>
+
+    </head>
+
+    <header>
+        <include src="../Header/header2.html"></include>
+    </header>
+    
+    <body>
+
+        <br><br><br><br>
+
+        <div>
+            <h1> CONTÁCTANOS, ¡ NO TE QUEDES CON DUDAS !
+                <br><br>
+                <img src="https://fondosmil.com/fondo/11119.jpg" alt="imagen" width="164px" height="137px">
+                
+            </h1>
+        </div>
+
+
+        <form class = "FormularioContactar1">
+
+            <div>
+                <p id = "nombre" class="EtiquetasFormulario1" >Nombre:</p>
+                <input type="text" name="NombreFormularioContactar" class=CamposFormulario1>
+            </div>
+                    
+            
+            <div>
+                <p id = "apellidos" class="EtiquetasFormulario1">Apellidos:</p>
+                <input type="text" name="ApellidosFormularioContactar" class=CamposFormulario1>
+            </div>
+
+            <div>    
+                <p id = "teléfono" class="EtiquetasFormulario1">Teléfono:</p>
+                <input type="text" name="ApellidosFormularioContactar" class=CamposFormulario1>
+            </div>
+
+
+            <div>
+                <p id = "email" class="EtiquetasFormulario1">Correo Electrónico:</p>
+                <input type="email" name="CorreoFormularioContactar" class=CamposFormulario1>
+            </div>
+
+            <div>
+                <p id = "textoContactar" class="EtiquetasFormulario1">Comentarios:</p>
+                <textarea name="ComentariosFormularioContactar" class=TextoComentario maxlength="300"></textarea>
+            </div>
+
+            <div>
+                <img src="https://fondosmil.com/fondo/11119.jpg" alt="foto"
+                width="270px"
+                height="178px">
+            </div>
+            
+            <div class = boton>
+                <input id = BotonContactar type="submit" value = "Enviar">
+            </div>
+            
+        </form>
+
+        <br><br><br><br><br><br><br><br><br><br>
+
+        <h1>¿ PREFIERES QUE TE LLAMEMOS NOSOTROS ?</h1>
+
+
+
+        <form class = "FormularioContactar2">
+        
+            
+
+            <div>
+                <p class = EtiquetasFormulario2>Nombre:</p>
+                <input type="text" id="nombre" class="CamposFormulario2">
+            </div>
+            
+            <div>
+                <p class = EtiquetasFormulario2>Apellidos:</p>
+                <input type="text" id="apellidos" class="CamposFormulario2">
+            </div>
+          
+            <div>
+                <p class = EtiquetasFormulario2>Télefono de Contacto:</p>
+                <input type="text" id="teléfono" class="CamposFormulario2">
+            </div>
+
+            <div>
+                <img src="https://fondosmil.com/fondo/11119.jpg" alt="foto"
+                width="100px"
+                height="100px">
+            </div>
+
+            <div>
+                <input id = BotonContactar type="submit" value = "Contactar" style="margin-left: 30%;">
+            </div>
+
+        </div>
+
+            
+    
+        </form>
+
+
+        </div>
+       
+    </body>
+
+    <footer>
+        <include src="../Footer/footer.html"></include>
+    </footer>
+
+</html>

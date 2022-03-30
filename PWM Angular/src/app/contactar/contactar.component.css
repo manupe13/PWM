@@ -1,0 +1,526 @@
+/* -------------------- Contactar -------------------- */
+
+
+p {
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    padding-bottom: 10px;
+    color: #000000; 
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 100;
+    font-size: xx-large;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #000000; 
+    margin: 0 auto;
+}
+
+form.FormularioContactar1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1.3fr 0.7fr; 
+    grid-template-areas: 
+    ". ."
+    ". ."
+    ". ."
+    "boton boton"; 
+    
+}
+
+.boton { grid-area: boton; }
+
+.FormularioContactar1 {
+    position: relative;
+    width: 1240px;
+    height: 665px;
+    margin: auto;
+    margin-top: 12em;
+    background: #FDF9F2;
+    border-radius: 21px;
+    border:  1px solid #000000;
+}
+
+#FotoContactar1 {
+    
+    margin-top: 10px;
+
+}
+
+
+.full-width {
+    grid-column: 1 / 3;   
+}
+
+
+.EtiquetasFormulario1 {
+    
+    margin-top: 10%;
+    margin-left: 15%;
+    
+}
+
+.CamposFormulario1 {
+
+    width: 409px;
+    margin-left: 15%;
+    height: 30px;
+
+    background: #FFFFFF;
+
+}
+
+
+.TextoComentario {
+
+    width: 600px;
+    height: 191px;
+    margin-left: 15%;
+    margin-bottom: 7%;
+}
+
+
+
+#FotoContactar1 {
+    
+    margin-top: 30px;
+
+}
+
+form.FormularioContactar2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 2fr 1.2fr;
+    
+    
+}
+
+.FormularioContactar2 {
+
+    position: relative;
+    width: 1240px;
+    height: 551px;
+    margin: auto;
+    margin-top: 12em;
+    margin-bottom: 12em;
+    background: #FDF9F2;
+    border-radius: 21px;
+    border:  1px solid #000000;
+
+
+}
+
+
+.EtiquetasFormulario2 {
+    
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+
+.CamposFormulario2 {
+
+    width: 409px;
+    margin-left: 10%;
+    height: 30px;
+
+    background: #FFFFFF;
+
+}
+
+#Texto2Contactar {
+
+
+    position: absolute;
+    top: 1200px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+    left: 450px;
+    align-content: center;
+}
+
+
+#BotonContactar {
+
+    width: 153.69px;
+    height: 33px;
+    margin-left: 40%;
+    text-align: center;
+    background: #fdfdfd;
+    border-radius: 44px;
+
+}
+
+#FotoContactar2 {
+    position: relative;
+    left: 750px;
+    top: 180px;
+}
+
+
+/* 640 to 960 pixels */
+@media screen and (min-width: 40em) {
+    
+
+    /* -------------------- Contactar -------------------- */
+
+
+    p {
+
+        font-family: Roboto Condensed;
+        font-style: normal;
+        padding-bottom: 10px;
+        color: #000000; 
+        margin: 0 auto;
+    
+    }
+
+    h1 {
+        font-family: Roboto Condensed;
+        font-style: normal;
+        padding-bottom: 10px;
+        font-size: x-large;
+        text-align: center;
+        color: #000000; 
+        margin: 0 auto;
+    }
+
+
+    form {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1.3fr 0.7fr; 
+        grid-template-areas: 
+        ". ."
+        ". ."
+        ". ."
+        "boton boton"; 
+        
+    }
+
+    .boton { grid-area: boton; }
+
+    .FormularioContactar1 {
+        position: relative;
+        width: 690px;
+        height: 665px;
+        margin: auto;
+        margin-top: 8%;
+        background: #FDF9F2;
+        border-radius: 21px;
+        border:  1px solid #000000;
+    }
+
+    #FotoContactar1 {
+        
+        margin-top: 10px;
+
+    }
+
+
+    .full-width {
+        grid-column: 1 / 3;   
+    }
+
+
+    .EtiquetasFormulario1 {
+        
+        margin-top: 10%;
+        margin-left: 15%;
+        
+    }
+
+    .CamposFormulario1 { 
+
+        width: 70%;
+        margin-left: 15%;
+        height: 30px;
+
+        background: #FFFFFF;
+
+    }
+
+
+    .TextoComentario {
+
+        width: 300px;
+        height: 191px;
+        margin-left: 15%;
+        margin-bottom: 7%;
+    }
+
+
+
+    #FotoContactar1 {
+        
+        margin-top: 30px;
+
+    }
+
+    form.FormularioContactar2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1.5fr 2fr 1.2fr;
+        
+    }
+
+    .FormularioContactar2 {
+
+        position: relative;
+        width: 690px;
+        height: 551px;
+        margin: auto;
+        margin-top: 25%;
+        margin-bottom: 12em;
+        background: #FDF9F2;
+        border-radius: 21px;
+        border:  1px solid #000000;
+
+
+    }
+
+
+    .EtiquetasFormulario2 {
+        
+        margin-top: 15%;
+        margin-left: 15%;
+        
+    }
+
+    .CamposFormulario2 {
+
+        width: 70%;
+        margin-left: 15%;
+        height: 30px;
+
+        background: #FFFFFF;
+
+    }
+
+    #Texto2Contactar {
+
+
+        position: absolute;
+        top: 1200px;
+
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #000000;
+
+        left: 450px;
+        align-content: center;
+    }
+
+    #BotonContactar {
+
+        width: 153.69px;
+        height: 33px;
+        text-align: center;
+        background: #fdfdfd;
+        border-radius: 44px;
+
+    }
+
+    #FotoContactar2 {
+        position: relative;
+        left: 750px;
+        top: 180px;
+    }
+}
+
+/* under 640 px */
+@media screen and (max-width: 40em ) {
+    
+    p {
+
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-size: small;
+        padding-bottom: 10px;
+        color: #000000; 
+
+    
+    }
+
+    h1 {
+        font-family: Roboto Condensed;
+        font-style: normal;
+        padding-bottom: 10px;
+        font-size: x-small;
+        text-align: center;
+        color: #000000; 
+        margin: 0 auto;
+    }
+
+
+    form.FormularioContactar1 {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr ;
+        grid-template-areas: 
+            "."
+            "."
+            "."
+            "."
+            "."
+            "."
+            "boton";  
+    }
+
+    .boton { grid-area: boton; }
+
+    .FormularioContactar1 {
+        position: relative;
+        width: 390px;
+        height: 1000px;
+        margin: auto;
+        margin-top: 8%;
+        background: #FDF9F2;
+        border-radius: 21px;
+        border:  1px solid #000000;
+    }
+
+    #FotoContactar1 {
+        
+        margin-top: 10px;
+
+    }
+
+
+    .full-width {
+        grid-column: 1 / 3;   
+    }
+
+
+    .EtiquetasFormulario1 {
+        
+        margin-top: 10%;
+        margin-left: 15%;
+        
+    }
+
+    .CamposFormulario1 { 
+
+        width: 70%;
+        margin-left: 15%;
+        height: 30px;
+
+        background: #FFFFFF;
+
+    }
+
+
+    .TextoComentario {
+
+        width: 70%;
+        height: 191px;
+        margin-left: 15%;
+        margin-bottom: 7%;
+    }
+
+
+
+    #FotoContactar1 {
+        
+        margin-top: 30px;
+
+    }
+
+    form.FormularioContactar2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "."
+            "."
+            "."
+            "."
+            "boton";  
+    }
+
+    .FormularioContactar2 {
+
+        position: relative;
+        width: 390px;
+        height: 551px;
+        margin: auto;
+        margin-top: 25%;
+        margin-bottom: 12em;
+        background: #FDF9F2;
+        border-radius: 21px;
+        border:  1px solid #000000;
+
+
+    }
+
+
+    .EtiquetasFormulario2 {
+        
+        margin-top: 15%;
+        margin-left: 15%;
+        
+    }
+
+    .CamposFormulario2 {
+
+        width: 70%;
+        margin-left: 15%;
+        height: 30px;
+
+        background: #FFFFFF;
+
+    }
+
+    #Texto2Contactar {
+
+
+        position: absolute;
+        top: 1200px;
+
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #000000;
+
+        left: 450px;
+        align-content: center;
+    }
+
+    #BotonContactar {
+
+        width: 153.69px;
+        height: 33px;
+        text-align: center;
+        margin-left: 30%;
+        background: #fdfdfd;
+        border-radius: 44px;
+
+    }
+
+    #FotoContactar2 {
+        position: relative;
+        left: 750px;
+        top: 180px;
+    }
+
+}

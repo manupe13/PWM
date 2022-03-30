@@ -1,0 +1,97 @@
+<page contentType="text/html" pageEncoding="UTF-8"></page>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Dejar Valoracion</title>
+        <link rel="stylesheet" href="valoracion.css">
+        <script src="https://unpkg.com/htmlincludejs"></script>
+        <link href="responsiveValoracion.css" rel="stylesheet" media="screen and (max-width: 960px)">
+    </head>
+
+    <header>
+        <include src="../Header/header2.html"></include>
+    </header>
+    
+    <body>
+        
+        <section class="grid">
+            <section class="titulo"> 
+
+                <p> Escribir una reseña </p>
+                <div class="linea"> </div>
+
+            </section>
+
+            <section class="alojamiento">
+                
+                <div>
+                    <h2>Nombre: Apartamento x 
+                        <br><br>
+                        Localidad: Isla x
+                        <br><br>
+                        Estancia: 00/00/00 hasta 00/00/00
+                    </h2>
+
+                </div>
+
+                <img id = fotoAlojamiento src="../assets/Volcanic-House-in-Fuerteventura-707x470.png" alt="img">
+
+
+            </section>
+
+            <section class="valoracion">
+
+                <div class="linea"> </div>
+
+                <h2>Valoración General</h2>
+
+                <div id="estrellas">
+                    <img class="estrella" src="../assets/estrella.png" alt="">
+                    <img class="estrella" src="../assets/estrella.png" alt="">
+                    <img class="estrella" src="../assets/estrella.png" alt="">
+                    <img class="estrella" src="../assets/estrella.png" alt="">
+                    <img class="estrella" src="../assets/estrella.png" alt="">
+                </div>
+
+                <div class="linea"> </div>
+
+            </section>
+
+            <section class="titulo2">
+                
+                <h2> Añade un Título </h2>
+
+                <form>
+                    <input type="text" id="titulo" required class="campoTitulo">
+                </form>
+
+                <div class="linea"> </div>
+
+            </section>
+
+            <section class="reseña">
+                <h2>Escribir Reseña</h2>
+
+                <form>
+                    <input type="text" id="titulo" required class="campoReseña">
+                </form>
+
+                <div class="linea"> </div>
+            </section>
+
+            <section class="enviar">
+                <input id = enviar type="submit" value = "ENVIAR">
+            </section>
+
+
+        </section>
+        
+    </body>
+    
+    <footer>
+        <include src="../Footer/footer.html"></include>
+    </footer>
+    
+</html>

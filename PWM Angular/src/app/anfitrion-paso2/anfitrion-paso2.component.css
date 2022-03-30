@@ -1,0 +1,398 @@
+/********************ESTO ES ANFITRIÓN PASO 2********************/
+
+body.AP2{
+    font-family: Times New Roman, Times, serif; 
+    font-style: normal; font-weight: bold; 
+    text-align: center;
+    float: center; 
+    padding-top: 100px; 
+    padding-bottom: 170px;
+    color: #000000; 
+    margin: 0 auto;
+    width: 1366px;
+}
+
+.TituloAP2{
+    width: 1350px;
+    height: 70px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 56px;
+
+    margin: auto;
+    margin-top: -20;
+    margin-bottom: 20;
+
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+
+.mapaAP2{
+    width: 1260px;
+    height: 917px;
+
+    margin: auto;
+
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+}
+
+.buscadorAP2{
+    width: 614px;
+    height: 100px;
+
+    background: #ffffff;
+    border-radius: 134px;
+
+    margin: auto;
+
+    margin-top: -900;
+    
+    
+}
+
+.textoBuscadorAP2{
+    width: 600px;
+    height: 28px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 28px;
+
+    margin-top:-68;
+    margin-left:420;
+
+    color: #000000;
+}
+
+.imagenBuscadorAP2{
+    width: 48px;
+    height: 48px;
+    background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+
+    margin-top:-85;
+    margin-left:420;
+
+}
+
+.lineaAP2{
+    margin-top: 900;
+    width: 1366px;
+    height: 0px;
+    left: 0px;
+    top: 1400px;
+
+    border: 6px solid #D4C7C7;
+}
+
+.boton1AP2{
+    width: 253px;
+    height: 55px;
+    float: left;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+
+    margin-top: 60;
+    margin-right: 60;
+}
+
+.boton2AP2{
+    width: 253px;
+    height: 55px;
+    float: right;
+    margin-top: 60;
+    margin-right: 60;
+
+    background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+    border-radius: 18px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+/* 640 to 960 pixels */
+@media screen and (max-width: 60em) {
+
+    body.AP2{
+        font-family: Times New Roman, Times, serif; 
+        font-style: normal; font-weight: bold; 
+        text-align: center;
+        float: center; 
+        padding-top: 100px; 
+        padding-bottom: 170px;
+        color: #000000; 
+        margin: 0 auto;
+        width: 960px;
+    }
+    
+    .TituloAP2{
+        width: 950px;
+        height: 70px;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 29px;
+        line-height: 56px;
+    
+        margin: auto;
+        margin-top: -20;
+        margin-bottom: 20;
+    
+    
+        background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: tomato;  
+    }
+    
+    .mapaAP2{
+        width: 860px;
+        height: 617px;
+    
+        margin: auto;
+    
+        background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+    }
+    
+    .buscadorAP2{
+        width: 414px;
+        height: 70px;
+    
+        background: #ffffff;
+        border-radius: 134px;
+    
+        margin: auto;
+    
+        margin-top: -600;
+        
+        
+    }
+    
+    .textoBuscadorAP2{
+        width: 600px;
+        height: 28px;
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 28px;
+    
+        margin-top:-54;
+        margin-left:220;
+    
+        color: #000000;
+    }
+    
+    .imagenBuscadorAP2{
+        width: 35px;
+        height: 35px;
+        background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+    
+        margin-top:-60;
+        margin-left:320;
+    
+    }
+    
+    .lineaAP2{
+        margin-top: 650;
+        width: 960px;
+        height: 0px;
+        left: 0px;
+        top: 1400px;
+    
+        border: 6px solid #D4C7C7;
+    }
+    
+    .boton1AP2{
+        width: 200px;
+        height: 50px;
+        float: left;
+    
+        background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+        border-radius: 18px;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 42px;
+    
+        color: #FFFFFF;
+    
+        margin-top: 60;
+        margin-left: 60;
+    }
+    
+    .boton2AP2{
+        width: 200px;
+        height: 50px;
+        float: right;
+        margin-top: 60;
+        margin-right: 60;
+    
+        background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+        border-radius: 18px;
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 42px;
+    
+        color: #FFFFFF;
+    }
+    
+    /* under 690 px */
+    @media screen and (max-width: 40em) {
+        
+        body.AP2{
+            font-family: Times New Roman, Times, serif; 
+            font-style: normal; font-weight: bold; 
+            text-align: center;
+            float: center; 
+            padding-top: 100px; 
+            padding-bottom: 170px;
+            color: #000000; 
+            margin: 0 auto;
+            width: 640px;
+        }
+        
+        .TituloAP2{
+            width: 640px;
+            height: 70px;
+        
+            font-family: Roboto Condensed;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 56px;
+        
+            margin: auto;
+            margin-top: -20;
+            margin-bottom: 20;
+        
+        
+            background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: tomato;  
+        }
+        
+        .mapaAP2{
+            width: 540px;
+            height: 517px;
+        
+            margin: auto;
+        
+            background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+        }
+        
+        .buscadorAP2{
+            width: 314px;
+            height: 60px;
+        
+            background: #ffffff;
+            border-radius: 134px;
+        
+            margin: auto;
+        
+            margin-top: -500;
+            
+            
+        }
+        
+        .textoBuscadorAP2{
+            width: 600px;
+            height: 28px;
+            font-family: 'Roboto Condensed';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 28px;
+        
+            margin-top:-48;
+            margin-left:40;
+        
+            color: #000000;
+        }
+        
+        .imagenBuscadorAP2{
+            width: 30px;
+            height: 30px;
+            background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
+        
+            margin-top:-53;
+            margin-left:180;
+        
+        }
+        
+        .lineaAP2{
+            margin-top: 530;
+            width: 640px;
+            height: 0px;
+            left: 0px;
+            top: 1400px;
+        
+            border: 6px solid #D4C7C7;
+        }
+        
+        .boton1AP2{
+            width: 150px;
+            height: 40px;
+            float: left;
+        
+            background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+            border-radius: 18px;
+        
+            font-family: Roboto Condensed;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 42px;
+        
+            color: #FFFFFF;
+        
+            margin-top: 60;
+            margin-left: 60;
+        }
+        
+        .boton2AP2{
+            width: 150px;
+            height: 40px;
+            float: right;
+            margin-top: 60;
+            margin-right: 60;
+        
+            background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
+            border-radius: 18px;
+        
+            font-family: Roboto Condensed;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 42px;
+        
+            color: #FFFFFF;
+        }
+    }}
