@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <script src="https://unpkg.com/htmlincludejs"></script>
+        <link rel="stylesheet" type="text/css" href="./logIn.css">
+        <link href="./responsiveLogIn.css" rel="stylesheet" media="screen and (max-width: 960px)">
+        <meta charset="UTF-8">
+        <title>Inciar Sesión</title>
+
+    </head>
+    
+    <body>
+
+        
+        <include src="../Header/header2.html"></include>  
+    
+        <section>
+            <div id = CuadroBotonesLogReg>
+        
+                <a href="./LogIn.html" class="boton">Iniciar Sesión</a> 
+                <a href="Registrarse.html" class="boton">Registrarse</a>
+                
+            </div>
+
+            <form class = LogIn>
+
+                <img src="../assets/Count.png" alt="" id="IconoLogIn">                
+                
+                
+                <div>
+                    <h2>EMAIL:</h2>
+                    <input type="text" id="email" required class = camposLogIn placeholder="canary@dreams.es">
+                </div>
+                
+                <div>
+                    <h2>CONTRASEÑA:</h2>
+                    <input type="password" required id = "password" class = camposLogIn placeholder="********">
+                </div>   
+
+                
+                <input type="submit" id = BotonLogIn value = "Iniciar Sesión">
+                
+            </form>
+                  
+        </section>
+
+
+        
+
+        
+        <include src="../Footer/footer.html"></include>
+
+        
+       
+    </body>
+
+    <script>
+
+
+
+    </script>
+
+    
+
+    
+</html>

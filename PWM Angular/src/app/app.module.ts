@@ -28,6 +28,10 @@ import { ProcesoReservaComponent } from './proceso-reserva/proceso-reserva.compo
 import { RegistrarseComponent } from './registrarse/registrarse.component';
 import { SeguridadComponent } from './seguridad/seguridad.component';
 import { SolicitudContactarComponent } from './solicitud-contactar/solicitud-contactar.component';
+import { Header1Component } from './header1/header1.component';
+import { Header2Component } from './header2/header2.component';
+import { Header3Component } from './header3/header3.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +60,11 @@ import { SolicitudContactarComponent } from './solicitud-contactar/solicitud-con
     ProcesoReservaComponent,
     RegistrarseComponent,
     SeguridadComponent,
-    SolicitudContactarComponent
+    SolicitudContactarComponent,
+    Header1Component,
+    Header2Component,
+    Header3Component,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
