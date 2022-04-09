@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <script src="https://unpkg.com/htmlincludejs"></script>
+        <script src="jquery-3.6.0.js"></script>
+        <meta charset="UTF-8">
+        <title>Registrarse</title>
+    </head>
+    
+    <body style="padding-bottom: 10%;">
+       
+        
+        <section>
+
+            <div id="CuadroBotonesLogReg">
+                <a href="./LogIn.html" class="boton">Iniciar Sesión</a> 
+                <a href="./Registrarse.html" class="boton">Registrarse</a>
+
+            </div>
+
+            
+
+            <div>
+                <form id = "registerForm" class="FormularioRegistrarse">
+        
+                    <div id = IconoLogIn></div><div></div>
+                    <div>
+                        <h2>Nombre</h2>
+                        <input type="text" id="nombre" required pattern="([A-Za-z]+)" class="camposRegistrarse">
+
+                    </div>
+
+                    <div>
+                        <h2>Apellidos:</h2>
+                        <input type="text" id="apellidos" required pattern="([A-Za-z]+)" class="camposRegistrarse">
+                    </div>
+                        
+                    <div>
+                        <h2>Sexo</h2>
+                        <select id="sex" required class="camposRegistrarse">
+                            <option value="0" selected>Seleccione uno:</option>
+                            <option value="1">Femenino</option>
+                            <option value="2">Masculino</option>
+                            <option value="3">Indeterminado</option>
+                        </select> 
+                    </div>
+
+                    <div>
+                        <h2>Fecha de Nacimiento:</h2>
+                        <input type="date" id="fechaNacimiento" required class="camposRegistrarse" max="2004-12-31">
+                    </div>
+                        
+                    <div>
+                        <h2>Teléfono:</h2>
+                        <input type="tel" id="telefono" required pattern="([0-9]{9})" title="Debe introducir un número de teléfono de 9 dígitos" class="camposRegistrarse">
+                    </div>
+                    
+                    <div>
+                        <h2>DNI:</h2>
+                        <input type="text" id="dni" required pattern="[0-9]{8}[A-Za-z]{1}" title="Debe introducir 8 números y una letra"  class="camposRegistrarse">
+                    </div>
+                    
+                    <div>
+                        <h2>Correo Electrónico:</h2>
+                        <input type="email" id="email1" required class="camposRegistrarse">
+                    </div>
+
+                    <div>
+                        <h2>Confirmar Correo Electrónico</h2>
+                        <input type="email" id="email2" required class="camposRegistrarse">
+                    </div>
+
+                    <div>
+                        <h2>Contraseña:</h2>
+                        <input type="password" id="password1"
+                        required minlength="8" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" class="camposRegistrarse">
+                    </div>
+
+                    <div>
+                        <h2>Confirmar Contraseña:</h2>
+                        <input type="password" id="password2" required class="camposRegistrarse">
+                    </div>
+
+                    <input id = "botonRegistrarse" type="submit" value = "Registrarse">
+                    
+
+                </form>
+                
+                
+
+            </div>
+        
+        </section>
+        
+
+       
+    </body>
+    <script>
+
+        var password1=document.getElementById('password1');
+        var password2=document.getElementById('password2');
+        var email1=document.getElementById('email1');
+        var email2=document.getElementById('email2');
+
+        var sex = document.getElementById('sex');
+
+        const form = document.getElementsByClassName('FormularioRegistrarse')[0];
+
+        
+        
+        function checkEmailValidity () {
+            if (email1.value === email2.value) {
+                return true;
+            } 
+            else {
+                alert("Los emails deben ser iguales!");// invalid
+                return false;
+            }
+        }
+
+
+        function checkSexValidity () {
+            if (sex.value != "0") {
+                return true;
+            } 
+            else {
+                alert("Debe elegir una opción (Sexo)");// invalid
+                return false;
+            }
+        }
+
+
+
+        function checkPasswordValidity () {
+            if (password1.value === password2.value) {
+                return true;
+            } 
+            else {
+                alert("Las contraseñas deben ser iguales!");// invalid
+                return false;
+            }
+        }
+
+        function changeStyle(i, variable) {
+            
+            if (i == 1) {
+                variable.style.border = "2px solid #e24a4a";
+            }
+
+            else {
+                variable.style.border = "2px solid black";
+            }
+            
+        }
+
+        
+
+
+        form.addEventListener('submit', function() {
+        
+            var passwordValidation = checkPasswordValidity();
+            var emailValidation = checkEmailValidity();
+            var sexValidation = checkSexValidity();
+
+            var error = passwordValidation && emailValidation && sexValidation;
+
+            if (!error) {
+                    event.preventDefault();
+                if (!passwordValidation) {  
+                    changeStyle(1, password2);
+                }
+
+                if (passwordValidation) {
+                    changeStyle(0, password2);
+                }
+
+                if (!emailValidation) {
+                    changeStyle(1, email2);
+                }
+
+                if (emailValidation) {
+                    changeStyle(0, email2);
+                }
+
+                if (sexValidation) {
+                    changeStyle(0, sex);
+                }
+
+                else if (!sexValidation) {
+                    changeStyle(1, sex);
+                }
+
+            }
+            else {
+                // Crear usuario !!! 
+
+                nombre = document.getElementById("nombre").value;
+                apellidos = document.getElementById("apellidos").value;
+                sexo = document.getElementById("sex").value;
+                nacimiento = document.getElementsByClassName("camposRegistrarse")[3].value;
+                telefono = document.getElementById("telefono").value;
+                dni = document.getElementById("dni").value;
+                email = document.getElementById("email1").value;
+                contraseña = document.getElementById("password1").value;
+
+
+                user = {
+
+                    "id": Math.floor(Math.random() * 1001),
+                    "name": nombre,
+                    "surname": apellidos,
+                    "sex": sexo,
+                    "birthDate": nacimiento,
+                    "telefone": telefono,
+                    "DNI": dni,
+                    "email": email,
+                    "password": contraseña
+                }
+
+
+
+
+                $.ajax({
+                    type: "POST",
+                    url: "http://localhost:3000/usuarios",
+                    data: user,
+                    success: function (response) {
+                        alert("Usuario creado correctamente !");
+                    }
+                });
+            
+            } 
+
+        });
+
+    </script>    
+
+    
+</html>

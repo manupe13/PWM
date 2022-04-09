@@ -1,0 +1,187 @@
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr ; 
+    grid-template-areas: 
+    "."
+    "."
+    "."; 
+    
+}
+
+
+
+section.CuadroSolicitudContactar {
+    position: relative;
+    margin-top: 100px;
+    height: 440px;
+    width: 1000px;
+    top: 150px;
+    margin: auto;
+    background: #FDF9F2;
+    border-radius: 21px;
+
+}
+
+#ImagenSolicitudContactar {
+    
+    margin-top: 3em;
+    width: 365px;
+    height: 356px;
+    border-radius: 30px;
+}
+
+h1 {
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 3em;
+    margin-left: 7em;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+    width: 42%;
+    height: 278px;
+
+}
+
+#botonVolver {
+    
+    margin-left: 160px;
+    margin-top: -60px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+/* 640 to 960 pixels */
+@media screen and (max-width: 60em) {
+    
+    body {
+        padding-bottom: 30%;
+    }
+    section {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr ; 
+        
+    }
+    
+    
+    
+    section.CuadroSolicitudContactar {
+        position: relative;
+        margin-top: 100px;
+        height: 530px;
+        width: 690px;
+        top: 150px;
+        text-align: center;
+        margin: auto;
+        background: #FDF9F2;
+        border-radius: 21px;
+    
+    }
+    
+    #ImagenSolicitudContactar {
+        margin: auto;
+        width: 250px;
+        height: 250px;
+        border-radius: 30px;
+        margin-top: -100px;
+    }
+    
+    h1 {
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        margin: auto;
+        margin-top: 20px;
+        line-height: 28px;
+        color: #000000;
+        text-align: center;
+    
+    }
+    
+    #botonVolver {
+        
+        margin: auto;
+        width: 180px;
+        height: 30px;
+        border-radius: 10px;
+    
+    }
+
+
+
+}
+
+
+
+/* under 640 px */
+@media screen and (max-width: 40em ) {
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr 1fr ; 
+        grid-template-areas: 
+        "."
+        "."
+        "."; 
+        
+    }
+    
+    
+    
+    section.CuadroSolicitudContactar {
+        position: relative;
+        margin-top: 100px;
+        height: 420px;
+        width: 450px;
+        top: 150px;
+        text-align: center;
+        margin: auto;
+        background: #FDF9F2;
+        border-radius: 21px;
+    
+    }
+    
+    #ImagenSolicitudContactar {
+        
+        margin: auto;
+        width: 150px;
+        height: 150px;
+        margin-top: -130px;
+    
+    }
+    
+    h1 {
+    
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        margin: auto;
+        margin-top: 20px;
+        line-height: 28px;
+        color: #000000;
+    
+    }
+    
+    #botonVolver {
+        
+        margin: auto;
+        width: 150px;
+        height: 25px;
+        border-radius: 10px;
+        margin-top: 0px;
+    
+    }
+
+}
