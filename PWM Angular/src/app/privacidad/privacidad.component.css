@@ -6,8 +6,8 @@ body{
     
     font-size: 24px;
     float: center;
-    padding-top: 100;
-    padding-bottom: 100;
+    padding-top: 100px;
+    padding-bottom: 100px;
     
     color: #000000;
 }
@@ -28,7 +28,7 @@ p.sobretitulo_gris{
 }
 
 h1.titulo_grande{
-    font-size: 44;
+    font-size: 44px;
     font-weight: bold;
 }
 
