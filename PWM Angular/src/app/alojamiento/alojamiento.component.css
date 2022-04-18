@@ -1,0 +1,85 @@
+.CuadroApartAB {
+    width: 368.82px;
+    height: 237px;
+    
+    margin: auto;
+    margin-top: 60px;    
+    border:  2.731px solid #787878;
+    box-sizing: border-box;
+    border-radius: 9.9718px;
+
+    color: #685D5D;
+}
+
+.FotoCuadroApartAB {
+    width: 366.088px;
+    height: 170px;
+    border-radius: 8.2px 8.2px 0px 0px;
+    margin: auto;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+.recuadroDatosAB{
+    width: 367.454pxpx;
+    height: 65.568px;
+    margin-left: -1px;
+    
+}
+
+.FondoValApartAB{
+    float: right;
+    width: 34.15px;
+    height: 27.67px;
+    margin-top: 5px;
+    margin-right: 5px;
+
+    background: #2A2867;
+    
+
+}
+
+.ValApartAB {
+    font-size:20px;
+    color: #ffffff;
+    margin:auto;
+    
+
+}
+
+.NombreApartAB{
+    float: left;
+    font-size:22px;
+    margin-top: 0;
+    
+}
+
+.DirApartAB{
+    float: left;
+    font-size:20px;
+    font-weight: normal;
+    margin-top: -12.5px;
+
+}
+
+.DesdeApartAB{
+    float:right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -8px;
+    margin-right: 8px;
+    color: #685D5D;
+}
+
+.PrecioApartAB{
+    float:right;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-right: 8px;
+    margin-top: -8px;
+    
+    color: #2D2B2B;
+}

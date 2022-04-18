@@ -1,0 +1,30 @@
+
+h3 {
+    position: relative;
+    width: 65%;
+    height: 33px;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    border-radius: 5px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.7);
+    top: -90px;
+    left: 20px;
+}
+
+
+.cuadroIsla {
+
+    width: 240px;
+    height: 200px;
+    margin-top: 80px;
+    margin-left: 55px;
+
+}
+
+.fotoIsla {
+    width: 240px;
+    height: 200px;
+    border-radius: 10px;
+}

@@ -31,6 +31,8 @@ import { Header1Component } from './header1/header1.component';
 import { Header2Component } from './header2/header2.component';
 import { Header3Component } from './header3/header3.component';
 import { HomeComponent } from './home/home.component';
+import { AlojamientoComponent } from './alojamiento/alojamiento.component';
+import { IslaHomeComponent } from './isla-home/isla-home.component';
 
 @NgModule({
   declarations: [AppComponent, Header1Component, Header2Component, Header3Component, AnfitrionPaso1Component,
@@ -42,7 +44,9 @@ import { HomeComponent } from './home/home.component';
     MisAlojamientosComponent, MisReservasComponent, PrivacidadComponent,
     ProcesoReservaComponent, RegistrarseComponent, SeguridadComponent,
     SolicitudContactarComponent, Header1Component, Header2Component, Header3Component,
-    HomeComponent
+    HomeComponent,
+    AlojamientoComponent,
+    IslaHomeComponent
   ],
   imports: [
     BrowserModule,
