@@ -137,7 +137,7 @@
     margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
-    font-weight: 600;
+    font-weight: 600px;
 }
 
 .direc_text_cont{
@@ -197,7 +197,7 @@ h4 {
 
     font-family: 'Rokkitt';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 20px;
     line-height: 20px;
     margin-top: 10px;
@@ -232,7 +232,7 @@ iframe {
     height: 710px;
 
     margin: 0 auto;
-    margin-top: 100;
+    margin-top: 100px;
 }
 
 /*Parte Alta Izquierda*/
