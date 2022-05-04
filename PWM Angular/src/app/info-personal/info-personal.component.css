@@ -1,5 +1,7 @@
 /********************ESTO ES INFO PERSONAL********************/
 
+
+
 body.IP{
     font-family: Times New Roman, Times, serif; 
     font-style: normal; font-weight: bold; 
@@ -9,7 +11,7 @@ body.IP{
     padding-bottom: 100px;
     color: #000000; 
     margin: 0 auto;
-    width: 1366px;
+    width: 1333px;
 }
 
 .recuadroIzq{
@@ -129,7 +131,7 @@ body.IP{
 
 .formularioIP{
     margin-top: 100px;
-    width: 1366px;
+    width: 1333px;
     height: 1000px;
 
     border: 0px solid #ff0000;
@@ -147,7 +149,7 @@ body.IP{
     width: 101px;
     height: 30px;
 
-    margin-left: 590px;
+    margin-left: 500px;
     margin-top: -90px;
 
     font-family: Roboto Condensed;
@@ -164,7 +166,7 @@ body.IP{
     width: 96px;
     height: 28px;
 
-    margin-left: 600px;
+    margin-left: 500px;
     margin-top: 90px;
 
     font-family: Roboto Condensed;
@@ -181,7 +183,7 @@ body.IP{
     width: 41px;
     height: 28px;
 
-    margin-left: 600px;
+    margin-left: 500px;
     margin-top: 90px;
 
     font-family: Roboto Condensed;
@@ -198,7 +200,7 @@ body.IP{
     width: 90px;
     height: 28px;
 
-    margin-left: 350px;
+    margin-left: 500px;
     margin-top:90px;
 
     font-family: Roboto Condensed;
@@ -332,8 +334,8 @@ body.IP{
     width: 410px;
     height: 35px;
 
-    margin-left:750px;
-    margin-top:-60px;
+    margin-left:400px;
+    margin-top:0px;
 
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -344,7 +346,7 @@ body.IP{
     width: 410px;
     height: 35px;
 
-    margin-left: 750px;
+    margin-left: 400px;
     margin-top:-55px;
 
     background: #FFFFFF;
@@ -356,7 +358,7 @@ body.IP{
     width: 410px;
     height: 35px;
 
-    margin-left: 750px;
+    margin-left: 400px;
     margin-top:-55px;
 
     background: #FFFFFF;
@@ -368,7 +370,7 @@ body.IP{
     width: 410px;
     height: 35px;
 
-    margin-left: 500px;
+    margin-left: 400px;
     margin-top:-55px;
 
     background: #FFFFFF;

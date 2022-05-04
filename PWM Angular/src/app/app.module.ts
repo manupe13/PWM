@@ -33,6 +33,7 @@ import { Header3Component } from './header3/header3.component';
 import { HomeComponent } from './home/home.component';
 import { AlojamientoComponent } from './alojamiento/alojamiento.component';
 import { IslaHomeComponent } from './isla-home/isla-home.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent, Header1Component, Header2Component, Header3Component, AnfitrionPaso1Component,
@@ -50,7 +51,8 @@ import { IslaHomeComponent } from './isla-home/isla-home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
