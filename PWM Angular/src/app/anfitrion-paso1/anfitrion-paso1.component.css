@@ -8,23 +8,24 @@ body.AP1{
 
     margin: 0 auto;
 
-    padding-top: 100px; 
+    padding-top: 70px; 
     padding-bottom: 100px;
 
-    width: 1366px;
-}
+    width: 100%;
 
+}
 .TituloAP1{
     
-    width: 1300px;
-    height: 56px;
+    width: 900px;
+    height: 100px;
 
-    margin: 0 auto;
+    margin: auto;
+
 
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: 500px;
-    font-size: 48px;
+    font-size: 30px;
     line-height: 56px;
 
 
@@ -37,35 +38,44 @@ body.AP1{
 .SegTituloAP1{
     width: 500px;
     height: 28px;
-    margin-top: 80px;
-    margin-left: 30px;
+    margin-bottom: 40px;
+
+    
+  
+    float: left;
 
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 19px;
     line-height: 28px;
 
     color: #000000;
 }
 
-.imagenCasaAP1{
-    width: 155px;
-    height: 143px;
+.centro{
+    margin: auto;
+    width: 800px;
+}
 
-    margin-top:-110px;
-    margin-left: 1100px;
+.imagenCasaAP1{
+    width: 80px;
+    height:70px;
+    float: right;
+
+    margin-top:-50px;
+    margin-left: 800px;
 }
 
 .recuadroTotalAP1{
-        width: 1166px;
-        height: 600px;
-        margin: auto;
-        margin-top: 50px;
+        width: 700px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 180px;
 
         display: grid; 
-        grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 1fr 1fr 1fr; 
+        grid-template-columns: 10fr 1fr; 
+        grid-template-rows: 0.6fr 0.6fr 0.6fr; 
         gap: 0px 0px; 
         grid-template-areas: 
           ". ."
@@ -75,12 +85,12 @@ body.AP1{
 
 .filaTres { 
     grid-area: filaTres; 
-    margin: auto;
+    margin: 0 auto;
 }
 
 .primerCuadradoAP1{
-    width: 540px;
-    height: 143px;
+    width: 290px;
+    height: 70px;
 
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -88,12 +98,12 @@ body.AP1{
 }
 
 .primerCuadradoImagenAP1{
-    width: 135px;
-    height: 111.75px;
+    width: 70px;
+    height: 60px;
 
-    margin-left: 380px;
+    margin-left: 205px;
 
-    margin-top: 15px;
+    margin-top: 3.5px;
 
     background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
     border-radius: 12px;
@@ -103,33 +113,32 @@ body.AP1{
     width: 209px;
     height: 45.46px;
 
-    margin-top:-78px;
-    margin-left: 60px;
+    margin-top:-65px;
+    margin-left: 30px;
 
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 24px;
     line-height: 42px;
 
     color: #000000;
 }
 
-.lineaAP1{
-    width: 1360px;
-    height: 0px;
-
-    border: 6px solid #D5C7C7;
+.centro1{
+    margin: auto;
+    width: 940px;
 }
 
-.botonAP1{
-    width: 253px;
-    height: 55px;
+.BotonAP1{
+    width: 153px;
+    height: 35px;
+
 
     float: right;
 
     margin-top: 10px;
-    margin-right: 30px;
+    margin-right: 50px;
 
     background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
     border-radius: 18px;
@@ -137,8 +146,8 @@ body.AP1{
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: 500px;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 20px;
+    line-height: 22px;
 
     color: #FFFFFF;
     
@@ -157,16 +166,22 @@ body.AP1{
 
         margin: 0 auto;
 
-        padding-top: 100px; 
+        padding-top: 60px; 
         padding-bottom: 70px;
 
-        width: 960px;
+        width: 100%;
+        overflow: hidden
+    }
+
+    .centro{
+        margin: auto;
+        width: 430px;
     }
 
     .TituloAP1{
         
-        width: 800px;
-        height: 120px;
+        width: 500px;
+        height: 40px;
 
         text-align: center;
 
@@ -175,7 +190,7 @@ body.AP1{
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: 500px;
-        font-size: 40px;
+        font-size:18px;
         line-height: 56px;
 
 
@@ -188,34 +203,32 @@ body.AP1{
     .SegTituloAP1{
         width: 500px;
         height: 28px;
-        margin-top: 80px;
-        margin-left: 30px;
+        float: left;
 
         font-family: 'Roboto Condensed';
         font-style: normal;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 28px;
 
         color: #000000;
     }
 
     .imagenCasaAP1{
-        width: 150px;
-        height: 123px;
+        width: 90px;
+        height: 70px;
 
-        margin-top:-90px;
-        margin-left: 740px;
+        float: right;
     }
 
     .recuadroTotalAP1{
-            width: 960px;
-            height: 400px;
+            width: 500px;
+            height: 300px;
             margin: auto;
-            margin-top: 50px;
+            margin-top: 150px;
 
             display: grid; 
-            grid-template-columns: 1fr 1fr; 
+            grid-template-columns: 1.8fr 1.8fr; 
             grid-template-rows: 1fr 1fr 1fr; 
             gap: 0px 0px; 
             grid-template-areas: 
@@ -226,12 +239,11 @@ body.AP1{
 
     .filaTres { 
         grid-area: filaTres; 
-        margin: auto;
     }
 
     .primerCuadradoAP1{
-        width: 400px;
-        height: 103px;
+        width: 200px;
+        height: 80px;
 
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -239,10 +251,10 @@ body.AP1{
     }
 
     .primerCuadradoImagenAP1{
-        width: 90px;
-        height: 80px;
+        width: 75px;
+        height: 60px;
 
-        margin-left:300px;
+        margin-left:120px;
 
         margin-top: 10px;
 
@@ -251,36 +263,27 @@ body.AP1{
     }
 
     .primerCuadradoTextoAP1{
-        width: 209px;
+        width: 109px;
         height: 45.46px;
 
-        margin-top:-68px;
-        margin-left: 60px;
+        margin-top:-62px;
+        margin-left: 10px;
 
         font-family: 'Roboto Condensed';
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 18px;
         line-height: 42px;
 
         color: #000000;
     }
 
-    .lineaAP1{
-        width: 960px;
-        height: 0px;
 
-        border: 6px solid #D5C7C7;
-    }
+    .BotonAP1{
+        width: 103px;
+        height: 35px;
 
-    .botonAP1{
-        width: 153px;
-        height: 45px;
-
-        float: right;
-
-        margin-top: 10px;
-        margin-right: 30px;
+        margin-right:-80px;
 
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         border-radius: 18px;
@@ -288,8 +291,8 @@ body.AP1{
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: 500px;
-        font-size: 30px;
-        line-height: 42px;
+        font-size: 20px;
+        line-height: 22px;
 
         color: #FFFFFF;
         
@@ -308,16 +311,22 @@ body.AP1{
 
         margin: 0 auto;
 
-        padding-top: 100px; 
-        padding-bottom: 100px;
+        padding-top: 30px; 
+        padding-bottom: 40px;
 
-        width: 640px;
+        width: 100%;
+        overflow: hidden
+    }
+
+    .centro{
+        margin: auto;
+        width: 260px;
     }
 
     .TituloAP1{
         
-        width: 500px;
-        height: 120px;
+        width: 90px;
+        height: 90px;
 
         text-align: center;
 
@@ -326,8 +335,8 @@ body.AP1{
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: 500px;
-        font-size: 30px;
-        line-height: 56px;
+        font-size: 10px;
+        line-height: 15px;
 
 
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
@@ -337,37 +346,34 @@ body.AP1{
     }
 
     .SegTituloAP1{
-        width: 500px;
+        width: 170px;
         height: 28px;
-        margin-top: 40px;
-        margin-left: 30px;
+
+        margin-left: 50px;
 
         font-family: 'Roboto Condensed';
         font-style: normal;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 8px;
         line-height: 28px;
 
         color: #000000;
     }
 
     .imagenCasaAP1{
-        width: 100px;
-        height: 80px;
-
-        margin-top:-80px;
-        margin-left: 450px;
+        width: 0px;
+        height: 0px;
     }
 
     .recuadroTotalAP1{
-            width: 540px;
-            height: 300px;
+            width: 200px;
+            height: 200px;
             margin: auto;
-            margin-top: 50px;
+            margin-top: 30px;
 
             display: grid; 
             grid-template-columns: 1fr 1fr; 
-            grid-template-rows: 1fr 1fr 1fr; 
+            grid-template-rows: 0.5fr 0.5fr 0.5fr; 
             gap: 0px 0px; 
             grid-template-areas: 
             ". ."
@@ -381,8 +387,8 @@ body.AP1{
     }
 
     .primerCuadradoAP1{
-        width: 250px;
-        height: 80px;
+        width: 90px;
+        height: 50px;
 
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -390,12 +396,12 @@ body.AP1{
     }
 
     .primerCuadradoImagenAP1{
-        width: 70px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
 
-        margin-left:170px;
+        margin-left:58px;
 
-        margin-top: 10px;
+        margin-top: 8px;
 
         background: url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg);
         border-radius: 12px;
@@ -405,33 +411,26 @@ body.AP1{
         width: 209px;
         height: 45.46px;
 
-        margin-top:-53px;
-        margin-left: 30px;
+        margin-top:-45px;
+        margin-left: 10px;
 
         font-family: 'Roboto Condensed';
         font-style: normal;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 8px;
         line-height: 42px;
 
         color: #000000;
     }
 
-    .lineaAP1{
-        width: 640px;
-        height: 0px;
-
-        border: 6px solid #D5C7C7;
-    }
-
-    .botonAP1{
-        width: 103px;
-        height: 45px;
+    .BotonAP1{
+        width: 70px;
+        height: 25px;
 
         float: right;
 
         margin-top: 10px;
-        margin-right: 30px;
+        margin-right: 0px;
 
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         border-radius: 18px;
@@ -439,8 +438,8 @@ body.AP1{
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: 500px;
-        font-size: 20px;
-        line-height: 42px;
+        font-size: 12px;
+        line-height: 22px;
 
         color: #FFFFFF;
         

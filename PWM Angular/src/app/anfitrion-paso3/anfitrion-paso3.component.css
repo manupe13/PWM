@@ -10,16 +10,18 @@ body.AP3{
     margin: 0 auto;
 
     padding-top: 100px; 
-    padding-bottom: 100px;
+    padding-bottom: 170px;
 
-    width: 1366px;
+    width: 100%;
+
+    overflow: hidden;
 
 }
 
 /********************ESTO ES ANFITRIÓN PASO 3********************/
 
 .TituloAP3{
-    width: 1300px;
+    width: 940px;
     height: 56px;
 
     margin: auto;
@@ -29,7 +31,7 @@ body.AP3{
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: 500px;
-    font-size: 48px;
+    font-size: 30px;
     line-height: 56px;
 
 
@@ -40,8 +42,8 @@ body.AP3{
 }
 
 .imagenAP3{
-    width: 1338px;
-    height: 603px;
+    width: 700px;
+    height: 503px;
 
     margin: auto;
 
@@ -58,14 +60,14 @@ body.AP3{
     width: 249.22px;
     height: 56px;
 
-    margin-left:273px;
-    margin-top:50px;
+    margin-left:20px;
+    margin-top:30px;
 
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 30px;
+    line-height: 46px;
 
     background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
     -webkit-background-clip: text;
@@ -78,13 +80,13 @@ body.AP3{
     width: 249.22px;
     height: 56px;
 
-    margin-left:229px;
-    margin-top:50px;
+    margin-left:0px;
+    margin-top:30px;
 
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 30px;
     line-height: 56px;
 
     background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
@@ -98,13 +100,13 @@ body.AP3{
     width: 249.22px;
     height: 56px;
 
-    margin-left:280px;
-    margin-top:50px;
+    margin-left:35px;
+    margin-top:30px;
 
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 30px;
     line-height: 56px;
 
     background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
@@ -118,13 +120,13 @@ body.AP3{
     width: 249.22px;
     height: 56px;
 
-    margin-left:222px;
-    margin-top:50px;
+    margin-left:0px;
+    margin-top:30px;
 
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 30px;
     line-height: 56px;
 
     background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
@@ -151,7 +153,7 @@ body.AP3{
     font-size: 36px;
     line-height: 42px;
 
-    margin-top: -40px;
+    margin-top: -50px;
     margin-left: 80px;
 
     background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
@@ -168,7 +170,7 @@ body.AP3{
 }
 
 .Img2AP3{
-    margin-top: -85px;
+    margin-top: -75px;
     margin-left: 150px;
     width: 33.83px;
     height: 41.14px;
@@ -184,8 +186,8 @@ body.AP3{
 }
 
 .boton1AP3{
-    width: 253px;
-    height: 55px;
+    width: 153px;
+    height: 45px;
     float: left;
     margin-top: 40px;
     margin-left: 40px;
@@ -196,15 +198,15 @@ body.AP3{
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: 500px;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 42px;
 
     color: #FFFFFF;
 }
 
 .boton2AP3{
-    width: 253px;
-    height: 55px;
+    width: 153px;
+    height: 45px;
 
     float: right;
     margin-top: 40px;
@@ -217,7 +219,7 @@ body.AP3{
     font-family: Roboto Condensed;
     font-style: normal;
     font-weight: 500px;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 42px;
 
     color: #FFFFFF;
@@ -238,16 +240,17 @@ body.AP3{
     
         margin: 0 auto;
     
-        padding-top: 100px; 
+        padding-top: 50px; 
     
-        width: 960px;
+        width: 100%;
+        overflow: hidden;
     
     }
     
     /********************ESTO ES ANFITRIÓN PASO 3********************/
     
     .TituloAP3{
-        width: 960px;
+        width: 630px;
         height: 56px;
     
         margin: auto;
@@ -257,7 +260,7 @@ body.AP3{
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: 500px;
-        font-size: 40px;
+        font-size: 22px;
         line-height: 56px;
     
     
@@ -268,8 +271,8 @@ body.AP3{
     }
     
     .imagenAP3{
-        width: 960px;
-        height: 530px;
+        width: 460px;
+        height: 390px;
     
         margin: auto;
     
@@ -286,14 +289,14 @@ body.AP3{
         width: 249.22px;
         height: 56px;
     
-        margin-left:180px;
-        margin-top:30px;
+        margin-left:0px;
+        margin-top:15px;
     
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: bold;
-        font-size: 40px;
-        line-height: 56px;
+        font-size: 25px;
+        line-height: 46px;
     
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         -webkit-background-clip: text;
@@ -306,14 +309,14 @@ body.AP3{
         width: 249.22px;
         height: 56px;
     
-        margin-left:155px;
-        margin-top:10px;
+        margin-left:0px;
+        margin-top:15px;
     
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: bold;
-        font-size: 40px;
-        line-height: 56px;
+        font-size: 25px;
+        line-height: 46px;
     
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         -webkit-background-clip: text;
@@ -326,14 +329,14 @@ body.AP3{
         width: 249.22px;
         height: 56px;
     
-        margin-left:205px;
-        margin-top:10px;
+        margin-left:0px;
+        margin-top:15px;
     
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: bold;
-        font-size: 40px;
-        line-height: 56px;
+        font-size: 25px;
+        line-height: 46px;
     
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         -webkit-background-clip: text;
@@ -346,14 +349,14 @@ body.AP3{
         width: 249.22px;
         height: 56px;
     
-        margin-left:150px;
-        margin-top:10px;
+        margin-left:0px;
+        margin-top:15px;
     
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: bold;
-        font-size: 40px;
-        line-height: 56px;
+        font-size: 25px;
+        line-height: 46px;
     
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         -webkit-background-clip: text;
@@ -363,10 +366,10 @@ body.AP3{
     }
     
     .sumarAP3{
-        margin-top:40px;
-        margin-left:100px;
-        width: 200px;
-        height: 50px;
+        margin-top:10px;
+        margin-left:10px;
+        width: 10px;
+        height: 10px;
     }
     
     .num1AP3{
@@ -376,8 +379,8 @@ body.AP3{
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: normal;
-        font-size: 36px;
-        line-height: 42px;
+        font-size: 26px;
+        line-height: 62px;
     
         margin-top: -40px;
         margin-left: 80px;
@@ -390,16 +393,17 @@ body.AP3{
     }
     
     .Img1AP3{
-        width: 27px;
-        height: 37px;
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
         background: url(https://www.istockphoto.com/resources/images/PhotoFTLP/998044806.jpg);
     }
     
     .Img2AP3{
-        margin-top: -72px;
+        margin-top: -45px;
         margin-left: 150px;
-        width: 27px;
-        height: 37px;
+        width: 20px;
+        height: 20px;
         background: url(https://www.istockphoto.com/resources/images/PhotoFTLP/998044806.jpg);
     }
     
@@ -412,8 +416,8 @@ body.AP3{
     }
     
     .boton1AP3{
-        width: 153px;
-        height: 45px;
+        width: 103px;
+        height: 35px;
         float: left;
         margin-top: 40px;
         margin-left: 80px;
@@ -424,15 +428,15 @@ body.AP3{
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: 500px;
-        font-size: 30px;
-        line-height: 42px;
+        font-size: 20px;
+        line-height: 32px;
     
         color: #FFFFFF;
     }
     
     .boton2AP3{
-        width: 153px;
-        height: 45px;
+        width: 103px;
+        height: 35px;
     
         float: right;
         margin-top: 40px;
@@ -445,8 +449,8 @@ body.AP3{
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: 500px;
-        font-size: 30px;
-        line-height: 42px;
+        font-size: 20px;
+        line-height: 32px;
     
         color: #FFFFFF;
     }
@@ -466,27 +470,29 @@ body.AP3{
     
         margin: 0 auto;
     
-        padding-top: 100px; 
+        padding-top: 20px; 
     
-        width: 640px;
+        width: 100%;
+
+        overflow: hidden;
     
     }
     
     /********************ESTO ES ANFITRIÓN PASO 3********************/
     
     .TituloAP3{
-        width: 640px;
-        height: 56px;
+        width: 260px;
+        height: 106px;
     
         margin: auto;
     
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: 500px;
-        font-size: 23px;
-        line-height: 56px;
+        font-size: 15px;
+        line-height: 36px;
     
     
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
@@ -496,8 +502,8 @@ body.AP3{
     }
     
     .imagenAP3{
-        width: 640px;
-        height: 530px;
+        width: 250px;
+        height: 230px;
     
         margin: auto;
     
@@ -512,16 +518,16 @@ body.AP3{
     
     .texto1AP3{
         width: 249.22px;
-        height: 56px;
+        height: 16px;
     
-        margin-left:10px;
-        margin-top:30px;
+        margin-left:-70px;
+        margin-top: 20px;
     
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
-        line-height: 56px;
+        font-size: 14px;
+        line-height: 16px;
     
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         -webkit-background-clip: text;
@@ -532,16 +538,16 @@ body.AP3{
     
     .texto2AP3{
         width: 249.22px;
-        height: 56px;
+        height: 16px;
     
-        margin-left:-10px;
+        margin-left:-80px;
         margin-top:15px;
     
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
-        line-height: 56px;
+        font-size: 14px;
+        line-height: 16px;
     
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         -webkit-background-clip: text;
@@ -552,16 +558,16 @@ body.AP3{
     
     .texto3AP3{
         width: 249.22px;
-        height: 56px;
+        height: 16px;
     
-        margin-left:24px;
+        margin-left:-64px;
         margin-top:10px;
     
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
-        line-height: 56px;
+        font-size: 14px;
+        line-height: 16px;
     
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         -webkit-background-clip: text;
@@ -572,16 +578,16 @@ body.AP3{
     
     .texto4AP3{
         width: 249.22px;
-        height: 56px;
+        height: 16px;
     
-        margin-left:-10px;
-        margin-top:10px;
+        margin-left:-80px;
+        margin-top:1px;
     
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
-        line-height: 56px;
+        font-size: 14px;
+        line-height: 16px;
     
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         -webkit-background-clip: text;
@@ -591,24 +597,24 @@ body.AP3{
     }
     
     .sumarAP3{
-        margin-top:40px;
-        margin-left:100px;
+        margin-top:0px;
+        margin-left:-60px;
         width: 200px;
         height: 50px;
     }
     
     .num1AP3{
         width: 16.91px;
-        height: 40px;
+        height: 30px;
     
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: normal;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 42px;
     
-        margin-top: -36px;
-        margin-left: 80px;
+        margin-top: -25px;
+        margin-left: 40px;
     
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         -webkit-background-clip: text;
@@ -618,16 +624,16 @@ body.AP3{
     }
     
     .Img1AP3{
-        width: 20px;
-        height: 27px;
+        width: 10px;
+        height: 10px;
         background: url(https://www.istockphoto.com/resources/images/PhotoFTLP/998044806.jpg);
     }
     
     .Img2AP3{
-        margin-top: -60px;
-        margin-left: 150px;
-        width: 20px;
-        height: 27px;
+        margin-top: -35px;
+        margin-left: 90px;
+        width: 10px;
+        height: 10px;
         background: url(https://www.istockphoto.com/resources/images/PhotoFTLP/998044806.jpg);
     }
     
@@ -640,11 +646,11 @@ body.AP3{
     }
     
     .boton1AP3{
-        width: 103px;
-        height: 45px;
+        width: 60px;
+        height: 25px;
         float: left;
         margin-top: 40px;
-        margin-left: 80px;
+        margin-left: 10px;
         
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         border-radius: 18px;
@@ -652,20 +658,20 @@ body.AP3{
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: 500px;
-        font-size: 24px;
-        line-height: 42px;
+        font-size: 10px;
+        line-height: 22px;
     
         color: #FFFFFF;
     }
     
     .boton2AP3{
-        width: 103px;
-        height: 45px;
+        width: 60px;
+        height: 25px;
     
         float: right;
         margin-top: 40px;
     
-        margin-right: 80px;
+        margin-right: 10px;
     
         background: linear-gradient(180deg, #DB1F27 0%, #A32E9A 100%);
         border-radius: 18px;
@@ -673,8 +679,8 @@ body.AP3{
         font-family: Roboto Condensed;
         font-style: normal;
         font-weight: 500px;
-        font-size: 24px;
-        line-height: 42px;
+        font-size: 10px;
+        line-height: 22px;
     
         color: #FFFFFF;
     }
