@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./info-personal.component.css']
 })
 export class InfoPersonalComponent implements OnInit {
+  titulo = 'Cambio de Datos';
+  mensaje=""
+  cambio=false
+
+  cambiarDatos(){
+    this.cambio=true
+    this.mensaje="cambios realizados con éxito"
+  }
 
   constructor() { }
 

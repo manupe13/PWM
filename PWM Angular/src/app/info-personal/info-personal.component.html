@@ -35,56 +35,70 @@
             
             <div>
                 <p class = Texto1IP>Nombre:</p>
-                <div class = Recuadro1IP>  </div>
+                <input class="Recuadro1IP" type="text" name="Nombre">
+                <!--<div class = Recuadro1IP>  </div>-->
             </div>
             
             <div>
                 <p class = Texto2IP>Apellidos:</p>
-                <div class = Recuadro2IP>  </div>
+                <input class="Recuadro2IP" type="text" name="Apellidos">
+                <!--<div class = Recuadro2IP>  </div>-->
             </div>
 
             <div>
                 <p class = Texto3IP>DNI:</p>
-                <div class = Recuadro3IP>  </div>
+                <input class="Recuadro3IP" type="text" name="DNI">
+                <!--<div class = Recuadro3IP>  </div>-->
             </div>
 
             <div>
                 <p class = Texto4IP>Teléfono:</p>
-                <div class = Recuadro4IP>  </div>
+                <input class="Recuadro4IP" type="text" name="Teléfono">
+                <!--<div class = Recuadro4IP>  </div>-->
             </div>
 
             <div>
                 <p class = Texto5IP>Fecha de Nacimiento:</p>
-                <div class = Recuadro5IP>  </div>
+                <input class="Recuadro5IP" type="text" name="Fecha de Nacimiento">
+                <!--<div class = Recuadro5IP>  </div>-->
             </div>
 
             <div>
                 <p class = Texto6IP>Dia</p>
-                <div class = Recuadro6IP>  </div>
+                <input class="Recuadro6IP" type="text">
+                <!--<div class = Recuadro6IP>  </div>-->
                 <p class = Texto7IP>Mes</p>
-                <div class = Recuadro7IP>  </div>
+                <input class="Recuadro7IP" type="text">
+                <!--<div class = Recuadro7IP>  </div>-->
                 <p class = Texto8IP>Año</p>
+                <input class="Recuadro8IP" type="text" >
+                <!--<div class = Recuadro8IP>  </div>-->
             </div>
 
             <div>
                 <p class = Texto9IP>Sexo:</p>
-                <div class = Recuadro9IP>  </div>
+                <input class="Recuadro9IP" type="text" name="Sexo">
+                <!--<div class = Recuadro9IP>  </div>-->
             </div>
             
             <div> 
                 <p class = Texto10IP>Correo electrónico:</p>
-                <div class = Recuadro10IP>  </div>
+                <input class="Recuadro10IP" type="text" name="Correo electrónico:">
+                <!--<div class = Recuadro10IP>  </div>-->
             </div>
 
             <div>
                 <p class = Texto11IP>Cambiar correo electrónico:</p>
-                <div class = Recuadro11IP>  </div>
+                <input class="Recuadro11IP" type="text" name="Cambiar correo electrónico:">
+                <!--<div class = Recuadro11IP>  </div>-->
             </div>
 
             </section>
             <!--Boton-->
 
-            <input class = BotonCambiarIP type="submit" value = "CAMBIAR">
+            <input class = BotonCambiarIP type="submit" value = "CAMBIAR" (click)="cambiarDatos()">
+
+            <p *ngIf="cambio">{{mensaje}}</p>
 
     </body>
 

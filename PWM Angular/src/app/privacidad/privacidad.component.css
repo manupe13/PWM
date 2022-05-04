@@ -1,60 +1,64 @@
-body{
-    background: rgb(255, 255, 255);
-    font-family: "Times New Roman", Times, serif;
-    font-style: normal;
-    text-align: justify;
-    
-    font-size: 24px;
-    float: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
-    color: #000000;
-}
+@media screen and (min-width: 40em) {
+    body{
+        background: rgb(255, 255, 255);
+        font-family: "Times New Roman", Times, serif;
+        font-style: normal;
+        text-align: justify;
+        
+        font-size: 24px;
+        float: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        
+        width: 80%;
 
-.seccion_estandar{
-    width: 1144px;
-    margin: 0 auto;
-}
-.seccion_estandar_uno{
-    width: 1144px;
-    height: 150;
-    margin: 0 auto;
-}
+        color: #000000;
+    }
 
-p.sobretitulo_gris{
-    font-weight: bold;
-    color: #646363;
-}
+    .seccion_estandar{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .seccion_estandar_uno{
+        width: 90%;
+        height: 150px;
+        margin: 0 auto;
+    }
 
-h1.titulo_grande{
-    font-size: 44px;
-    font-weight: bold;
-}
+    p.sobretitulo_gris{
+        font-weight: bold;
+        color: #646363;
+    }
 
-.seccion_estandar_dos{
-    width: 1144px;
-    height: 500px;
-    margin-top: 70;
-}
+    h1.titulo_grande{
+        font-size: 44px;
+        font-weight: bold;
+    }
 
-.pri_fi_dos{
-    width: 600px;
-    height: 500px;
-    float: center;
-    margin: 0 auto;
-}
+    .seccion_estandar_dos{
+        width: 90%;
+        height: 300px;
+        margin-top: 70px;
+    }
 
-img.centrada{
-    width: 600;
-    height: 500;
-    float: center;
-}
+    .pri_fi_dos{
+        width: 450px;
+        height:300px;
+        float: center;
+        margin: 0 auto;
+    }
 
-.seccion_estandar_tres{
-    width: 1144px;
-    margin: 0 auto;
-    margin-top: 80;
+    img.centrada{
+        width: 450px;
+        height: 300px;
+        float: center;
+    }
+
+    .seccion_estandar_tres{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
 }
 
 @media screen and (max-width: 60em){
@@ -66,20 +70,22 @@ img.centrada{
         
         font-size: 16px;
         float: center;
-        padding-top: 60;
-        padding-bottom: 60;
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        width: 80%;
         
         color: #000000;
     }
     
     .seccion_estandar{
-        width: 768px;
+        width: 90%;
         margin: 0 auto;
     }
     
     .seccion_estandar_uno{
-        width: 768px;
-        height: 90;
+        width: 90%;
+        height: 90px;
         margin: 0 auto;
     }
     
@@ -94,28 +100,28 @@ img.centrada{
     }
     
     .seccion_estandar_dos{
-        width: 768px;
-        height: 350px;
-        margin-top: 50;
+        width: 90%;
+        height: 250px;
+        margin-top: 50px;
     }
 
     .pri_fi_dos{
-        width: 408px;
-        height: 350px;
+        width: 300px;
+        height: 250px;
         float: center;
         margin: 0 auto;
     }
     
     img.centrada{
-        width: 408px;
-        height: 350px;
+        width: 300px;
+        height: 250px;
         float: center;
     }
     
     .seccion_estandar_tres{
-        width: 768px;
+        width: 90%;
         margin: 0 auto;
-        margin-top: 60;
+        margin-top: 60px;
     }
 }
 
@@ -128,20 +134,22 @@ img.centrada{
         
         font-size: 9.5px;
         float: center;
-        padding-top: 35;
-        padding-bottom: 35;
+        padding-top: 35px;
+        padding-bottom: 35px;
+
+        width: 80%;
         
         color: #000000;
     } 
 
     .seccion_estandar{
-        width: 448px;
+        width: 90%;
         margin: 0 auto;
     }
     
     .seccion_estandar_uno{
-        width: 448px;
-        height: 60;
+        width: 90%;
+        height: 60px;
         margin: 0 auto;
     }
     
@@ -156,28 +164,28 @@ img.centrada{
     }
     
     .seccion_estandar_dos{
-        width: 448px;
-        height: 200px;
-        margin-top: 30;
+        width: 90%;
+        height: 100px;
+        margin-top: 30px;
     }
 
     .pri_fi_dos{
-        width: 250px;
-        height: 200px;
+        width: 150px;
+        height: 100px;
         float: center;
         margin: 0 auto;
     }
     
     img.centrada{
-        width: 250px;
-        height: 200px;
+        width: 150px;
+        height: 100px;
         float: center;
     }
     
     .seccion_estandar_tres{
-        width: 448px;
+        width: 90%;
         margin: 0 auto;
-        margin-top: 30;
+        margin-top: 30px;
     }
 
 
