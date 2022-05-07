@@ -1,6 +1,8 @@
 section {
 
-    width: 1000px;
+    width: 100%;
+    overflow: hidden;
+    
     display: grid;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr; 
@@ -9,7 +11,6 @@ section {
     margin: auto;
     padding-bottom: 100px;
     margin-top: 20px;
-
 
 }
 
@@ -32,7 +33,7 @@ form.LogIn {
     grid-template-areas: 
     "." "." "." "."; 
     margin-top: 150px;
-    margin-left: 50px;
+    margin-left: -20px;
     
 }
 
@@ -116,7 +117,9 @@ form.LogIn {
 
     section {
 
-        width: 860px; 
+        width: 100%;
+        overflow: hidden;
+
         display: grid;
         grid-template-columns: 1fr; 
         grid-template-rows: 1fr 1fr; 
@@ -136,6 +139,23 @@ form.LogIn {
         line-height: 16px;
         margin-left: 16%;
     
+    }
+
+    .boton:hover {
+        background-color: #90F5A6;
+        text-decoration: none;
+    }
+    
+    
+    .boton {
+        text-decoration: none;
+        padding: 12px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #000000;
+        background-color: #C4C4C4;
+        border-radius: 3px;
+        margin-top: 200px;
     }
     
     form.LogIn {
@@ -161,33 +181,19 @@ form.LogIn {
     
     #CuadroBotonesLogReg {
 
-        margin-left: 35%;
+        margin: auto;
     }
     
     
     
-    .boton:hover {
-        background-color: #90F5A6;
-        text-decoration: none;
-    }
     
-    
-    .boton {
-        text-decoration: none;
-        padding: 12px;
-        font-weight: 600;
-        font-size: 20px;
-        color: #000000;
-        background-color: #C4C4C4;
-        border-radius: 3px;
-    }
     
     .camposLogIn {
     
-        width: 270px;
+        width: 280px;
         height: 20px;
         background: #FFFFFF;
-        margin-left: 70px;
+        margin-left: 16%;
     
     }
     
@@ -197,7 +203,7 @@ form.LogIn {
         width: 200px;
         height: 40px;
         background: #FFFFFF;
-        margin-left: 100px;
+        margin-left: 120px;
         border-radius: 44px;
         margin-top: 20px;
     
@@ -224,8 +230,9 @@ form.LogIn {
     
 
     section {
+        width: 100%;
+        overflow: hidden;
 
-        width: 540px; 
         display: grid;
         grid-template-columns: 1fr; 
         grid-template-rows: 1fr 1fr; 
@@ -260,10 +267,11 @@ form.LogIn {
     
     .LogIn {
     
-        width: 60%;
+        width: 430px;
         height: 439px;
         background: #F4E4E4;
         border-radius: 32px;
+        
     
     }
     
