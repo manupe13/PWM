@@ -9,30 +9,43 @@ body.AB{
 
     margin: 0 auto;
 
-    padding-top: 100px; 
+    padding-top: 60px; 
     padding-bottom: 100px;
     width: 100%;
     overflow: hidden;
 }
 
-section.BuscadorAB {
+.boton{
+    float: right;
+    width: 80px;
+    height:40px;
+    margin-left: 40px;
+    margin-top: 12px;
+    border-radius:7px;
+    background-color: rgba(144, 255, 122, 0.467);
+}
 
+section.BuscadorAB {
     display: grid;
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr;
     grid-template-areas: 
     ".";
+    width: 680.8px;
+    margin: 0 auto;
 
 }
 
-.BuscadorAB{
-
-    width: 1092.8px;
-    height: 95.62px;
+.TextoBuscadorAB{
+    font-size:22px;
+    width: 480.8px;
+    height: 65.62px;
     margin:auto;
+    line-height:65px;
     background: #F4E4E4;
     border-radius: 14px;
-    margin-bottom: 30px;
+    float: left;
+
 
 }
 
@@ -46,7 +59,8 @@ section.ApartamentosAB {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "." "." "." "."; 
-    width: 960px;
+    width: 860px;
+    height:1060px;
 
 }
 
@@ -74,7 +88,7 @@ section.ApartamentosAB {
 }
 
 .FotoCuadroApartAB {
-    width: 208.82px;
+    width: 204.82px;
     height: 130px;
     border-radius: 8.2px 8.2px 0px 0px;
     margin: auto;
@@ -83,7 +97,7 @@ section.ApartamentosAB {
 }
 
 .recuadroDatosAB{
-    width: 367.454px;
+    width: 200.454px;
     height: 65.568px;
     margin-left: -1px;
     
@@ -91,8 +105,8 @@ section.ApartamentosAB {
 
 .FondoValApartAB{
     float: right;
-    width: 34.15px;
-    height: 27.67px;
+    width: 24.15px;
+    height: 17.67px;
     margin-top: 5px;
     margin-right: 5px;
 
@@ -102,7 +116,7 @@ section.ApartamentosAB {
 }
 
 .ValApartAB {
-    font-size:20px;
+    font-size:15px;
     color: #ffffff;
     margin:auto;
     
@@ -111,16 +125,18 @@ section.ApartamentosAB {
 
 .NombreApartAB{
     float: left;
-    font-size:22px;
-    margin-top: 0;
+    font-size:15px;
+    margin-top: 6px;
+    margin-left: 1.5px;
     
 }
 
 .DirApartAB{
     float: left;
-    font-size:17px;
+    font-size:11px;
     font-weight: normal;
-    margin-top: -12.5px;
+    margin-top: -1.5px;
+    margin-left: 1.5px;
 
 }
 
@@ -128,8 +144,8 @@ section.ApartamentosAB {
     float:right;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    margin-top: -8px;
+    font-size: 10px;
+    margin-top: -0px;
     margin-right: 8px;
     color: #685D5D;
 }
@@ -151,25 +167,13 @@ section.ApartamentosAB {
     font-family: Times New Roman;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 8px;
-    margin-top: -8px;
+    margin-top: 1px;
     
     color: #2D2B2B;
 }
 
-.pasarPaginaAB {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "."; 
-
-    width: 80px;
-    margin: 0 auto;
-
-}
 
 
 /* 640 to 960 pixels */
@@ -186,17 +190,44 @@ section.ApartamentosAB {
     
         margin: 0 auto;
     
-        padding-top: 100px; 
+        padding-top: 50px; 
         padding-bottom: 100px;
+        overflow: hidden;
+    }
+
+    .TextoBuscadorAB{
+        font-size:17px;
+        width: 350.8px;
+        height: 45.62px;
+        margin:auto;
+        line-height:45px;
+        background: #F4E4E4;
+        border-radius: 14px;
+        float: left;
+    
+    
+    }
+
+    .boton{
+        float: right;
+        width: 60px;
+        height:30px;
+        margin-left: 30px;
+        margin-top: 16px;
+        border-radius:7px;
+        background-color: rgba(144, 255, 122, 0.467);
     }
     
-    section.BuscadorAB {
     
+    section.BuscadorAB {
+        width: 400px;
         display: grid;
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr 1fr; 
         grid-template-rows: 1fr;
         grid-template-areas: 
         ".";
+        margin: 0 auto;
+
     
     }
     
@@ -205,7 +236,6 @@ section.ApartamentosAB {
         width: 500px;
         height: 65px;
         margin:auto;
-        background: #F4E4E4;
         border-radius: 14px;
         margin-bottom: 30px;
     
@@ -221,6 +251,8 @@ section.ApartamentosAB {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: 
         "." "." "." "." "." "."; 
+        width: 600px;
+        height: 1500px;
     
     }
     
@@ -357,18 +389,44 @@ section.ApartamentosAB {
 
     margin: 0 auto;
 
-    padding-top: 100px; 
-    padding-bottom: 1000px;
+    padding-top: 20px; 
+    padding-bottom: 80px;
+    overflow: hidden;
 }
 
 section.BuscadorAB {
 
     display: grid;
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr;
     grid-template-areas: 
     ".";
+    width: 300px;
 
+}
+
+.TextoBuscadorAB{
+    font-size:10px;
+    width: 200.8px;
+    height: 35.62px;
+    margin:auto;
+    line-height:35px;
+    background: #F4E4E4;
+    border-radius: 14px;
+    float: left;
+
+
+}
+
+.boton{
+    float: right;
+    width: 50px;
+    height:25px;
+    margin-left: 20px;
+    margin-top: 16px;
+    border-radius:7px;
+    font-size:12px;
+    background-color: rgba(144, 255, 122, 0.467);
 }
 
 .BuscadorAB{
@@ -376,7 +434,6 @@ section.BuscadorAB {
     width: 260px;
     height: 60px;
     margin:auto;
-    background: #F4E4E4;
     border-radius: 14px;
     margin-bottom: 30px;
 
@@ -392,6 +449,8 @@ section.ApartamentosAB {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "." "." "." "." "." "." "." "." "." "." "." "."; 
+    width: 300px;
+    height: 2900px;
 
 }
 

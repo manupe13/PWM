@@ -31,6 +31,8 @@ form.FormularioContactar1 {
     ". ."
     ". ."
     "boton boton"; 
+
+    margin-bottom: -100px;
     
 }
 
@@ -89,7 +91,9 @@ form.FormularioContactar1 {
 
 #FotoContactar1 {
     
-    margin-top: 30px;
+    margin-top: 80px;
+    width: 270px;
+    height: 178px;
 
 }
 
@@ -97,6 +101,8 @@ form.FormularioContactar2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1.5fr 2fr 1.2fr;
+    margin-top: 20px;
+
     
     
 }
