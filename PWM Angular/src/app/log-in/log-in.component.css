@@ -140,6 +140,23 @@ form.LogIn {
         margin-left: 16%;
     
     }
+
+    .boton:hover {
+        background-color: #90F5A6;
+        text-decoration: none;
+    }
+    
+    
+    .boton {
+        text-decoration: none;
+        padding: 12px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #000000;
+        background-color: #C4C4C4;
+        border-radius: 3px;
+        margin-top: 200px;
+    }
     
     form.LogIn {
 
@@ -164,33 +181,19 @@ form.LogIn {
     
     #CuadroBotonesLogReg {
 
-        margin: 0 auto;
+        margin: auto;
     }
     
     
     
-    .boton:hover {
-        background-color: #90F5A6;
-        text-decoration: none;
-    }
     
-    
-    .boton {
-        text-decoration: none;
-        padding: 12px;
-        font-weight: 600;
-        font-size: 20px;
-        color: #000000;
-        background-color: #C4C4C4;
-        border-radius: 3px;
-    }
     
     .camposLogIn {
     
-        width: 270px;
+        width: 280px;
         height: 20px;
         background: #FFFFFF;
-        margin-left: 70px;
+        margin-left: 16%;
     
     }
     
@@ -200,7 +203,7 @@ form.LogIn {
         width: 200px;
         height: 40px;
         background: #FFFFFF;
-        margin-left: 100px;
+        margin-left: 120px;
         border-radius: 44px;
         margin-top: 20px;
     

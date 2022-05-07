@@ -14,12 +14,12 @@
 
 section {
 
-    width: 1000px; 
+    width: 100%;
+    overflow: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr; 
-    grid-template-areas: 
-    "."; 
+    grid-template-areas: "."; 
     margin: auto;
     margin-top: 100px;
 
@@ -128,7 +128,9 @@ form.FormularioRegistrarse {
         
     section {
 
-        width: 860px; 
+        width: 100%;
+        overflow: hidden; 
+        
         display: grid;
         grid-template-columns: 1fr; 
         grid-template-rows: 0.5fr 2fr; 
@@ -183,7 +185,7 @@ form.FormularioRegistrarse {
 
     .FormularioRegistrarse {
 
-        width: 631px;
+        width: 590px;
         height: 650px;
         background: #F4E4E4;
         border-radius: 32px;
@@ -239,7 +241,8 @@ form.FormularioRegistrarse {
     
     section {
 
-        width: 540px; 
+        width: 100%;
+        overflow: hidden; 
         display: grid;
         grid-template-columns: 1fr; 
         grid-template-rows: 0.5fr 2fr; 
@@ -272,7 +275,7 @@ form.FormularioRegistrarse {
         text-decoration: none;
         padding: 12px;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 16px;
         color: #000000;
         background-color: #C4C4C4;
         border-radius: 3px;
@@ -293,7 +296,7 @@ form.FormularioRegistrarse {
 
     .FormularioRegistrarse {
 
-        width: 60%;
+        width: 270px;
         height: 900px;
         background: #F4E4E4;
         border-radius: 32px;
@@ -309,7 +312,7 @@ form.FormularioRegistrarse {
     }
 
     #botonRegistrarse{
-        width: 180px;
+        width: 150px;
         height: 30px;
         background: #FFFFFF;
         margin-left: 22%;
@@ -321,7 +324,7 @@ form.FormularioRegistrarse {
         
         width: 60px;
         height: 60px;
-        margin-left: 43%;
+        margin-left: 39%;
         margin-top: 10px;
 
         -moz-border-radius: 50%;
