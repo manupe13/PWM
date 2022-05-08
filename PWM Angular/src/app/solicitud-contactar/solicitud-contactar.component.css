@@ -1,5 +1,6 @@
 
 section {
+    
     display: grid;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr ; 
@@ -14,10 +15,10 @@ section {
 
 section.CuadroSolicitudContactar {
     position: relative;
-    margin-top: 100px;
     height: 440px;
-    width: 1000px;
-    top: 150px;
+    width: 100%;
+    overflow: hidden;
+    top: 90px;
     margin: auto;
     background: #FDF9F2;
     border-radius: 21px;
@@ -75,10 +76,10 @@ h1 {
     
     section.CuadroSolicitudContactar {
         position: relative;
-        margin-top: 100px;
         height: 530px;
-        width: 690px;
-        top: 150px;
+        width: 100%;
+        overflow: hidden;
+        top: 90px;
         text-align: center;
         margin: auto;
         background: #FDF9F2;
@@ -141,10 +142,10 @@ h1 {
     
     section.CuadroSolicitudContactar {
         position: relative;
-        margin-top: 100px;
         height: 420px;
-        width: 450px;
-        top: 150px;
+        width: 100%;
+        overflow: hidden;
+        top: 70px;
         text-align: center;
         margin: auto;
         background: #FDF9F2;
