@@ -23,6 +23,22 @@ h1 {
     width: 80%;
 }
 
+<<<<<<< HEAD
+=======
+form.FormularioContactar1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1.3fr 0.7fr; 
+    grid-template-areas: 
+    ". ."
+    ". ."
+    ". ."
+    "boton boton"; 
+
+    margin-bottom: -100px;
+    
+}
+>>>>>>> a6a8fdbbc1f1e4fcbe5d26921e11d695b4f2b7d2
 
 h2 {
     margin-left: 16%;
@@ -77,11 +93,32 @@ form.FormularioContactar1 {
     margin-bottom: 7%;
 }
 
+<<<<<<< HEAD
 .fotoimg1{
     margin-top: 100px;
     margin-left: 130px;
     width:250px;
     height:170px;
+=======
+
+
+#FotoContactar1 {
+    
+    margin-top: 80px;
+    width: 270px;
+    height: 178px;
+
+}
+
+form.FormularioContactar2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 2fr 1.2fr;
+    margin-top: 20px;
+
+    
+    
+>>>>>>> a6a8fdbbc1f1e4fcbe5d26921e11d695b4f2b7d2
 }
 
 #BotonContactar1{

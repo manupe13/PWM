@@ -296,10 +296,13 @@ iframe {
 
         font-family: 'Rokkitt';
         font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
+        font-weight: 400px;
+        font-size: 18px;
         margin: auto;
-        margin-top: 10px;
+        text-align: center;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: -10px;
 
     }
       
@@ -597,7 +600,7 @@ iframe {
 
         font-family: 'Rokkitt';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300px;
         font-size: 20px;
         margin: auto;
         margin-top: 10px;
